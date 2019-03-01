@@ -1,9 +1,13 @@
 # American Promise Child Theme
 
 This is a a child theme for the Genesis Framework, including a modular architecture, SASS, gulp, Burboun, and Neat.
+It is based on the Developers Starter Theme by KnowTheCode
 
 ## Features
-
+-integrated with The Events Calendar plugin
+-integrated with Gravity Forms
+-Custom JS live search feature, with custom Wordpress api
+-Modular theme architecture
 ## Dependencies
 This child theme has no global dependencies, but does have dev dependencies.
 
