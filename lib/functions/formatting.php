@@ -68,15 +68,3 @@ function blog_post_footer() {
 		<?php
 	}
 }
-
-add_action( 'admin_notices', __NAMESPACE__ . '\my_theme_dependencies' );
-/**
- * Warns users this theme requires ACF
- *
- * @since 1.0.0
- */
-
-function my_theme_dependencies() {
-  if( ! function_exists('get_field()') )
-    echo '<div class="error"><p>' . __( 'Warning: The theme needs Advanced Custom Fields Plugin to function', 'my-theme' ) . '</p></div>';
-}
