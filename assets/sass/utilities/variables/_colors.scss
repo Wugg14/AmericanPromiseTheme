@@ -1,0 +1,115 @@
+// Base Colors
+//===================
+$ampro--red: #DB1E3B;
+$ampro--blue: #2F5179;
+$ampro--purple: #5B2B7B;
+$ampro--yellow: #E7D818;
+$ampro--blue--light: #8FC3FF;
+$yellow--light: #FFFF66;
+$white: #fff;
+$black: #000;
+$red: #c3251d;
+$gray--lightest: #ccc;
+$gray--lighter: #eee;
+$gray--light: #ddd;
+$gray--medium: #777;
+$gray: #333;
+$ampro-gradient: linear-gradient(90deg, $ampro--red , $ampro--blue);
+
+//
+// Color Configuration
+//===========================
+
+$link--color: #366AB3;
+$link--hover-color: #a0bce3;
+
+// Elements
+$base__color: $gray;
+$body--background-color: #E9EFF5;
+
+// Form Elements
+$input--background-color: $white;
+$input--border-color: $gray--light;
+$input--color: $gray;
+$input--focus-border-color: $gray--light;
+$button--background-color: $ampro--yellow;
+$button--color: $ampro--blue;
+$button--hover-background-color: $ampro--purple;
+$button--hover-color: $white;
+$button--disabled-background-color: $gray--lighter;
+$button--disable-color: $gray--medium;
+
+//
+// Header
+//======================
+$site-header--background-color: $white;
+$site-title--link-color: $gray--medium;
+
+//
+// Navigation
+//============================
+$nav--link-color: black;
+$nav--hover-color: #E9EFF5;
+$submenu--link-color: black;
+$submenu--border-color: $gray--lighter;
+$submenu--link-background-color: $gray--light;
+
+$primary-nav--background-color: $ampro--blue;
+$primary-nav--border-color: $gray--lighter;
+$primary-nav--link-color: $white;
+
+$secondary-nav--background-color: $white;
+$secondary-nav--border-color: $gray--lighter;
+$secondary-nav--link-color: $nav--link-color;
+
+$js-nav--background-color: $white;
+$js-nav--hover-color: $black;
+$js-nav--focus-color: $red;
+
+$nav-toggle--background-color: $ampro--blue;
+$nav-toggle--color: $gray;
+
+$archive-pagination--background-color: $white;
+$archive-pagination--color: $gray;
+$archive-pagination--hover-background-color: $red;
+$archive-pagination--hover-color: $white;
+
+//
+// Footer
+//============================
+$siteFooter--background-color: $ampro--purple;
+$site-footer--border-color: $gray--lighter;
+$footer-widgets--background-color: $white;
+
+//
+// Entry Content
+//===================
+$entry-footer__meta--border-color: $gray--lighter;
+$entry--background-color: $white;
+$entry-title--link-color: $gray;
+$entry-title--hover-color: $red;
+$entry-content__code--background-color: $gray--lighter;
+$entry-content__code--color: $gray;
+
+//
+// Comments
+//===================
+$comment--background-color: $white;
+
+//
+// Widgets
+//===================
+$widget-title--link-color: $gray;
+
+
+//
+// Plugins
+//===================
+
+
+// General Components
+$meta-box--color: #FFFACD;
+$breadcrumbs--background-color: $white;
+$author-box--background-color: $white;
+$after-entry--background-color: $white;
+$archive-description--background-color: $gray--lightest;

@@ -1,0 +1,38 @@
+/* ## Front Page Donate Section
+--------------------------------------------- */
+.donate__container{
+}
+
+.donate__image{
+	vertical-align:bottom;
+	opacity: .5;
+}
+
+.donate_image__container{
+	background-color: $ampro--blue;
+
+	@media only screen and (max-width: 851px) {
+		display: none;
+	}
+}
+
+.donate-flex-half{
+	display: flex;
+	align-items: center;
+  justify-content: center;
+	text-align: center;
+	height: 100%;
+}
+
+.donate__flex-grid {
+  display: flex;
+}
+.donate-col {
+  flex: 1;
+}
+
+#donate-button{
+	@media only screen and (max-width: 851px) {
+		margin-bottom: 40px;
+	}
+}

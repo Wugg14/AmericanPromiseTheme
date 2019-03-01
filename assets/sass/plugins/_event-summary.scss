@@ -1,0 +1,59 @@
+/* ## Event Summary for Events Calendar Events on Front Page and Search
+--------------------------------------------- */
+.event-summary {
+	position: relative;
+	padding-left: 107px;
+	min-height: 77px;
+	padding-bottom: 1px;
+	margin-bottom: 20px;
+}
+
+
+.event-summary__date {
+	text-decoration: none;
+	display: block;
+	top: 0;
+	left: 0;
+	position: absolute;
+	padding: 14px 0 11px 0;
+	color: #FFF;
+	border-radius: 50%;
+	background-color: $ampro--purple;
+	width: 80px;
+	line-height: 1;
+	transition: opacity .33s;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, .22);
+}
+
+.event-summary__date:hover {
+	opacity: .75;
+	color: white;
+}
+
+.event-summary__month {
+	display: block;
+	font-size: 24px;
+	font-weight: 300;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.event-summary__day {
+	display: block;
+	font-size: 32.32px;
+	font-weight: 700;
+	text-align: center;
+}
+
+.event-summary__content{
+	padding-top: 5px;
+	font-size: .75em;
+}
+
+.event-summary__venue{
+	color: $gray--medium;
+}
+
+.tribe-events-meta-group-other{
+	display: none !important;
+}

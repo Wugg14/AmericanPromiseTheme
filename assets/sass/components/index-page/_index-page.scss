@@ -1,0 +1,28 @@
+/* # Index Page
+---------------------------------------------------------------------------------------------------- */
+.index-page__card{
+  -webkit-box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 10px;
+  margin-bottom: 25px;
+}
+
+.index-page__card__img__container{
+  height: 200px;
+  background-color: #d0d0d0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px 10px 0px 0px;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  overflow: hidden;
+}
+
+.index-page__card__img{
+  max-height: 200px;
+}
+
+.index-page__blog-posts{
+  padding: 0 10px 10px 10px;
+}

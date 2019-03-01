@@ -1,0 +1,121 @@
+/* ## Primary Navigation
+--------------------------------------------- */
+
+.nav-primary {
+	background-color: $primary-nav--background-color;
+	border-top: 1px solid $primary-nav--border-color;
+	text-align: right;
+	position: fixed;
+	z-index: 100;
+	width: 100%;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-color: white;
+
+	@media only screen and (max-width: 1023px) {
+		margin-top: 52px;
+	}
+}
+
+#menu-main-nav{
+	a {
+		color: $white;
+	}
+
+	.sub-menu{
+		a{
+			color: black;
+
+			&:focus, &:hover{
+				color: white;
+			}
+		}
+	}
+
+	@media only screen and (max-width: 1023px) {
+		a{
+			color: black;
+		}
+	}
+
+}
+
+.homebutton{
+	a {
+		background-image: url("assets/images/LogoWhiteLetters.png");
+		background-repeat: no-repeat;
+		background-position: left;
+		height: 70px;
+		width: 100px;
+		background-size: 100px 70px;
+		text-indent:-9999px;
+	}
+}
+
+.donatebutton{
+	@media only screen and (min-width: 1023px) {
+
+		a{
+			margin-left: 20px;
+			margin-right: 20px;
+			padding: 10px 5px;
+			border-width: 1px;
+			border-style: solid;
+		}
+
+		a:hover,
+		a:focus{
+			background-color: white;
+
+			span{
+				text-decoration: none;
+				color: $ampro--blue;
+			}
+		}
+	}
+}
+
+#menu-item-21{
+	float: left;
+	margin-top: 5px;
+	margin-left: 5px;
+}
+
+#menu-main-nav{
+	margin: 0 auto;
+	max-width: 1200px;
+
+	@include media( $breakpoint__screen-size--larger ) {
+		max-width: $max-width-larger-screen;
+	}
+	 @include media( $breakpoint__screen-size--large ) {
+		max-width: $max-width-large-screen;
+	}
+
+	 @include media( $breakpoint__screen-size--medium ) {
+		max-width: $max-width--medium-screen;
+	}
+
+	 @include media( $breakpoint__screen-size--small ) {
+		padding: 5% 5% 0;
+	}
+}
+
+.js-search-trigger{
+	.fontawesome-text {
+		@media only screen and (min-width: 1023px){
+			display: none;
+		}
+	}
+}
+
+.navigation-bar__spacer{
+	@media only screen and (min-width: 1023px){
+		margin-top: 85px;
+	}
+
+	@media only screen and (max-width: 1023px){
+		margin-top: 52px;
+	}
+
+}

@@ -1,0 +1,7 @@
+p.entry-meta {
+	@include rem( font-size, $entry-meta--font-size );
+	margin-bottom: 0;
+	background-color: $meta-box--color;
+	display: inline-block;
+	padding: 7px;
+}

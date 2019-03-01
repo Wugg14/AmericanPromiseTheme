@@ -1,0 +1,36 @@
+/* ## Front Page Header
+--------------------------------------------- */
+.container__header {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 400px;
+}
+
+.front-header__background {
+	background: url("assets/images/frontPageImage.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 400px;
+}
+
+.front-header__title{
+	color: white;
+	font-size: 5rem;
+	text-align: center;
+}
+
+.front-header-button__container{
+	text-align: center;
+	margin-top: 5%;
+	margin-bottom: 10px;
+}
+
+.front-header__button{
+	font-size: 2rem;
+}
+
+.header-flex__container{
+	max-width: 80%;
+}

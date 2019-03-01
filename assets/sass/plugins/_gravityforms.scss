@@ -1,0 +1,52 @@
+.gfield_label{
+	color: $ampro--purple;
+}
+
+
+.gfp_big_button .gfield_radio li input[type=radio] {
+    display:none !important;
+}
+
+.gfp_big_button .gfield_radio li input[type=radio]:checked ~ label {
+    background: $ampro--blue;
+}
+
+.gfp_big_button .gfield_radio label {
+    max-width: 300px !important;
+    width: 100% !important;
+    padding: 10px 30px !important;
+    float: none;
+    background: $ampro--blue--light;
+    color: #fff;
+    letter-spacing: 0.09375rem;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    border-radius: 3px;
+    font-family: Open Sans, sans-serif;
+    font-weight: 600;
+    margin: 5px !important;
+    display: block;
+    -webkit-transition: background-color 300ms ease-out;
+    -moz-transition: background-color 300ms ease-out;
+    transition: background-color 300ms ease-out;
+    -webkit-appearance: none;
+    cursor: pointer;
+    line-height: 1;
+    position: relative;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.1em;
+    box-sizing: border-box;
+}
+
+.gfp_big_button .gfield_radio label:hover {
+    background: $ampro--blue;
+}
+
+.gform_button:hover,
+.gform_next_button:hover,
+.gform_previous_button:hover{
+		color: white !important;
+}
