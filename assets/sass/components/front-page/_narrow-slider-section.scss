@@ -1,8 +1,10 @@
 /* ## Front Page Blog Section
 --------------------------------------------- */
 .narrow-section__container{
-  margin-left: 15%;
-  margin-right: 15%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 5%;
+  padding-left: 5%;
   padding-bottom: 40px;
 
   h1:after{
