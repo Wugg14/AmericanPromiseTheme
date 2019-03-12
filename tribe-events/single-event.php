@@ -4,7 +4,7 @@
  * A single event. This displays the event title, description, meta, and
  * optionally, the Google map for the event.
  *
- * Custom Code Inserted in line 73, adds Gravity Forms RSVP Form. The
+ * Custom Code Inserted in line 76, adds Gravity Forms RSVP Form. The
  * rest of the file is unaltered from source.
  *
  * @package TribeEventsCalendar
@@ -73,7 +73,12 @@ $event_id = get_the_ID();
 			<?php do_action( 'tribe_events_single_event_before_the_meta' ) ?>
 			<?php tribe_get_template_part( 'modules/meta' ); ?>
 			<?php do_action( 'tribe_events_single_event_after_the_meta' ) ?>
-			<?php echo do_shortcode("[gravityform id=4 title=true description=false ajax=true field_values='your_parameter" .get_the_title(). "']"); ?>
+			<?php
+			$removeRsvp = get_field("remove_rsvp");
+			if (!$removeRsvp){
+				echo do_shortcode("[gravityform id=4 title=true description=false ajax=true field_values='your_parameter" .get_the_title(). "']");
+			};
+			?>
 		</div> <!-- #post-x -->
 		<?php if ( get_post_type() == Tribe__Events__Main::POSTTYPE && tribe_get_option( 'showComments', false ) ) comments_template() ?>
 	<?php endwhile; ?>

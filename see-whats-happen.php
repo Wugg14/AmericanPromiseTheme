@@ -197,7 +197,7 @@ function ap_map_content(){
 	<br>
 	<div class="map-key__icon" id="icon-2"></div><p class="map-key__text"> = Passed state resolution or approved letter calling on congress to overturn Citizens United</p>
 	<br>
-	<div class="map-key__icon" id="icon-3"></div><p class="map-key__text"> = Has active American Promise Associations in AND has passed a state resolution or approved a letter calling on congress to overturn Citizens United</p>
+	<div class="map-key__icon" id="icon-3"></div><p class="map-key__text"> = Has active American Promise Associations AND has passed a state resolution or approved a letter calling on congress to overturn Citizens United</p>
 	<br>
 	<div class="map-key__icon" id="icon-4"></div><p class="map-key__text"> = Get your state moving!</p>
 </div>
