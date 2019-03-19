@@ -16,18 +16,13 @@ function see_whats_happening_custom_content(){
 
 function ap_map_content(){
 	?>
+<div style="background-color:#d0d0d0;padding-top: 20px;">
 <div style="position:relative;width:100%;height:396px">
 <xml version="1.0" encoding="UTF-8" standalone="no">
-<svg xmlns="http://www.w3.org/2000/svg" id="us-map" viewBox="0 0 1000 600" xmlns:xlink="http://www.w3.org/1999/xlink>
+<svg xmlns="http://www.w3.org/2000/svg" id="us-map" viewBox="0 0 1000 600" xmlns:xlink="http://www.w3.org/1999/xlink">
 <title>Blank US states map</title>
 <g id="outlines">
 
-  <defs>
-    <linearGradient id="Gradient01" x1="50%" y1="0%" x2="0%" y2="50%">
-      <stop offset="20%" stop-color="#5d256a" />
-      <stop offset="90%" stop-color="#002868" />
-    </linearGradient>
-  </defs>
 <a xlink:href="http://www.americanpromise.net/alaska">
   <path id="AK" fill="#A7A9AC" d="M161.1,453.7 l-0.3,85.4 1.6,1 3.1,0.2 1.5,-1.1 h2.6 l0.2,2.9 7,6.8 0.5,2.6 3.4,-1.9 0.6,-0.2 0.3,-3.1 1.5,-1.6 1.1,-0.2 1.9,-1.5 3.1,2.1 0.6,2.9 1.9,1.1 1.1,2.4 3.9,1.8 3.4,6 2.7,3.9 2.3,2.7 1.5,3.7 5,1.8 5.2,2.1 1,4.4 0.5,3.1 -1,3.4 -1.8,2.3 -1.6,-0.8 -1.5,-3.1 -2.7,-1.5 -1.8,-1.1 -0.8,0.8 1.5,2.7 0.2,3.7 -1.1,0.5 -1.9,-1.9 -2.1,-1.3 0.5,1.6 1.3,1.8 -0.8,0.8 c0,0 -0.8,-0.3 -1.3,-1 -0.5,-0.6 -2.1,-3.4 -2.1,-3.4 l-1,-2.3 c0,0 -0.3,1.3 -1,1 -0.6,-0.3 -1.3,-1.5 -1.3,-1.5 l1.8,-1.9 -1.5,-1.5 v-5 h-0.8 l-0.8,3.4 -1.1,0.5 -1,-3.7 -0.6,-3.7 -0.8,-0.5 0.3,5.7 v1.1 l-1.5,-1.3 -3.6,-6 -2.1,-0.5 -0.6,-3.7 -1.6,-2.9 -1.6,-1.1 v-2.3 l2.1,-1.3 -0.5,-0.3 -2.6,0.6 -3.4,-2.4 -2.6,-2.9 -4.8,-2.6 -4,-2.6 1.3,-3.2 v-1.6 l-1.8,1.6 -2.9,1.1 -3.7,-1.1 -5.7,-2.4 h-5.5 l-0.6,0.5 -6.5,-3.9 -2.1,-0.3 -2.7,-5.8 -3.6,0.3 -3.6,1.5 0.5,4.5 1.1,-2.9 1,0.3 -1.5,4.4 3.2,-2.7 0.6,1.6 -3.9,4.4 -1.3,-0.3 -0.5,-1.9 -1.3,-0.8 -1.3,1.1 -2.7,-1.8 -3.1,2.1 -1.8,2.1 -3.4,2.1 -4.7,-0.2 -0.5,-2.1 3.7,-0.6 v-1.3 l-2.3,-0.6 1,-2.4 2.3,-3.9 v-1.8 l0.2,-0.8 4.4,-2.3 1,1.3 h2.7 l-1.3,-2.6 -3.7,-0.3 -5,2.7 -2.4,3.4 -1.8,2.6 -1.1,2.3 -4.2,1.5 -3.1,2.6 -0.3,1.6 2.3,1 0.8,2.1 -2.7,3.2 -6.5,4.2 -7.8,4.2 -2.1,1.1 -5.3,1.1 -5.3,2.3 1.8,1.3 -1.5,1.5 -0.5,1.1 -2.7,-1 -3.2,0.2 -0.8,2.3 h-1 l0.3,-2.4 -3.6,1.3 -2.9,1 -3.4,-1.3 -2.9,1.9 h-3.2 l-2.1,1.3 -1.6,0.8 -2.1,-0.3 -2.6,-1.1 -2.3,0.6 -1,1 -1.6,-1.1 v-1.9 l3.1,-1.3 6.3,0.6 4.4,-1.6 2.1,-2.1 2.9,-0.6 1.8,-0.8 2.7,0.2 1.6,1.3 1,-0.3 2.3,-2.7 3.1,-1 3.4,-0.6 1.3,-0.3 0.6,0.5 h0.8 l1.3,-3.7 4,-1.5 1.9,-3.7 2.3,-4.5 1.6,-1.5 0.3,-2.6 -1.6,1.3 -3.4,0.6 -0.6,-2.4 -1.3,-0.3 -1,1 -0.2,2.9 -1.5,-0.2 -1.5,-5.8 -1.3,1.3 -1.1,-0.5 -0.3,-1.9 -4,0.2 -2.1,1.1 -2.6,-0.3 1.5,-1.5 0.5,-2.6 -0.6,-1.9 1.5,-1 1.3,-0.2 -0.6,-1.8 v-4.4 l-1,-1 -0.8,1.5 h-6.1 l-1.5,-1.3 -0.6,-3.9 -2.1,-3.6 v-1 l2.1,-0.8 0.2,-2.1 1.1,-1.1 -0.8,-0.5 -1.3,0.5 -1.1,-2.7 1,-5 4.5,-3.2 2.6,-1.6 1.9,-3.7 2.7,-1.3 2.6,1.1 0.3,2.4 2.4,-0.3 3.2,-2.4 1.6,0.6 1,0.6 h1.6 l2.3,-1.3 0.8,-4.4 c0,0 0.3,-2.9 1,-3.4 0.6,-0.5 1,-1 1,-1 l-1.1,-1.9 -2.6,0.8 -3.2,0.8 -1.9,-0.5 -3.6,-1.8 -5,-0.2 -3.6,-3.7 0.5,-3.9 0.6,-2.4 -2.1,-1.8 -1.9,-3.7 0.5,-0.8 6.8,-0.5 h2.1 l1,1 h0.6 l-0.2,-1.6 3.9,-0.6 2.6,0.3 1.5,1.1 -1.5,2.1 -0.5,1.5 2.7,1.6 5,1.8 1.8,-1 -2.3,-4.4 -1,-3.2 1,-0.8 -3.4,-1.9 -0.5,-1.1 0.5,-1.6 -0.8,-3.9 -2.9,-4.7 -2.4,-4.2 2.9,-1.9 h3.2 l1.8,0.6 4.2,-0.2 3.7,-3.6 1.1,-3.1 3.7,-2.4 1.6,1 2.7,-0.6 3.7,-2.1 1.1,-0.2 1,0.8 4.5,-0.2 2.7,-3.1 h1.1 l3.6,2.4 1.9,2.1 -0.5,1.1 0.6,1.1 1.6,-1.6 3.9,0.3 0.3,3.7 1.9,1.5 7.1,0.6 6.3,4.2 1.5,-1 5.2,2.6 2.1,-0.6 1.9,-0.8 4.8,1.9z m-115.1,28.9 2.1,5.3 -0.2,1 -2.9,-0.3 -1.8,-4 -1.8,-1.5 h-2.4 l-0.2,-2.6 1.8,-2.4 1.1,2.4 1.5,1.5z m-2.6,33.5 3.7,0.8 3.7,1 0.8,1 -1.6,3.7 -3.1,-0.2 -3.4,-3.6z m-20.7,-14.1 1.1,2.6 1.1,1.6 -1.1,0.8 -2.1,-3.1 v-1.9z m-13.7,73.1 3.4,-2.3 3.4,-1 2.6,0.3 0.5,1.6 1.9,0.5 1.9,-1.9 -0.3,-1.6 2.7,-0.6 2.9,2.6 -1.1,1.8 -4.4,1.1 -2.7,-0.5 -3.7,-1.1 -4.4,1.5 -1.6,0.3z m48.9,-4.5 1.6,1.9 2.1,-1.6 -1.5,-1.3z m2.9,3 1.1,-2.3 2.1,0.3 -0.8,1.9 h-2.4z m23.6,-1.9 1.5,1.8 1,-1.1 -0.8,-1.9z m8.8,-12.5 1.1,5.8 2.9,0.8 5,-2.9 4.4,-2.6 -1.6,-2.4 0.5,-2.4 -2.1,1.3 -2.9,-0.8 1.6,-1.1 1.9,0.8 3.9,-1.8 0.5,-1.5 -2.4,-0.8 0.8,-1.9 -2.7,1.9 -4.7,3.6 -4.8,2.9z m42.3,-19.8 2.4,-1.5 -1,-1.8 -1.8,1z"/>
  </a>
@@ -188,20 +183,42 @@ function ap_map_content(){
   <path id="WY" fill="#A7A9AC" d="M353,161.9 l-1.5,25.4 -4.4,44 -2.7,-0.3 -83.3,-9.1 -27.9,-3 2,-12 6.9,-41 3.8,-24.2 1.3,-11.2 48.2,7 59.1,6.5z"/>
 </a>
 </g>
+<a xlink:href="http://www.americanpromise.net/california"><polygon points="10,1 4,19.8 19,7.8 1,7.8 16,19.8" r="4" transform="translate(60,270)" id="California" style="fill:#FFFF00;stroke:#FFFF00;stroke-width:5;fill-rule:nonzero;" /></a>
+<a xlink:href="http://www.americanpromise.net/oregon"><polygon points="10,1 4,19.8 19,7.8 1,7.8 16,19.8" r="4" transform="translate(85,110)" id="Oregon" style="fill:#FFFF00;stroke:#FFFF00;stroke-width:5;fill-rule:nonzero;" /></a>
+<a xlink:href="http://www.americanpromise.net/washington"><polygon points="10,1 4,19.8 19,7.8 1,7.8 16,19.8" r="4" transform="translate(110,40)" id="Washington" style="fill:#FFFF00;stroke:#FFFF00;stroke-width:5;fill-rule:nonzero;" /></a>
+<a xlink:href="http://www.americanpromise.net/nevada"><polygon points="10,1 4,19.8 19,7.8 1,7.8 16,19.8" r="4" transform="translate(120,230)" id="Nevada" style="fill:#FFFF00;stroke:#FFFF00;stroke-width:5;fill-rule:nonzero;" /></a>
+<a xlink:href="http://www.americanpromise.net/montana"><polygon points="10,1 4,19.8 19,7.8 1,7.8 16,19.8" r="4" transform="translate(270,78)" id="Montana" style="fill:#FFFF00;stroke:#FFFF00;stroke-width:5;fill-rule:nonzero;" /></a>
+<a xlink:href="http://www.americanpromise.net/colorado"><polygon points="10,1 4,19.8 19,7.8 1,7.8 16,19.8" r="4" transform="translate(310,265)" id="Colorado" style="fill:#FFFF00;stroke:#FFFF00;stroke-width:5;fill-rule:nonzero;" /></a>
+<a xlink:href="http://www.americanpromise.net/new_mexico"><polygon points="10,1 4,19.8 19,7.8 1,7.8 16,19.8" r="4" transform="translate(290,360)" id="NewMexico" style="fill:#FFFF00;stroke:#FFFF00;stroke-width:5;fill-rule:nonzero;" /></a>
+<a xlink:href="http://www.americanpromise.net/illinois"><polygon points="10,1 4,19.8 19,7.8 1,7.8 16,19.8" r="4" transform="translate(585,250)" id="Illinois" style="fill:#FFFF00;stroke:#FFFF00;stroke-width:5;fill-rule:nonzero;" /></a>
+<a xlink:href="http://www.americanpromise.net/new_york"><polygon points="10,1 4,19.8 19,7.8 1,7.8 16,19.8" r="4" transform="translate(805,145)" id="NewYork" style="fill:#FFFF00;stroke:#FFFF00;stroke-width:5;fill-rule:nonzero;" /></a>
+<a xlink:href="http://www.americanpromise.net/west_virginia"><polygon points="5,.5 2,9.9 9.5,3.9 .5,3.9 8,9.9" r="4" transform="translate(735,265)" id="WestVirginia" style="fill:#FFFF00;stroke:#FFFF00;stroke-width:5;fill-rule:nonzero;" /></a>
+<a xlink:href="http://www.americanpromise.net/maine"><polygon points="5,.5 2,9.9 9.5,3.9 .5,3.9 8,9.9" r="4" transform="translate(885,70)" id="Maine" style="fill:#FFFF00;stroke:#FFFF00;stroke-width:5;fill-rule:nonzero;" /></a>
+<a xlink:href="http://www.americanpromise.net/maryland"><polygon points="2.5,.25 1,4.95 4.75,1.95 .5,1.95 4,4.95" r="4" transform="translate(799,240)" id="Maryland" style="fill:#FFFF00;stroke:#FFFF00;stroke-width:5;fill-rule:nonzero;" /></a>
+<a xlink:href="http://www.americanpromise.net/delaware"><polygon points="2.5,.25 1,4.95 4.75,1.95 .5,1.95 4,4.95" r="4" transform="translate(823,245)" id="Delaware" style="fill:#FFFF00;stroke:#FFFF00;stroke-width:5;fill-rule:nonzero;" /></a>
+<a xlink:href="http://www.americanpromise.net/new_hampshire"><polygon points="2.5,.25 1,4.95 4.75,1.95 .5,1.95 4,4.95" r="4" transform="translate(843,118)" id="NewHampshire" style="fill:#FFFF00;stroke:#FFFF00;stroke-width:5;fill-rule:nonzero;" /></a>
+<a xlink:href="http://www.americanpromise.net/massachusetts"><polygon points="2.5,.25 1,4.95 4.75,1.95 .5,1.95 4,4.95" r="4" transform="translate(865,155)" id="Massachusetts" style="fill:#FFFF00;stroke:#FFFF00;stroke-width:5;fill-rule:nonzero;" /></a>
+<a xlink:href="http://www.americanpromise.net/rhode_island"><polygon points="2.5,.25 1,4.95 4.75,1.95 .5,1.95 4,4.95" r="4" transform="translate(878,170)" id="RhodeIsland" style="fill:#FFFF00;stroke:#FFFF00;stroke-width:5;fill-rule:nonzero;" /></a>
+<a xlink:href="http://www.americanpromise.net/connecticut"><polygon points="2.5,.25 1,4.95 4.75,1.95 .5,1.95 4,4.95" r="4" transform="translate(855,175)" id="Connecticut" style="fill:#FFFF00;stroke:#FFFF00;stroke-width:5;fill-rule:nonzero;" /></a>
+<a xlink:href="http://www.americanpromise.net/new_jersey"><polygon points="2.5,.25 1,4.95 4.75,1.95 .5,1.95 4,4.95" r="4" transform="translate(830,200)" id="NewJersey" style="fill:#FFFF00;stroke:#FFFF00;stroke-width:5;fill-rule:nonzero;" /></a>
+<a xlink:href="http://www.americanpromise.net/hawaii"><polygon points="2.5,.25 1,4.95 4.75,1.95 .5,1.95 4,4.95" r="4" transform="translate(330,565)" id="Hawaii" style="fill:#FFFF00;stroke:#FFFF00;stroke-width:5;fill-rule:nonzero;" /></a>
+
+
 <path id="frames" fill="none" stroke="#A9A9A9" stroke-width="2" d="M215,493v55l36,45 M0,425h147l68,68h85l54,54v46"/>
 </svg>
 </div>
 <hr>
 <div class="map-key">
-	<div class="map-key__icon" id="icon-1"></div><p class="map-key__text"> = Active American Promise Association in this state</p>
+	<svg style="width:30px;height:30px;"><polygon points="2.5,.25 1,4.95 4.75,1.95 .5,1.95 4,4.95" r="4" transform="translate(10,19)" style="fill:#FFFF00;stroke:#FFFF00;stroke-width:5;fill-rule:nonzero;" /></svg><p class="map-key__text"> = Called on Congress to pass a 28th Amendment</p>
 	<br>
-	<div class="map-key__icon" id="icon-2"></div><p class="map-key__text"> = Passed state resolution or approved letter calling on congress to overturn Citizens United</p>
+	<div class="map-key__icon" id="icon-2"></div><p class="map-key__text">  = Active American Promise Association or Business for American Promise Chapter</p>
 	<br>
-	<div class="map-key__icon" id="icon-3"></div><p class="map-key__text"> = Has active American Promise Associations AND has passed a state resolution or approved a letter calling on congress to overturn Citizens United</p>
+	<div class="map-key__icon" id="icon-3"></div><p class="map-key__text">  = Active citizen leaders working to pass an amendment</p>
 	<br>
-	<div class="map-key__icon" id="icon-4"></div><p class="map-key__text"> = Get your state moving!</p>
+	<div class="map-key__icon" id="icon-4"></div><p class="map-key__text">  = Get your state moving!</p>
 </div>
 <hr>
+</div>
 <?php
 }
 

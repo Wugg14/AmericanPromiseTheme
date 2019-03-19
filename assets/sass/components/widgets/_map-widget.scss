@@ -10,14 +10,14 @@
 }
 
 
-/* Formally calling for the 28th */
-#CA, #CO, #CT, #HI, #MD, #ME, #MT, #NV, #OR, #RI, #VT, #WA, #WV, #MA { fill: #5d256a;}
+/* Active Citizen Leaders Working to pass an amendment */
+#AK, #AZ, #AR, #CO, #CT, #FL, #GA, #HI, #ID, #IL, #IN, #IA, #KY, #MD, #MN, #MS, #MT, #NV, #NH, #NC, #OK, #OR, #RI, #TX, #UT, #VT, #WA, #WV, #WI, #WY {fill: #8FC3FF;};
 
 /* Active APA */
-#KS, #NC, #MO, #PA, #OH, #TN, #MI, #MN, #VA, #WY { fill: #002868;}
+#CA, #DE, #KS, #ME, #MI, #MO, #NJ, #NM, #NY, #OH, #PA, #TN, #VA, #MA {fill: #2F5179;};
 
-/* Both Formal Call and an active APA */
- #DE, #IL, #NJ, #NM, #NY { fill: #8FC3FF;}
+/* Get Your State Moving */
+#ND, #SD, #LA, #AL, #SC, #NE {fill: #708090;};
 
 path:hover, circle:hover {
   stroke: #DB1E3B !important;
@@ -37,12 +37,8 @@ path:hover, circle:hover {
 	display: inline-block;
 }
 
-#icon-1{
-	background-color: #002868;
-}
-
 #icon-2{
-	background-color: #5d256a;
+	background-color: #2F5179;
 }
 
 #icon-3{
@@ -50,7 +46,7 @@ path:hover, circle:hover {
 }
 
 #icon-4{
-	background-color: #A7A9AC;
+	background-color: #708090;
 }
 
 .map-key__text{

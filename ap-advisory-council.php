@@ -21,7 +21,6 @@ add_action( 'genesis_after_entry' , __NAMESPACE__ . '\custom_advisory_cards' );
 
 function custom_advisory_cards(){
 	?>
-
 	<div class="grid" style="margin:0 auto;">
 		<div class="grid-item">
 			<figure class="testimonial-card">
@@ -272,9 +271,7 @@ function custom_advisory_cards(){
 				</div>
 			</figure>
 		</div>
-
 	</div>
-
 	<?php
 }
 

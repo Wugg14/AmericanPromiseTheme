@@ -60,7 +60,7 @@ function enqueue_assets() {
 		global $wp_query;
 		$template_name = get_post_meta( $wp_query->post->ID, '_wp_page_template', true );
 		//Enqueue jQuery Masontry on the Council Page
-		if($template_name == 'ap-advisory-council.php'){
+		if($template_name == 'ap-advisory-council.php' || $template_name == 'bap-national-page.php'){
 			wp_enqueue_script('jquery-masonry');
 			wp_enqueue_script( CHILD_TEXT_DOMAIN . '-masonry-script', CHILD_URL . '/assets/js/masonry-script.js', array(), false, true );
 		}
