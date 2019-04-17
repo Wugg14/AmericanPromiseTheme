@@ -95,7 +95,7 @@ function custom_business_cards(){
 	</figure>
 </div>
 </div>
-<a href="/#">See All Signatories of the Statement of Principle</a>
+<a href="https://www.americanpromise.net/bap-signers-of-the-statement-of-principle/">See All Signatories of the Statement of Principle</a>
   <?php
 };
 

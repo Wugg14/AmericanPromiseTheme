@@ -70,10 +70,10 @@ function enqueue_assets() {
 			wp_enqueue_script( CHILD_TEXT_DOMAIN . '-dataTablesScript', CHILD_URL . '/assets/js/dataTables-script.js', array('jquery'), false, true );
 			wp_enqueue_script( CHILD_TEXT_DOMAIN . '-pledgeCampaignScript', CHILD_URL . '/assets/js/pledgeCampaign-script.js', array('jquery'), false, true );
 		}
-		if(is_page('join-a-program')){
+		if(is_page('join-a-program') || is_page('new-business-for-american-promise')){
 			wp_enqueue_script( CHILD_TEXT_DOMAIN . '-toggleImageBoxScript', CHILD_URL . '/assets/js/toggleImageBox-script.js', array( 'jquery' ), CHILD_THEME_VERSION, true );
 		}
-		if(is_page('business-for-american-promise') || is_page('nh_pledges')){
+		if(is_page('business-for-american-promise') || is_page('nh_pledges') || is_page('bap-signers-of-the-statement-of-principle')){
 			wp_enqueue_style( CHILD_TEXT_DOMAIN . '-dataTablesStyles', '//cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css', array(), CHILD_THEME_VERSION );
 			wp_enqueue_script( CHILD_TEXT_DOMAIN . '-dataTablesJS', '//cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js', array('jquery'), false, true );
 			wp_enqueue_script( CHILD_TEXT_DOMAIN . '-dataTablesScript', CHILD_URL . '/assets/js/dataTables-script.js', array('jquery'), false, true );
@@ -84,6 +84,9 @@ function enqueue_assets() {
 		}
 		if(is_page('resources')){
 			wp_enqueue_script( CHILD_TEXT_DOMAIN . '-resourceFormScript', CHILD_URL . '/assets/js/resourceForms-script.js', array( 'jquery' ), CHILD_THEME_VERSION, true );
+		}
+		if(is_page('pay-to-play-is-a-losing-proposition-for-business-society')){
+			wp_enqueue_script( CHILD_TEXT_DOMAIN . '-sliderFormatScript', CHILD_URL . '/assets/js/slider-formatting.js', array( 'jquery' ), CHILD_THEME_VERSION, true );
 		}
 	};
 	$localized_script_args = array(

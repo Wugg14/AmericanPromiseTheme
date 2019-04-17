@@ -2,7 +2,7 @@
 
 /**
 * Template Name: See Whats Happening
-* Description: Custom page template for parent links in the primary nav
+* Description: Custom page template for See Whats Happening page
 */
 namespace AmericanPromise\AmericanPromiseTheme;
 

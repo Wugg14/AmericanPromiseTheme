@@ -78,7 +78,7 @@ function problem_solution_section(){
 	<div class="container container__problem-solution">
 		<div class="first one-half problem__section">
 			<h1>The Problem</h1>
-			<p>The legally granted right to unchecked political spending by corporations, unions, and wealthy special interest groups is silencing the voices of citizens and corrupting our ability to freely and fairly elect a representative government of, by, and&nbsp;for&nbsp;the&nbsp;people. </p>
+			<p>The legally granted right to unchecked political spending by corporations, unions, special interest groups, and wealthy individuals is silencing the voices of citizens and corrupting our ability to freely and fairly elect a representative government of, by, and&nbsp;for&nbsp;the&nbsp;people. </p>
 			<a href="<?php echo esc_url(site_url('/who-we-are/faq/')); ?>"><button class="small-button--purple">Read More</button></a>
 		</div>
 		<div class="one-half solution__section">
@@ -258,7 +258,7 @@ function events_section() {
 
 						</div>
 						<p style="color: #d0d0d0"><?php echo $start_date_month ?> <?php echo $start_date_day ?>, <?php echo $start_date_year ?></p>
-						<h3 style="margin-bottom: 45px;"><a style="color: white;" href="<?php echo esc_url(get_permalink($event->ID)); ?>"><?php echo $event->post_title; ?></a></h3>
+						<h3 style="margin-bottom: 45px;"><a style="color: white;text-decoration: underline;" href="<?php echo esc_url(get_permalink($event->ID)); ?>"><?php echo $event->post_title; ?></a></h3>
 					</div> <?php
 					$event_counter += 1;
 				}

@@ -64,7 +64,7 @@ add_action( 'genesis_entry_footer' ,  __NAMESPACE__ . '\blog_post_footer');
 function blog_post_footer() {
 	if ( is_singular('post') ) {
 		?>
-			<a href="<?php echo esc_url(site_url('/take-action/sign-up-to-learn-more/')); ?>"><img class="post-footer__image"src="http://gator3267.temp.domains/~amprosystems/wp-content/uploads/2019/01/apsignup.jpg"></a>
+			<a href="<?php echo esc_url(site_url('/take-action/sign-up-to-learn-more/')); ?>"><img class="post-footer__image"src="https://americanpromise.net/wp-content/uploads/2019/01/apsignup.jpg"></a>
 		<?php
 	}
 }

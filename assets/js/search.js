@@ -54,16 +54,16 @@ class Search {
 					<div class="one-third first">
 						<h2 class="search-overlay__section-title">Pages</h2>
 						${results.pages.length ? '<ul class="link-list min-list">' : '<p style="color: black; font-size: 1.3rem;">No Pages Found</p>'}
-							${results.pages.map(item => `<li><a href="${item.permalink}">${item.title}</a></li>`).join('')}
+							${results.pages.map(item => `<li><a href="${item.permalink}" target="_blank">${item.title}</a></li>`).join('')}
 						${results.pages.length ? '</ul>' : ''}
 					</div>
 					<div class="one-third">
 						<h2 class="search-overlay__section-title">Promising Stories</h2>
 						${results.posts.length ? '<ul class="link-list min-list">' : '<p style="color: black; font-size: 1.3rem;">No Stories Found</p>'}
-							${results.posts.map(item => `<li><a href="${item.permalink}">${item.title}</a>
+							${results.posts.map(item => `<li><a href="${item.permalink}" target="_blank">${item.title}</a>
 						${item.postType == 'post' ? `- ${item.publishDate}` : ''}</li>`).join('')}
 						${results.events.length ? '</ul>' : ''}
-						<a class="nav-link--end" href="${amproData.root_url}/who-we-are/promising-stories/">View All Stories</a>
+						<a class="nav-link--end" href="${amproData.root_url}/who-we-are/promising-stories/" target="_blank">View All Stories</a>
 					</div>
 					<div class="one-third">
 						<h2 class="search-overlay__section-title">Upcoming Events</h2>
@@ -71,18 +71,18 @@ class Search {
 							${results.events.map(item => `
 							<li>
 							<div class="event-summary">
-								<a class="event-summary__date" href="<?php echo esc_url(get_permalink($event->ID)); ?>">
+								<a class="event-summary__date" href="${item.permalink}" target="_blank">
 									<span class="event-summary__month">${item.month}</span>
 									<span class="event-summary__day">${item.day}</span>
 								</a>
 								<div class="event-summary__content">
-									<p style="font-size:1.3rem;"><a href="${item.permalink}">${item.title}</a></p>
+									<p style="font-size:1.3rem;"><a href="${item.permalink}" target="_blank">${item.title}</a></p>
 								</div>
 							</div>
 							</li>
 							`).join('')}
 						${results.events.length ? '</ul>' : ''}
-						<a class="nav-link--end" href="${amproData.root_url}/events">View All Events</a>
+						<a class="nav-link--end" href="${amproData.root_url}/events" target="_blank">View All Events</a>
 					</div>
 				</div>
 				`);

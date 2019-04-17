@@ -25,7 +25,7 @@ jQuery(document).on('resize, ready', function() {
 			hasShrunk = false;
 			jQuery('#card-3, #card-5').removeClass('first');
 			jQuery('#card-4').addClass('first');
-			jQuery('.card-container').each(function (){
+			jQuery('.reformat-me').each(function (){
 				jQuery(this).removeClass('one-half');
 				jQuery(this).addClass('one-third');
 			});
