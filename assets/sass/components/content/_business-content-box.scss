@@ -17,11 +17,25 @@
   border-color: $ampro--purple;
   display: inline-block;
   margin-bottom: 15px;
-  width: 100px;
-
+  width: 130px;
+  color: $ampro--purple;
 
   i {
     text-decoration: none;
+    color: $ampro--purple;
+  }
+
+  &:hover{
+    background-color: $ampro--purple;
+    color: white;
+
+    .business-content-box__icon {
+      color: white;
+    }
+
+    i {
+      color: white;
+    }
   }
 }
 

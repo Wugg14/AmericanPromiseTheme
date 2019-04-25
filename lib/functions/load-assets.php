@@ -85,8 +85,8 @@ function enqueue_assets() {
 		if(is_page('resources')){
 			wp_enqueue_script( CHILD_TEXT_DOMAIN . '-resourceFormScript', CHILD_URL . '/assets/js/resourceForms-script.js', array( 'jquery' ), CHILD_THEME_VERSION, true );
 		}
-		if(is_page('pay-to-play-is-a-losing-proposition-for-business-society')){
-			wp_enqueue_script( CHILD_TEXT_DOMAIN . '-sliderFormatScript', CHILD_URL . '/assets/js/slider-formatting.js', array( 'jquery' ), CHILD_THEME_VERSION, true );
+		if(is_page('building-a-national-network')){
+			wp_enqueue_script( CHILD_TEXT_DOMAIN . '-mapScript', CHILD_URL . '/assets/js/map-jquery.js', array( 'jquery' ), CHILD_THEME_VERSION, true );
 		}
 	};
 	$localized_script_args = array(

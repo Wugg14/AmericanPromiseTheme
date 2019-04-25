@@ -1,0 +1,13 @@
+.anchor a {
+  position: absolute;
+  left: 0px;
+  top: -125px;
+
+  @media only screen and (max-width: 800px) {
+    top: -53px;
+  }
+}
+
+.anchor {
+  position: relative;
+}

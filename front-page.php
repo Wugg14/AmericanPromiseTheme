@@ -295,7 +295,7 @@ function events_section() {
 function donate_section(){
 	?>
 	<div class="donate__flex-grid">
-		<div class="donate-col donate_image__container"><img class="donate__image"src="<?php echo get_theme_file_uri('/assets/images/DonateToOurCauseImage.png') ?>" /></div>
+		<div class="donate-col donate_image__container"><img class="donate__image"src="https://res.cloudinary.com/dfzj6lgdn/image/upload/v1556215301/DonateToOurCauseImage.png" /></div>
 		<div class="donate-col">
 			<div class="donate-flex-half">
 				<div>
