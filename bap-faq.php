@@ -38,7 +38,8 @@ function bap_FAQ(){
     <br />
     <a href="#consensus">How do we get the consensus—the super-majority—needed for the 28th Amendment when the country is so divided?</a>
   </div>
-  <a href="#unique">The Unique Role of Business</a>
+  <br/>
+  <h3><a href="#unique">The Unique Role of Business</a></h3>
     <div style="margin-left: 25px;">
       <a href="#involved">Why should business get involved?</a>
       <br />
@@ -46,7 +47,8 @@ function bap_FAQ(){
       <br />
       <a href="#good">Is the 28th Amendment good for business?</a>
     </div>
-  <a href="#action">Moving to Action</a>
+    <br/>
+  <h3><a href="#action">Moving to Action</a></h3>
     <div style="margin-left: 25px;">
       <a href="#strategy">What is American Promise’s strategy for 2019?</a>
       <br />
@@ -65,6 +67,8 @@ function bap_FAQ(){
       <a href="#dues">How much are BAP membership dues?</a>
       <br />
       <a href="#anonymous">Are BAP memberships anonymous?</a>
+      <br />
+      <a href="#questions">Still have questions?</a>
     </div>
 </div>
 <hr/>
@@ -354,7 +358,7 @@ The fact is, whatever issue concerns you most, as a business professional and as
 
 <h2>How much are BAP membership dues?</h2>
 <i><p>
-Annual dues for individual members in Business for American Promise range from $280(minimum) to $2800/year.
+Annual dues for individual members in Business for American Promise range from $280 (minimum) to $2800/year.
 </p><p>
 Your membership dues help demonstrate that business is concerned about representative democracy, enables us to provide specialized tools and support for BAP chapters, and contributes to grassroots efforts across the nation.
 </p><p>
@@ -380,8 +384,12 @@ American Promise is dedicated to principles of full transparency in disclosing t
 </p><p>
 If a donor requests anonymity for their contribution, American Promise will accept the contribution only after discussion with the donor. If the donor still requests anonymity, it will be allowed only when approved by the Board of Directors, which will consider and weigh all relevant factors including the reasons for the request (e.g., personal safety or faith), and the amount of the contribution (the larger the contribution, the more likely American Promise will insist on full disclosure.) In the rare and unlikely instance when an anonymous contribution is approved by the Board, American Promise will disclose the amount of the contribution, the reasons given for the request for anonymity, and the reasons for the Board’s decision.
 </p></i>
-</p><p>
-Still have <a href="mailto:bap@americanpromise.net">questions</a>?
+
+<div class="anchor">
+  <a name="questions"></a>
+</div>
+<h2>Still have questions?</h2>
+Call American Promise at 978-254-6275.
 </p><p>
 <a href="#top">Return to Top</a>
 </p>
