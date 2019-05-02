@@ -49,3 +49,10 @@
 .post-1492 {
   padding-bottom: 0px;
 }
+
+.business-image-card {
+  @media (max-width: 1200px) {
+    margin-right: auto;
+    margin-left: auto;
+  }
+}

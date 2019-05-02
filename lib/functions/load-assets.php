@@ -70,7 +70,11 @@ function enqueue_assets() {
 			wp_enqueue_script( CHILD_TEXT_DOMAIN . '-dataTablesScript', CHILD_URL . '/assets/js/dataTables-script.js', array('jquery'), false, true );
 			wp_enqueue_script( CHILD_TEXT_DOMAIN . '-pledgeCampaignScript', CHILD_URL . '/assets/js/pledgeCampaign-script.js', array('jquery'), false, true );
 		}
-		if(is_page('join-a-program') || is_page('new-business-for-american-promise')){
+		if(is_page('join-a-program')){
+			wp_enqueue_script( CHILD_TEXT_DOMAIN . '-toggleImageBoxScript', CHILD_URL . '/assets/js/toggleImageBox-script.js', array( 'jquery' ), CHILD_THEME_VERSION, true );
+			wp_enqueue_script( CHILD_TEXT_DOMAIN . '-programBoxResizeScript', CHILD_URL . '/assets/js/programImageBoxResize-script.js', array( 'jquery' ), CHILD_THEME_VERSION, true );
+		}
+		if(is_page('new-business-for-american-promise')){
 			wp_enqueue_script( CHILD_TEXT_DOMAIN . '-toggleImageBoxScript', CHILD_URL . '/assets/js/toggleImageBox-script.js', array( 'jquery' ), CHILD_THEME_VERSION, true );
 		}
 		if(is_page('business-for-american-promise') || is_page('nh_pledges') || is_page('bap-signers-of-the-statement-of-principle')){
