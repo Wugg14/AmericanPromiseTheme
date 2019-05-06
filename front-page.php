@@ -183,11 +183,11 @@ function join_list_section() {
 				// Check for thumbnail
 				if (has_post_thumbnail()){
 						?>
-							<img class="post-thumbnail" src="<?php the_post_thumbnail_url(); ?>"/>
+							<img class="post-thumbnail" src="<?php the_post_thumbnail_url('medium'); ?>"/>
 						<?php
 				}else{
 						?>
-							<img class="post-thumbnail" src="<?php echo get_theme_file_uri('/assets/images/APLogoColor.png') ?>"/>
+							<img class="post-thumbnail" src="<?php echo get_theme_file_uri('/assets/images/APLogoColorOptimized.jpg') ?>"/>
 						<?php
 				}?>
 				</div>
@@ -245,14 +245,14 @@ function events_section() {
 
 						// Check for thumbnail
 						if (has_post_thumbnail($event->ID)){
-							$image = wp_get_attachment_image_src( get_post_thumbnail_id( $event->ID ), $size = 'full');
+							$image = wp_get_attachment_image_src( get_post_thumbnail_id( $event->ID ), $size = 'medium');
 							$imageURL = $image[0];
 								?>
 									<img class="post-thumbnail" src="<?php echo $imageURL; ?>"/>
 								<?php
 						}else{
 								?>
-									<img class="post-thumbnail" src="<?php echo get_theme_file_uri('/assets/images/APLogoColor.png') ?>"/>
+									<img class="post-thumbnail" src="<?php echo get_theme_file_uri('/assets/images/APLogoColorOptimized.jpg') ?>"/>
 								<?php
 						}?>
 
@@ -295,7 +295,7 @@ function events_section() {
 function donate_section(){
 	?>
 	<div class="donate__flex-grid">
-		<div class="donate-col donate_image__container"><img class="donate__image"src="https://res.cloudinary.com/dfzj6lgdn/image/upload/v1556215301/DonateToOurCauseImage.png" /></div>
+		<div class="donate-col donate_image__container"><img class="donate__image"src="https://res.cloudinary.com/dfzj6lgdn/image/upload/c_scale,w_1000/v1556215301/DonateToOurCauseImage.jpg" /></div>
 		<div class="donate-col">
 			<div class="donate-flex-half">
 				<div>

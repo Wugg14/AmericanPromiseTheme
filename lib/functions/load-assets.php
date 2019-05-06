@@ -74,10 +74,10 @@ function enqueue_assets() {
 			wp_enqueue_script( CHILD_TEXT_DOMAIN . '-toggleImageBoxScript', CHILD_URL . '/assets/js/toggleImageBox-script.js', array( 'jquery' ), CHILD_THEME_VERSION, true );
 			wp_enqueue_script( CHILD_TEXT_DOMAIN . '-programBoxResizeScript', CHILD_URL . '/assets/js/programImageBoxResize-script.js', array( 'jquery' ), CHILD_THEME_VERSION, true );
 		}
-		if(is_page('new-business-for-american-promise')){
+		if(is_page('business-for-american-promise')){
 			wp_enqueue_script( CHILD_TEXT_DOMAIN . '-toggleImageBoxScript', CHILD_URL . '/assets/js/toggleImageBox-script.js', array( 'jquery' ), CHILD_THEME_VERSION, true );
 		}
-		if(is_page('business-for-american-promise') || is_page('nh_pledges') || is_page('bap-signers-of-the-statement-of-principle')){
+		if(is_page('nh_pledges') || is_page('bap-signers-of-the-statement-of-principle')){
 			wp_enqueue_style( CHILD_TEXT_DOMAIN . '-dataTablesStyles', '//cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css', array(), CHILD_THEME_VERSION );
 			wp_enqueue_script( CHILD_TEXT_DOMAIN . '-dataTablesJS', '//cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js', array('jquery'), false, true );
 			wp_enqueue_script( CHILD_TEXT_DOMAIN . '-dataTablesScript', CHILD_URL . '/assets/js/dataTables-script.js', array('jquery'), false, true );
