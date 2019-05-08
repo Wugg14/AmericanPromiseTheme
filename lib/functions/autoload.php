@@ -38,6 +38,7 @@ function load_nonadmin_files() {
 		'structure/footer.php',
 		'structure/header.php',
 		'structure/menu.php',
+		'structure/popups.php',
 		'structure/post.php',
 		'structure/search.php',
 		'components/customizer/customizer.php',

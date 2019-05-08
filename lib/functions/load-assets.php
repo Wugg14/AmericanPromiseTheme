@@ -55,6 +55,9 @@ function enqueue_assets() {
 	wp_enqueue_script( CHILD_TEXT_DOMAIN . '-responsive-menu', CHILD_URL . '/assets/js/responsive-menu.js', array( 'jquery' ), CHILD_THEME_VERSION, true );
 	//Enqueue Live Search
 	wp_enqueue_script( CHILD_TEXT_DOMAIN . '-search', CHILD_URL . '/assets/js/search.js', array( 'jquery' ), CHILD_THEME_VERSION, true );
+	//Enqueue Cookie Scripts
+	wp_enqueue_script( CHILD_TEXT_DOMAIN . '-JScookie', CHILD_URL . '/assets/js/jquery.cookie.js', array( 'jquery' ), CHILD_THEME_VERSION, true );
+	wp_enqueue_script( CHILD_TEXT_DOMAIN . '-popup', CHILD_URL . '/assets/js/popupBox-script.js', array( 'jquery' ), CHILD_THEME_VERSION, true );
 	// Page specific assets
 	if(is_page()){ //Check if we are viewing a page
 		global $wp_query;

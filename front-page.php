@@ -39,7 +39,7 @@ function custom_front_page_loop () {
 	problem_solution_section();
 	join_list_section();
 	blog_section();
-	events_section();
+	//events_section();
 	donate_section();
 };
 
