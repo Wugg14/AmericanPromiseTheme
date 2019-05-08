@@ -39,7 +39,7 @@ function custom_front_page_loop () {
 	problem_solution_section();
 	join_list_section();
 	blog_section();
-	//events_section();
+	events_section();
 	donate_section();
 };
 
@@ -58,7 +58,7 @@ function custom_header() {
 			<div class="header-flex__container">
 				<h1 class="front-header__title">Imagine a Government Run by People, Not&nbsp;Money</h1>
 				<div class="front-header-button__container">
-					<a href="<?php echo esc_url(site_url('/take-action/sign-up-to-learn-more/')); ?>"><button class= "front-header__button">Sign Up to Learn More</button></a>
+					<a href="<?php echo esc_url(site_url('/take-action/sign-up-to-learn-more/')); ?>"><button class= "front-header__button">Sign Up for Our Newsletter</button></a>
 				</div>
 			</div>
 		</div>
