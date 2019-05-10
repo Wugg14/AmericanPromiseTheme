@@ -22,3 +22,23 @@
 		font-size: 5rem;
 	}
 }
+
+#mc_embed_signup{text-align:center;}
+#mce-EMAIL{background-color: #5B2B7B; color: white;}
+#mce-EMAIL::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: white;
+  opacity: 1; /* Firefox */
+}
+
+#mce-EMAIL:-ms-input-placeholder { /* Internet Explorer 10-11 */
+color: white;
+}
+
+#mce-EMAIL::-ms-input-placeholder { /* Microsoft Edge */
+  color: white;
+}
+#mc-embedded-subscribe:hover{
+  opacity: .75;
+  color: #2F5179;
+  background-color: #E7D818;
+}

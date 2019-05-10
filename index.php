@@ -64,13 +64,13 @@ function custom_blog_archive_loop(){
           if (has_post_thumbnail()){
             ?>
             <div class="index-page__card__img__container">
-              <img class="index-page__card__img" src="<?php the_post_thumbnail_url(); ?>"></img>
+              <img class="index-page__card__img" src="<?php the_post_thumbnail_url('medium'); ?>"></img>
             </div>
             <?php
           } else{
             ?>
             <div class="index-page__card__img__container">
-              <img class="index-page__card__img" src="<?php echo get_theme_file_uri('/assets/images/APLogoColor.png') ?>"></img>
+              <img class="index-page__card__img" src="<?php echo get_theme_file_uri('/assets/images/APLogoColorOptimized.jpg') ?>"></img>
             </div>
             <?php
           }

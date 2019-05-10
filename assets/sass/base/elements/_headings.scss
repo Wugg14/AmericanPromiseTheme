@@ -41,7 +41,7 @@ h6 {
   @include rem( font-size, $h6--font-size );
 }
 
-.internal-custom__h1{
+.internal-custom__h1 h1{
 	color: $ampro--purple;
   margin-bottom: .1em
 

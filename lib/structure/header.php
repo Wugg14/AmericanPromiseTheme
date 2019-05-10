@@ -46,7 +46,7 @@ function featured_image_header() {
 			</div><?php
 		}
 	} else {
-		if ( !is_front_page() && !is_home() && !is_404() && !tribe_is_month() && !tribe_is_day() && !(tribe_is_past() || tribe_is_upcoming() && !is_tax())){
+		if (!is_author() && !is_front_page() && !is_home() && !is_404() && !tribe_is_month() && !tribe_is_day() && !(tribe_is_past() || tribe_is_upcoming() && !is_tax())){
 			remove_action( 'genesis_entry_header', 'genesis_do_post_title' );
 			if(get_field('no_banner_header')){
 				?><div class="featured-page-image--no-image"></div><?php

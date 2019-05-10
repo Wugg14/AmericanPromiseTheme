@@ -58,7 +58,7 @@ function custom_header() {
 			<div class="header-flex__container">
 				<h1 class="front-header__title">Imagine a Government Run by People, Not&nbsp;Money</h1>
 				<div class="front-header-button__container">
-					<a href="<?php echo esc_url(site_url('/take-action/sign-up-to-learn-more/')); ?>"><button class= "front-header__button">Sign Up for Our Newsletter</button></a>
+					<form action="<?php echo esc_url(site_url('/take-action/sign-up-to-learn-more/')); ?>"><button class= "front-header__button">Sign Up for Our Newsletter</button></form>
 				</div>
 			</div>
 		</div>
@@ -79,12 +79,12 @@ function problem_solution_section(){
 		<div class="first one-half problem__section">
 			<h1>The Problem</h1>
 			<p>The legally granted right to unchecked political spending by corporations, unions, special interest groups, and wealthy individuals is silencing the voices of citizens and corrupting our ability to freely and fairly elect a representative government of, by, and&nbsp;for&nbsp;the&nbsp;people. </p>
-			<a href="<?php echo esc_url(site_url('/who-we-are/faq/')); ?>"><button class="small-button--purple">Read More</button></a>
+			<form action="<?php echo esc_url(site_url('/who-we-are/faq/')); ?>"><button class="small-button--purple">Read More</button></form>
 		</div>
 		<div class="one-half solution__section">
 			<h1>The Solution</h1>
 			<p>The goal of American Promise is to organize Americans to win the 28th Amendment to the Constitution to restore American democracy in which We the People—not big money, not corporations, not unions, not&nbsp;special&nbsp;interests—govern&nbsp;ourselves.</p>
-			<a href="<?php echo esc_url(site_url('/who-we-are/about-american-promise/#solution')); ?>"><button class="small-button--purple">Read More</button></a>
+			<form action="<?php echo esc_url(site_url('/who-we-are/about-american-promise/#solution')); ?>"><button class="small-button--purple">Read More</button></form>
 		</div>
 	</div>
 	<?php
@@ -105,29 +105,6 @@ function join_list_section() {
 			<h1>Subscribe to Our Newsletter</h1>
 			<p>Tired of bad news, political divisiveness, and unsolved problems? Sign up to learn more about the growing movement towards the solution: winning the 28th Amendment so that people—not big money, not corporations, not unions, not special&nbsp;interests—govern&nbsp;America!</p>
 			<!-- Begin Mailchimp Signup Form -->
-					<style type="text/css">
-						#mc_embed_signup{text-align:center;}
-						#mce-EMAIL{background-color: #5B2B7B; color: white;}
-						#mce-EMAIL::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-  						color: white;
-  						opacity: 1; /* Firefox */
-						}
-
-						#mce-EMAIL:-ms-input-placeholder { /* Internet Explorer 10-11 */
-  					color: white;
-						}
-
-						#mce-EMAIL::-ms-input-placeholder { /* Microsoft Edge */
-  						color: white;
-						}
-						#mc-embedded-subscribe:hover{
-							opacity: .75;
-							color: #2F5179;
-							background-color: #E7D818;
-						}
-							/* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
-	   					We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
-					</style>
 					<div id="mc_embed_signup">
 						<form action="https://americanpromise.us19.list-manage.com/subscribe/post?u=7df407720bf61a8c8416bb9e7&amp;id=f12c7850d0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
     					<div id="mc_embed_signup_scroll">
@@ -183,11 +160,11 @@ function join_list_section() {
 				// Check for thumbnail
 				if (has_post_thumbnail()){
 						?>
-							<img class="post-thumbnail" src="<?php the_post_thumbnail_url('medium'); ?>"/>
+							<img class="post-thumbnail" alt="post-thumbnail" src="<?php the_post_thumbnail_url('medium'); ?>"/>
 						<?php
 				}else{
 						?>
-							<img class="post-thumbnail" src="<?php echo get_theme_file_uri('/assets/images/APLogoColorOptimized.jpg') ?>"/>
+							<img class="post-thumbnail" alt="default-thumbnail" src="<?php echo get_theme_file_uri('/assets/images/APLogoColorOptimized.jpg') ?>"/>
 						<?php
 				}?>
 				</div>
@@ -198,7 +175,7 @@ function join_list_section() {
 				if ($blog_counter == 7){
 				?>	<div class="post__card flex-col">
 						<div class="thumbnail__container" style="overflow: auto;">
-							<h3 class="view-all"><a href="<?php echo esc_url(site_url('/promising-stories/')); ?>">View All Stories</a><h3>
+							<h3 class="view-all"><a href="<?php echo esc_url(site_url('/promising-stories/')); ?>">View All Stories</a></h3>
 						</div>
 					</div> <?php
 				}
@@ -248,11 +225,11 @@ function events_section() {
 							$image = wp_get_attachment_image_src( get_post_thumbnail_id( $event->ID ), $size = 'medium');
 							$imageURL = $image[0];
 								?>
-									<img class="post-thumbnail" src="<?php echo $imageURL; ?>"/>
+									<img class="post-thumbnail" alt="post-thumbnail" src="<?php echo $imageURL; ?>"/>
 								<?php
 						}else{
 								?>
-									<img class="post-thumbnail" src="<?php echo get_theme_file_uri('/assets/images/APLogoColorOptimized.jpg') ?>"/>
+									<img class="post-thumbnail" alt="default-thumbnail" src="<?php echo get_theme_file_uri('/assets/images/APLogoColorOptimized.jpg') ?>"/>
 								<?php
 						}?>
 
@@ -286,7 +263,7 @@ function events_section() {
 				}
 				?>
 			</div>
-			<a style="text-decoration: none;" href="<?php echo esc_url(site_url('/events')); ?>"><button class="events-link-button">American Promise Calendar</button></a>
+			<form action="<?php echo esc_url(site_url('/events')); ?>"><button class="events-link-button">American Promise Calendar</button></form>
 		</div>
 	</div>
 	<?php
@@ -295,13 +272,13 @@ function events_section() {
 function donate_section(){
 	?>
 	<div class="donate__flex-grid">
-		<div class="donate-col donate_image__container"><img class="donate__image"src="https://res.cloudinary.com/dfzj6lgdn/image/upload/c_scale,w_1000/v1556215301/DonateToOurCauseImage.jpg" /></div>
+		<div class="donate-col donate_image__container"><img  alt="donate" class="donate__image" src="https://res.cloudinary.com/dfzj6lgdn/image/upload/c_scale,w_1000/v1556215301/DonateToOurCauseImage.jpg" /></div>
 		<div class="donate-col">
 			<div class="donate-flex-half">
 				<div>
 					<h1>Donate to the Cause of Our Time</h1>
 					<p> Your membership fuels the Citizen UpRising across America!</p>
-					<a href="<?php echo esc_url(site_url('/donate')); ?>"><button id="donate-button"class="small-button--purple">Donate</button></a>
+					<form action="<?php echo esc_url(site_url('/donate')); ?>"><button id="donate-button" class="small-button--purple">Donate</button></form>
 				</div>
 			</div>
 		</div>

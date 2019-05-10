@@ -35,8 +35,12 @@
   left: 0;
   right: 0;
   bottom: 0;
+}
+
+.darkened-background::after{
   background-color: rgba(0,0,0,0.6);
 }
+
 .message-overlay-con {
   position: absolute;
   top: 50%;
@@ -46,9 +50,9 @@
   width: 100%;
   text-align: center;
   z-index: 1;
-  font-size: 3em;
+  font-size: 1.5em;
   @media only screen and (max-height: 800px) {
-    font-size: 1.2em;
+    font-size: .9em;
   }
   color: white;
 }

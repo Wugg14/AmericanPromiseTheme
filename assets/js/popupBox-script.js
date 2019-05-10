@@ -24,9 +24,6 @@ jQuery(document).ready(function() {
       }
     });
   }
-  else{
-    exit;
-  }
 });
 
 function isMobileDevice() {

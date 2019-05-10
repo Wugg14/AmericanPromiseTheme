@@ -39,14 +39,14 @@ function ap_custom_footer() {
 			<div class="footer__column-1">
 				<p><a href="<?php echo esc_url(site_url('/donate')); ?>">Donate</a></p>
 				<p><a href="<?php echo esc_url(site_url('/contact-us')); ?>">Contact Us</a></p>
-				<p><a href="<?php echo esc_url(site_url('/career-opportunities')); ?>">We Are Hiring</p></a>
+				<p><a href="<?php echo esc_url(site_url('/career-opportunities')); ?>">We Are Hiring</a></p>
 				<p><a href="<?php echo esc_url(site_url('/privacy-and-return-policy')); ?>">Return and Privacy Policies</a></p>
 			</div>
 			<div class="footer__column-2">
 				<p><a href="https://www.facebook.com/ouramericanpromise/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i> Facebook</a></p>
 				<p><a href="https://twitter.com/usapromise/" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i> Twitter</a></p>
 				<p><a href="https://www.instagram.com/americanpromiseusa/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i> Instagram</a></p>
-				<a href= http://www.bridgealliance.us target="_blank"><img class="footer-logo-bridge" src="<?php echo get_theme_file_uri('/assets/images/Bridge_Alliance_Member_Badge.png') ?>"></a>
+				<a href= http://www.bridgealliance.us target="_blank"><img class="footer-logo-bridge" alt="bridge alliance" src="<?php echo get_theme_file_uri('/assets/images/Bridge_Alliance_Member_Badge.png') ?>"></a>
 			</div>
 		</div>
 		<div class="footer-end-text">
