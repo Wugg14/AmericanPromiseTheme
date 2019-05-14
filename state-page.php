@@ -39,6 +39,7 @@ function state_blog_posts(){
   $relatedPosts = new \WP_Query($relatedPostsQueryArgs);
   if($relatedPosts->have_posts()){
     ?>
+    <hr/>
     <div class="internal-custom__h1">
       <h1>Latest Stories From <span style="text-transform: capitalize;"><?php echo $formattedSlug ?></span></h1>
     </div>

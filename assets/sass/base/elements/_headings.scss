@@ -41,11 +41,11 @@ h6 {
   @include rem( font-size, $h6--font-size );
 }
 
-.internal-custom__h1 h1{
+.internal-custom__h1 {
 	color: $ampro--purple;
-  margin-bottom: .1em
+  margin-bottom: .1em;
 
-  &:after{
+   h1:after {
     content:' ';
     display:block;
     border:2px solid #d0d0d0;
