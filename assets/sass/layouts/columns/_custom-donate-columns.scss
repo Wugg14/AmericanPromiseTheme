@@ -1,0 +1,23 @@
+/* ## Donate Page Flexbox Columns
+--------------------------------------------- */
+.donate-columns__container {
+  display: flex;
+  margin-top: 25px;
+
+  @media (max-width: 850px) {
+    flex-direction: column-reverse;
+  }
+}
+
+.form-column {
+  @media (min-width: 850px) {
+    max-width: 50%;
+    margin-right: 25px;
+  }
+}
+
+.text-column {
+  @media (min-width: 850px) {
+    max-width: 50%;
+  }
+}
