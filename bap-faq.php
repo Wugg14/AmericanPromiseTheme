@@ -34,6 +34,8 @@ function bap_FAQ(){
     <br />
     <a href="#affiliation">What is American Promise's political affiliation?</a>
     <br />
+    <a href="#funded">How is American Promise funded?</a>
+    <br />
     <a href="#process">What’s the process for a passing a Constitutional Amendment?</a>
     <br />
     <a href="#consensus">How do we get the consensus—the super-majority—needed for the 28th Amendment when the country is so divided?</a>
@@ -189,6 +191,19 @@ To learn more, please see <a href="https://www.americanpromise.net/take-action/j
   We are Americans of all parties and no party. Fiercely non-partisan, our <a href="https://www.americanpromise.net/who-we-are/about-us/ap-advisory-council/">Advisory Council</a> includes members as diverse as former Sen. Alan Simpson (R-WY) & former Gov. Michael Dukakis (D-MA), former Sen. Olympia Snowe (R-ME) & Our Revolution President Nina Turner, and Take Back Our Republic Executive Director John Pudner & Ben & Jerry’s Ice Cream Co-founder Ben Cohen. We recognize that while we may disagree on many issues, Americans need to come together to authorize spending limits that protect our democratic republic.
   </p><p>
   To learn more, please see <a href="https://www.americanpromise.net/who-we-are/about-us/ap-advisory-council/">American Promise Advisory Council</a>.
+</p></i>
+
+<div class="anchor">
+  <a name="funded"></a>
+</div>
+
+<h2>How is American Promise funded?</h2>
+<i><p>American Promise operates as two distinct organizations with a shared mission to inspire, educate, empower, and organize Americans to win a 28th Amendment to the Constitution. American Promise was founded in 2016 by Jeff Clements and John Wass, who provided seed funding, and continue to volunteer without compensation for American Promise.<br/>
+<br/>
+American Promise, Inc, a non-profit organization recognized as tax-exempt under IRC section 501(c)(4) is home to our Citizen UpRising programs which offer support for all Americans who are joining us as volunteers on <a title="Take Action" href="http://www.americanpromise.net/take-action/">ballot initiative efforts, state and local 28th Amendment resolutions, the American Promise candidate pledge, citizen lobbying training and support, and more</a>. This work is made possible by our thousands of members around the country who contribute what they can to American Promise, Inc. 95% of these contributions are under $200. Our average contribution is $35. Funding in this area is pivotal to the success of securing the 28th Amendment.
+<br/>
+</br>
+To see a list of American Promises Major Donors <a href="https://www.americanpromise.net/who-we-are/faq#donors">click here</a>
 </p></i>
 
 <div class="anchor">

@@ -161,13 +161,13 @@ function bap_map(){
     <path fill="#A7A9AC" d="M353,161.9 l-1.5,25.4 -4.4,44 -2.7,-0.3 -83.3,-9.1 -27.9,-3 2,-12 6.9,-41 3.8,-24.2 1.3,-11.2 48.2,7 59.1,6.5z"/>
 
     <a xlink:href="mailto:bap.bayarea@gmail.com">
-  <path data-name="BayArea" class = "active-chapter-pin chapter-pin" data-info= '<div>Chapter Leader: Elizabeth Doty</div><div>Launch Date: 9/17</div><div>Contact Us: <a href="mailto:bap.bayarea@gmail.com">bap.bayarea@gmail.com</a></div>'
+  <path data-name="BayArea" class = "active-chapter-pin chapter-pin" data-info= '<div>Chapter Leader: Elizabeth Doty</div><div>Launch Date: 9/2017</div><div>Contact Us: <a href="mailto:bap.bayarea@gmail.com">bap.bayarea@gmail.com</a></div>'
    d="M32 2a20 20 0 0 0-20 20c0 18 20 40 20 40s20-22 20-40A20 20 0 0 0 32 2zm0 28a8 8 0 1 1 8-8 8 8 0 0 1-8 8z" transform="translate(13,215) scale(0.5 0.5)"
    fill="#5B2B7B"></path>
   </a>
 
   <a xlink:href="mailto:bap.boston@gmail.com">
-  <path data-name="Boston" class = "active-chapter-pin chapter-pin" data-info= '<div>Chapter Leader: Matt Patsky</div><div>Launch Date: 9/18</div><div>Contact Us: <a href="mailto:bap.boston@gmail.com">bap.boston@gmail.com</a></div>'
+  <path data-name="Boston" class = "active-chapter-pin chapter-pin" data-info= '<div>Chapter Leader: Matt Patsky</div><div>Launch Date: 9/2018</div><div>Contact Us: <a href="mailto:bap.boston@gmail.com">bap.boston@gmail.com</a></div>'
   d="M32 2a20 20 0 0 0-20 20c0 18 20 40 20 40s20-22 20-40A20 20 0 0 0 32 2zm0 28a8 8 0 1 1 8-8 8 8 0 0 1-8 8z" transform="translate(865,125) scale(0.5 0.5)"
   fill="#5B2B7B"></path>
   </a>

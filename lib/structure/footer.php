@@ -46,6 +46,7 @@ function ap_custom_footer() {
 				<p><a href="https://www.facebook.com/ouramericanpromise/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i> Facebook</a></p>
 				<p><a href="https://twitter.com/usapromise/" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i> Twitter</a></p>
 				<p><a href="https://www.instagram.com/americanpromiseusa/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i> Instagram</a></p>
+				<p><a href="https://www.linkedin.com/company/american-promise/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i> Linkedin</a></p>
 				<a href= http://www.bridgealliance.us target="_blank"><img class="footer-logo-bridge" alt="bridge alliance" src="<?php echo get_theme_file_uri('/assets/images/Bridge_Alliance_Member_Badge.png') ?>"></a>
 			</div>
 		</div>
