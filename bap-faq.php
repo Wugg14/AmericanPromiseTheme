@@ -18,8 +18,17 @@ function bap_FAQ(){
 <div>
   <h1>Contents:</h1>
   <a href="#problem"><h3>The Problem</h3></a>
+  <div style="margin-left: 25px;">
+    <a href="#problem">Why is pay-to-play politics bad for business and society?</a>
+  </div>
   <a href="#costs"><h3>The Costs</h3></a>
+  <div style="margin-left: 25px;">
+    <a href="#costs">How does pay-to-play politics affect me and my business?</a>
+  </div>
   <a href="#root"><h3>The Root Cause</h3></a>
+  <div style="margin-left: 25px;">
+    <a href="#root">How has pay-to-play politics gotten so bad?</a>
+  </div>
   <a href="#solution"><h3>The Solution</h3></a>
   <div style="margin-left: 25px;">
     <a href="#pay-to-play">What is the solution to pay-to-play politics?</a>
