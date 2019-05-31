@@ -22,8 +22,24 @@
   	justify-content: center;
 	text-align: center;
 	height: 100%;
-	background-color: $ampro--purple;
+	background-color: $ampro--blue;
 	color: white;
+
+	h1:after{
+		content: " ";
+		display: block;
+		border: 2px solid #d0d0d0;
+		border-radius: 4px;
+		-webkit-border-radius: 4px;
+		-moz-border-radius: 4px;
+		box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
+		-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
+		-moz-box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
+		width: 25%;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 10px;
+	}
 }
 
 .donate__flex-grid {
@@ -39,9 +55,8 @@
 	}
 	background-color: $ampro--yellow;
 	color: $ampro--blue;
+}
 
-	&hover{
-		background-color: $gray--light;
-		color: black;
-	}
+#donate-button:hover{
+	opacity: .75;
 }
