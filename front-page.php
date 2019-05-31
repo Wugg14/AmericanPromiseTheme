@@ -37,10 +37,9 @@ add_action( "genesis_loop",__NAMESPACE__  . "\custom_front_page_loop" );
 function custom_front_page_loop () {
 	custom_header();
 	problem_solution_section();
-	join_list_section();
+    donate_section();
 	blog_section();
 	events_section();
-	donate_section();
 };
 
 /**
@@ -277,8 +276,8 @@ function donate_section(){
 			<div class="donate-flex-half">
 				<div>
 					<h1>Donate to the Cause of Our Time</h1>
-					<p> Your membership fuels the Citizen UpRising across America!</p>
-					<form action="<?php echo esc_url(site_url('/donate')); ?>"><button id="donate-button" class="small-button--purple">Donate</button></form>
+					<p style="padding:10px;">Your support directly impacts how fast We the People can take back control of our country.</p>
+					<form action="<?php echo esc_url(site_url('/donate')); ?>"><button id="donate-button">Donate</button></form>
 				</div>
 			</div>
 		</div>

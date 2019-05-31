@@ -19,9 +19,11 @@
 .donate-flex-half{
 	display: flex;
 	align-items: center;
-  justify-content: center;
+  	justify-content: center;
 	text-align: center;
 	height: 100%;
+	background-color: $ampro--purple;
+	color: white;
 }
 
 .donate__flex-grid {
@@ -34,5 +36,12 @@
 #donate-button{
 	@media only screen and (max-width: 851px) {
 		margin-bottom: 40px;
+	}
+	background-color: $ampro--yellow;
+	color: $ampro--blue;
+
+	&hover{
+		background-color: $gray--light;
+		color: black;
 	}
 }
