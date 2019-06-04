@@ -64,7 +64,19 @@ add_action( 'genesis_entry_footer' ,  __NAMESPACE__ . '\blog_post_footer');
 function blog_post_footer() {
 	if ( is_singular('post') ) {
 		?>
-			<a href="<?php echo esc_url(site_url('/take-action/sign-up-to-learn-more/')); ?>"><img class="post-footer__image"src="https://americanpromise.net/wp-content/uploads/2019/01/apsignup.jpg"></a>
-		<?php
+        <hr />
+        <div class="one-half first">
+            <div class="internal-custom__h1"><h1>Sign up for our newsletter to stay up-to-date on news and progress towards the amendment</h1></div>
+            <?php echo do_shortcode('[gravityform id="6" title="false" description="false" ajax="true"]'); ?>
+        </div>
+        <div class="one-half post-footer__box" >
+            <h1>Donate to the Cause of Our Time</h1>
+            <h3>Your support directly impacts how fast We the People can take back control of our country.</h3>
+            <form action="https://www.americanpromise.net/donate">
+                <button id="donate-button">Donate</button>
+            </form>
+        </div>
+
+        <?php
 	}
 }

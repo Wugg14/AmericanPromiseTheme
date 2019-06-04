@@ -3,3 +3,16 @@
   margin-left: auto;
   margin-right: auto;
 }
+
+.post-footer__box {
+  background: #d0d0d0;
+  padding: 10px;
+
+  h1{
+    color: $ampro--purple;
+  }
+
+  form{
+    text-align: center;
+  }
+}
