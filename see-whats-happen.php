@@ -202,7 +202,7 @@ function ap_map_content(){
 <a xlink:href="http://www.americanpromise.net/connecticut"><polygon points="2.5,.25 1,4.95 4.75,1.95 .5,1.95 4,4.95" r="4" transform="translate(855,175)" id="Connecticut" style="fill:#FFFF00;stroke:#FFFF00;stroke-width:5;fill-rule:nonzero;" /></a>
 <a xlink:href="http://www.americanpromise.net/new_jersey"><polygon points="2.5,.25 1,4.95 4.75,1.95 .5,1.95 4,4.95" r="4" transform="translate(830,200)" id="NewJersey" style="fill:#FFFF00;stroke:#FFFF00;stroke-width:5;fill-rule:nonzero;" /></a>
 <a xlink:href="http://www.americanpromise.net/hawaii"><polygon points="2.5,.25 1,4.95 4.75,1.95 .5,1.95 4,4.95" r="4" transform="translate(330,565)" id="Hawaii" style="fill:#FFFF00;stroke:#FFFF00;stroke-width:5;fill-rule:nonzero;" /></a>
-
+<a xlink:href="http://www.americanpromise.net/new_hampshire"><polygon points="2.5,.25 1,4.95 4.75,1.95 .5,1.95 4,4.95" r="4" transform="translate(863,126)" id="New Hampshire" style="fill:#FFFF00;stroke:#FFFF00;stroke-width:5;fill-rule:nonzero;" /></a>
 
 <path id="frames" fill="none" stroke="#A9A9A9" stroke-width="2" d="M215,493v55l36,45 M0,425h147l68,68h85l54,54v46"/>
 </svg>
