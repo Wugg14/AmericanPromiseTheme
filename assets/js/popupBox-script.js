@@ -1,6 +1,7 @@
 jQuery(document).ready(function() {
+  const mq = window.matchMedia( "(min-width: 550px)" );
   var isMobile = isMobileDevice()
-  if(isMobile == false){
+  if(isMobile == false && mq.matches){
     //Prevent's cookie from being given twice
     var signedUp = false;
     // Functionality that controls hiding/showing the email signup lightbox
