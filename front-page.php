@@ -250,12 +250,12 @@ function events_section() {
 					?>
 					<div class="post__card one-third">
 						<div class="thumbnail__container" style="overflow:auto;">
-							<p class="view-all">No Other Upcoming Events</p>
+							<p class="view-all">No Other Announced Events</p>
 						</div>
 					</div>
 					<div class="post__card one-third">
 						<div class="thumbnail__container" style="overflow:auto;">
-							<p class="view-all">No Other Upcoming Events</p>
+							<p class="view-all">No Other Announced Events</p>
 						</div>
 					</div>
 					<?php
