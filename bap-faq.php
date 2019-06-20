@@ -136,7 +136,7 @@ To learn more, please see <a href="https://www.americanpromise.net/take-action/j
 <i><p>
 The current dysfunction of our political system is not self-correcting; systemic change is required to restore the health of our civic institutions and the integrity of our government.
 </p><p>
-Amazingly, 75% of Americans agree on the solution to pay-to-play politics; they are convinced that we need a 28th Constitutional Amendment to end unlimited political spending, distinguish between legal entities and natural persons, and affirm our national interest in political equality. Thus far, nineteen states have passed resolutions calling for the 28th Amendment as one of several critical reforms needed to secure our republic.
+Amazingly, 75% of Americans agree on the solution to pay-to-play politics; they are convinced that we need a 28th Constitutional Amendment to end unlimited political spending, distinguish between legal entities and natural persons, and affirm our national interest in political equality. Thus far, twenty states have passed resolutions calling for the 28th Amendment as one of several critical reforms needed to secure our republic.
 </p><p>
 To learn more, please see <a href="https://www.americanpromise.net/take-action/join-a-program/business-for-american-promise/pay-to-play-is-a-losing-proposition-for-business-society/">Why Pay-to-Play Politics is a Losing Proposition for Business and Society.</a>
 </p></i>
@@ -171,7 +171,7 @@ To learn more, please see <a href="https://www.americanpromise.net/take-action/j
 
 <h2>Who is leading the effort for the 28th Amendment?</h2>
 <i><p>
-  Hundreds of thousands of Americans across the country are working in their cities, towns, and state legislatures to advance the 28th Amendment. Nineteen states and 800 cities and towns have already passed resolutions calling for the amendment, and groups of all political persuasions are working to advance this cause.
+  Hundreds of thousands of Americans across the country are working in their cities, towns, and state legislatures to advance the 28th Amendment. Twenty states and 800 cities and towns have already passed resolutions calling for the amendment, and groups of all political persuasions are working to advance this cause.
   </p><p>
   <a href="https://www.americanpromise.net/">American Promise</a> is the leading non-partisan organization working to empower, support and unite these efforts, with a <a href="https://www.americanpromise.net/2019_roadmap_to_success/">10-year strategy</a> for providing the infrastructure and focus needed to win. We are a member of the <a href="https://www.bridgealliance.us/">Bridge Alliance</a>, and regularly work with other groups across the political spectrum to advance effective structural reform that restore representative democracy.
   </p><p>
@@ -230,7 +230,7 @@ To see a list of American Promises Major Donors <a href="https://www.americanpro
 
 <h2>How do we get the consensus—the super-majority—needed for the 28th Amendment when the country is so divided?</h2>
 <i><p>
-  Amazingly, the amendment is one issue on which American citizens agree. 75% of Americans support it, and nineteen states have passed resolutions instructing their Congressional delegations to act on it.
+  Amazingly, the amendment is one issue on which American citizens agree. 75% of Americans support it, and twenty states have passed resolutions instructing their Congressional delegations to act on it.
   </p><p>
   Historically, amendments are born in times of turmoil, when everyday citizens recognize a threat to the republic’s core principles and move into action. Between 1865 and 1870, Americans passed three constitutional amendments. Between 1961 and 1971, we passed four. With the 28th Amendment, Americans are rising to the occasion once again.
 </p></i>
