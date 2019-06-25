@@ -10,11 +10,15 @@
  */
 namespace AmericanPromise\AmericanPromiseTheme;
 
-//Tracking for Donate form refurl hidden field
+//Tracking for forms
 add_filter( 'gform_field_value_refurl', __NAMESPACE__ . '\populate_referral_url');
 
+add_filter( 'gform_field_value_page_title', __NAMESPACE__ . '\form_title_population' );
+
+add_filter( 'gform_field_value_url', __NAMESPACE__ . '\form_url_population' );
+
 /**
- * Adds the HTTP referer to the hidden field
+ * Adds the HTTP referer to the Redirect URL field
  *
  * @since 1.0.0
  *
@@ -30,7 +34,6 @@ function populate_referral_url( $form ){
     return esc_url_raw($refurl);
 }
 
-add_filter( 'gform_field_value_your_parameter', __NAMESPACE__ . '\form_population' );
 
 /**
  * Autofills the hidden field of Event Name on all Event RSVP forms for tracking purposes
@@ -39,7 +42,27 @@ add_filter( 'gform_field_value_your_parameter', __NAMESPACE__ . '\form_populatio
  *
  * @return $title variable containing title of current event page
  */
-function form_population() {
+function form_title_population() {
+    //get the title of the current page
 	$title = get_the_title();
-  return $title;
+
+	//return the value of the title
+    return $title;
 }
+
+
+/**
+ * Autofills the hidden field of form url
+ *
+ * @since 1.0.1
+ *
+ * @return $currentUrl variable containing url of current page
+ */
+function form_url_population() {
+    //get the url of the current page
+    $currentUrl = get_the_permalink();
+
+    //return the value of the url
+    return $currentUrl;
+}
+

@@ -10,8 +10,6 @@
  */
 namespace AmericanPromise\AmericanPromiseTheme;
 
-?>
-<?php
 $args = array(
   'post_status'=>'publish',
   'post_type'=>'tribe_events',

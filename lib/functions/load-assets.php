@@ -96,6 +96,9 @@ function enqueue_assets() {
 		if(is_page('building-a-national-network')){
 			wp_enqueue_script( CHILD_TEXT_DOMAIN . '-mapScript', CHILD_URL . '/assets/js/map-jquery.js', array( 'jquery' ), CHILD_THEME_VERSION, true );
 		}
+        if(is_page('american-promise-url-builder')){
+            wp_enqueue_script( CHILD_TEXT_DOMAIN . '-urlBuilderScript', CHILD_URL . '/assets/js/urlBuilder-script.js', array( 'jquery' ), CHILD_THEME_VERSION, true );
+        }
 	};
 	$localized_script_args = array(
 		'mainMenu' => __( 'Menu', CHILD_TEXT_DOMAIN ),
