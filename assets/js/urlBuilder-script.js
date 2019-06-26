@@ -9,11 +9,11 @@ jQuery(document).ready( function () {
         let name = jQuery('#name').val();
         let date = jQuery('#date').val().toString();
 
-        let campaign = name + date;
+        let campaign = source + '-' + name + '-' + date;
 
         if (url.slice(-1) != '/'){
             url += '/';
-        };
+        }
 
         let results = url + '?utm_source=' + source + '&utm_campaign=' + campaign + '&apchannel=' + campaign;
 

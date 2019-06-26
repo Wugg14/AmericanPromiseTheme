@@ -21,18 +21,17 @@ function url_builder(){
     <h2>Your URL:</h2>
     <input type="text" id="url">
     <br/>
-    <h2>Campaign Source (Facebook, newsletter, email):</h2>
+    <h2>Channel Source (Facebook, twitter, email, partner):</h2>
     <input type="text" id="source">
     <br/>
-    <h2>Campaign Name (newsletter, facebook ad, etc):</h2>
+    <h2>Channel Name:</h2>
     <input type="text" id="name">
     <br/>
-    <h2>Campaign Date (MMDDYY):</h2>
+    <h2>Channel Date (MMDDYY):</h2>
     <input type="text" id="date">
     <br/>
-    <div style="color:white;background-color:#2f5179;padding:10px; max-width: 50px;margin: 20px;" id="build">Go</div>
-    <br/>
-    <div id="results">
+    <div style="color:white;background-color:#2f5179;padding:10px; max-width: 50px;margin-top: 20px; margin-bottom: 20px;" id="build">Go</div>
+    <div id="results" style="margin-bottom: 20px;">
         <h2>Your URL:</h2>
         <input type="text"  id="newurl" style="width: 600px;">
     </div>
