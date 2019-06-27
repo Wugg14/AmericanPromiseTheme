@@ -23,7 +23,7 @@ function url_builder(){
     <h2>Channel Source (Facebook, twitter, email, partner):</h2>
     <select name="source" id="source">
         <option value="FBAd">FBAd</option>
-        <option value="Email">Email</option>
+        <option value="email">email</option>
         <option value="FBorganic">FBorganic</option>
         <option value="Manually Entering Event Signups">Manually Entering Event Signups</option>
         <options  value="Partner">Partner</options>
