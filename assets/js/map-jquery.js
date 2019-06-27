@@ -1,5 +1,4 @@
 jQuery(document).ready(function(){
-	console.log('script ready')
 	jQuery(".active-chapter-pin").hover(function(e) {
 		jQuery('#info-box').css('display','block');
 		jQuery('#info-box').html(jQuery(this).data('info'));

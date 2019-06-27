@@ -17,6 +17,18 @@ add_filter( 'gform_field_value_page_title', __NAMESPACE__ . '\form_title_populat
 
 add_filter( 'gform_field_value_url', __NAMESPACE__ . '\form_url_population' );
 
+// If the cookie is present, this will fill in the channel hidden field on forms
+// This will only happen if the form is visited after a first page reload
+// This is because PHP cannot access a cookie until the browser sends it back in a second
+// request to the server. This is fine, as if the user is filling out a form
+// on their first page load the URL parameter will populate the hidden field.
+if(isset($_COOKIE['apchannel'])){
+    add_filter('gform_field_value_apchannel', __NAMESPACE__ . '\form_channel_population');
+    add_action( 'genesis_after_header' ,  __NAMESPACE__ . '\form_channel_population');
+    add_action( 'genesis_before_footer', __NAMESPACE__ . '\check_channel_code_with_js');
+}
+
+
 /**
  * Adds the HTTP referer to the Redirect URL field
  *
@@ -50,7 +62,6 @@ function form_title_population() {
     return $title;
 }
 
-
 /**
  * Autofills the hidden field of form url
  *
@@ -66,3 +77,28 @@ function form_url_population() {
     return $currentUrl;
 }
 
+/**
+ *Fills in the channel hidden field with the apchannel cookie value
+ *
+ * @since 1.0.1
+ *
+ * @return $currentUrl variable containing url of current page
+ */
+function form_channel_population() {
+    $apchannel = $_COOKIE['apchannel'];
+
+    return $apchannel;
+}
+
+/**
+ * creates hidden div before the footer so that jquery can check to make sure the
+ * channel code is correct. For cases when cookie has not yet been reloaded with new
+ * channel value.
+ *
+ * @since 1.0.1
+ */
+function check_channel_code_with_js() {
+    ?>
+    <div class="channel-code"><?php echo $_COOKIE['apchannel'] ?></div>
+    <?php
+}
