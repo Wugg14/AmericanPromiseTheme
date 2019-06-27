@@ -6,10 +6,11 @@ jQuery(document).ready( function () {
 
         let url = jQuery('#url').val();
         let source =  jQuery('#source').val();
-        let name = jQuery('#name').val();
+        let bucket = jQuery('#bucket').val();
+        let descriptor = jQuery('#descriptor').val();
         let date = jQuery('#date').val().toString();
 
-        let campaign = source + '-' + name + '-' + date;
+        let campaign = source + '-' + bucket + '-' + descriptor + '-' + date;
 
         if (url.slice(-1) != '/'){
             url += '/';

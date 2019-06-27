@@ -99,6 +99,6 @@ function form_channel_population() {
  */
 function check_channel_code_with_js() {
     ?>
-    <div class="channel-code"><?php echo $_COOKIE['apchannel'] ?></div>
+    <div class="channel-code" style="display:none;"><?php echo $_COOKIE['apchannel'] ?></div>
     <?php
 }
