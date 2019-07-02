@@ -26,7 +26,7 @@ function url_builder(){
         <option value="email">email</option>
         <option value="FBorganic">FBorganic</option>
         <option value="Manually Entering Event Signups">Manually Entering Event Signups</option>
-        <options  value="Partner">Partner</options>
+        <option  value="Partner">Partner</option>
     </select>
     <br/>
     <h2>Channel Bucket</h2>
@@ -36,6 +36,7 @@ function url_builder(){
         <option value="Giveaway">Giveaway</option>
         <option value="Newsletter">Newsletter</option>
         <option value="Donate">Donate</option>
+        <option value="NCLC">NCLC</option>
     </select>
     <br/>
     <h2>Channel Descriptor:</h2>
