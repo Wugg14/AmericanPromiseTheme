@@ -7,10 +7,19 @@ jQuery(document).ready( function () {
         let url = jQuery('#url').val();
         let source =  jQuery('#source').val();
         let bucket = jQuery('#bucket').val();
+        let audience = jQuery('#audience').val();
+        let target = jQuery('#target').val();
+        if (target === '') {
+            target = 'null';
+        }
+        let partner = jQuery('#partner').val();
+        if (partner === '') {
+            partner = 'null';
+        }
         let descriptor = jQuery('#descriptor').val();
         let date = jQuery('#date').val().toString();
 
-        let campaign = source + '-' + bucket + '-' + descriptor + '-' + date;
+        let campaign = source + '-' + bucket + '-' + audience + '-' + target + '-' + partner + '-' + descriptor + '-' + date;
 
         if (url.slice(-1) != '/'){
             url += '/';
@@ -18,7 +27,6 @@ jQuery(document).ready( function () {
 
         let results = url + '?utm_source=' + source + '&utm_campaign=' + campaign + '&apchannel=' + campaign;
 
-        console.log(results);
         jQuery('#newurl').val(results);
     })
 });

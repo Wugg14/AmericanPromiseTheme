@@ -23,8 +23,8 @@ function url_builder(){
     <h2>Channel Source (Facebook, twitter, email, partner):</h2>
     <select name="source" id="source">
         <option value="FBAd">FBAd</option>
-        <option value="email">email</option>
-        <option value="FBorganic">FBorganic</option>
+        <option value="Email">email</option>
+        <option value="FB">FB</option>
         <option value="Manually Entering Event Signups">Manually Entering Event Signups</option>
         <option  value="Partner">Partner</option>
     </select>
@@ -36,8 +36,21 @@ function url_builder(){
         <option value="Giveaway">Giveaway</option>
         <option value="Newsletter">Newsletter</option>
         <option value="Donate">Donate</option>
-        <option value="NCLC">NCLC</option>
+        <option value="Partner">Partner</option>
     </select>
+    <br/>
+    <h2>Audience</h2>
+    <select name="audience" id="audience">
+        <option value="D">D</option>
+        <option value="R">R</option>
+        <option value="Youth">Youth</option>
+        <option value="Null">None</option>
+    </select>
+    <h2>Location Target</h2>
+    <input type="text" id="target">
+    <br/>
+    <h2>Partner Name</h2>
+    <input type="text" id="partner">
     <br/>
     <h2>Channel Descriptor:</h2>
     <input type="text" id="descriptor">
