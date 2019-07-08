@@ -27,6 +27,8 @@ function url_builder(){
         <option value="FB">FB</option>
         <option value="Manually Entering Event Signups">Manually Entering Event Signups</option>
         <option  value="Partner">Partner</option>
+        <option value="Twitter">Twitter</option>
+        <option value="Newsletter">Newsletter</option>
     </select>
     <br/>
     <h2>Channel Bucket</h2>
