@@ -39,6 +39,7 @@ function url_builder(){
         <option value="Newsletter">Newsletter</option>
         <option value="Donate">Donate</option>
         <option value="Partner">Partner</option>
+        <option value="Content">Content</option>
     </select>
     <br/>
     <h2>Audience</h2>

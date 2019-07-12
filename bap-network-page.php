@@ -172,73 +172,73 @@ function bap_map(){
   fill="#5B2B7B"></path>
   </a>
 
-  <a xlink:href="https://www.americanpromise.net/take-action/join-a-program/business-for-american-promise/start-a-chapter/">
+  <a xlink:href="https://www.americanpromise.net/take-action/join-a-program/business-for-american-promise/start-a-chapter/" target="_Blank">
   <path data-name="Maine" class = "active-chapter-pin chapter-pin" data-info= '<div>Maine BAP</div><div>Launch date: Forming</div><div>Help form this local chapter</div>'
   d="M32 2a20 20 0 0 0-20 20c0 18 20 40 20 40s20-22 20-40A20 20 0 0 0 32 2zm0 28a8 8 0 1 1 8-8 8 8 0 0 1-8 8z" transform="translate(875,60) scale(0.5 0.5)"
   fill="#2F5179"></path>
   </a>
 
-  <a xlink:href="https://www.americanpromise.net/take-action/join-a-program/business-for-american-promise/start-a-chapter/">
+  <a xlink:href="https://www.americanpromise.net/take-action/join-a-program/business-for-american-promise/start-a-chapter/" target="_Blank">
   <path data-name="Alaska" class = "active-chapter-pin chapter-pin" data-info= '<div>Alaska BAP</div><div>Launch date: Forming</div><div>Help form this local chapter</div>'
   d="M32 2a20 20 0 0 0-20 20c0 18 20 40 20 40s20-22 20-40A20 20 0 0 0 32 2zm0 28a8 8 0 1 1 8-8 8 8 0 0 1-8 8z" transform="translate(105,470) scale(0.5 0.5)"
   fill="#2F5179"></path>
   </a>
 
-  <a xlink:href="https://www.americanpromise.net/take-action/join-a-program/business-for-american-promise/start-a-chapter/">
+  <a xlink:href="https://www.americanpromise.net/take-action/join-a-program/business-for-american-promise/start-a-chapter/" target="_Blank">
   <path data-name="Colorado" class = "active-chapter-pin chapter-pin" data-info= '<div>Colorado BAP</div><div>Launch date: Forming</div><div>Help form this local chapter</div>'
   d="M32 2a20 20 0 0 0-20 20c0 18 20 40 20 40s20-22 20-40A20 20 0 0 0 32 2zm0 28a8 8 0 1 1 8-8 8 8 0 0 1-8 8z" transform="translate(305,245) scale(0.5 0.5)"
   fill="#2F5179"></path>
   </a>
 
-  <a xlink:href="https://www.americanpromise.net/take-action/join-a-program/business-for-american-promise/start-a-chapter/">
+  <a xlink:href="https://www.americanpromise.net/take-action/join-a-program/business-for-american-promise/start-a-chapter/" target="_Blank">
   <path data-name="NewYork" class = "active-chapter-pin chapter-pin" data-info= '<div>New York BAP</div><div>Launch date: Forming</div><div>Help form this local chapter</div>'
   d="M32 2a20 20 0 0 0-20 20c0 18 20 40 20 40s20-22 20-40A20 20 0 0 0 32 2zm0 28a8 8 0 1 1 8-8 8 8 0 0 1-8 8z" transform="translate(800,130) scale(0.5 0.5)"
   fill="#2F5179"></path>
   </a>
 
-  <a xlink:href="https://www.americanpromise.net/take-action/join-a-program/business-for-american-promise/start-a-chapter/">
+  <a xlink:href="https://www.americanpromise.net/take-action/join-a-program/business-for-american-promise/start-a-chapter/" target="_Blank">
   <path data-name="Ohio" class = "active-chapter-pin chapter-pin" data-info= '<div>Ohio BAP</div><div>Launch date: Forming</div><div>Help form this local chapter</div>'
   d="M32 2a20 20 0 0 0-20 20c0 18 20 40 20 40s20-22 20-40A20 20 0 0 0 32 2zm0 28a8 8 0 1 1 8-8 8 8 0 0 1-8 8z" transform="translate(690,210) scale(0.5 0.5)"
   fill="#2F5179"></path>
   </a>
 
-  <a xlink:href="https://www.americanpromise.net/take-action/join-a-program/business-for-american-promise/start-a-chapter/">
+  <a xlink:href="https://www.americanpromise.net/take-action/join-a-program/business-for-american-promise/start-a-chapter/" target="_Blank">
   <path data-name="Pennsylvania" class = "active-chapter-pin chapter-pin" data-info= '<div>Pennsylvania BAP</div><div>Launch date: Forming</div><div>Help form this local chapter</div>'
   d="M32 2a20 20 0 0 0-20 20c0 18 20 40 20 40s20-22 20-40A20 20 0 0 0 32 2zm0 28a8 8 0 1 1 8-8 8 8 0 0 1-8 8z" transform="translate(765,185) scale(0.5 0.5)"
   fill="#2F5179"></path>
   </a>
 
-  <a xlink:href="https://www.americanpromise.net/take-action/join-a-program/business-for-american-promise/start-a-chapter/">
+  <a xlink:href="https://www.americanpromise.net/take-action/join-a-program/business-for-american-promise/start-a-chapter/" target="_Blank">
   <path data-name="Wisconsin" class = "active-chapter-pin chapter-pin" data-info= '<div>Wisconsin BAP</div><div>Launch date: Forming</div><div>Help form this local chapter</div>'
   d="M32 2a20 20 0 0 0-20 20c0 18 20 40 20 40s20-22 20-40A20 20 0 0 0 32 2zm0 28a8 8 0 1 1 8-8 8 8 0 0 1-8 8z" transform="translate(560,130) scale(0.5 0.5)"
   fill="#2F5179"></path>
   </a>
 
-  <a xlink:href="https://www.americanpromise.net/take-action/join-a-program/business-for-american-promise/start-a-chapter/">
+  <a xlink:href="https://www.americanpromise.net/take-action/join-a-program/business-for-american-promise/start-a-chapter/" target="_Blank">
   <path data-name="Texas" class = "active-chapter-pin chapter-pin" data-info= '<div>Texas BAP</div><div>Launch date: Forming</div><div>Help form this local chapter</div>'
   d="M32 2a20 20 0 0 0-20 20c0 18 20 40 20 40s20-22 20-40A20 20 0 0 0 32 2zm0 28a8 8 0 1 1 8-8 8 8 0 0 1-8 8z" transform="translate(405,425) scale(0.5 0.5)"
   fill="#2F5179"></path>
   </a>
 
-  <a xlink:href="https://www.americanpromise.net/take-action/join-a-program/business-for-american-promise/start-a-chapter/">
+  <a xlink:href="https://www.americanpromise.net/take-action/join-a-program/business-for-american-promise/start-a-chapter/" target="_Blank">
   <path data-name="Michigan" class = "active-chapter-pin chapter-pin" data-info= '<div>Michigan BAP</div><div>Launch date: Forming</div><div>Help form this local chapter</div>'
   d="M32 2a20 20 0 0 0-20 20c0 18 20 40 20 40s20-22 20-40A20 20 0 0 0 32 2zm0 28a8 8 0 1 1 8-8 8 8 0 0 1-8 8z" transform="translate(645,155) scale(0.5 0.5)"
   fill="#2F5179"></path>
   </a>
 
-  <a xlink:href="https://www.americanpromise.net/take-action/join-a-program/business-for-american-promise/start-a-chapter/">
+  <a xlink:href="https://www.americanpromise.net/take-action/join-a-program/business-for-american-promise/start-a-chapter/" target="_Blank">
   <path data-name="Minnesota" class = "active-chapter-pin chapter-pin" data-info= '<div>Minnesota BAP</div><div>Launch date: Forming</div><div>Help form this local chapter</div>'
   d="M32 2a20 20 0 0 0-20 20c0 18 20 40 20 40s20-22 20-40A20 20 0 0 0 32 2zm0 28a8 8 0 1 1 8-8 8 8 0 0 1-8 8z" transform="translate(490,110) scale(0.5 0.5)"
   fill="#2F5179"></path>
   </a>
 
-  <a xlink:href="https://www.americanpromise.net/take-action/join-a-program/business-for-american-promise/start-a-chapter/">
+  <a xlink:href="https://www.americanpromise.net/take-action/join-a-program/business-for-american-promise/start-a-chapter/" target="_Blank">
   <path data-name="NewHampshire" class = "active-chapter-pin chapter-pin" data-info= '<div>New Hampshire BAP</div><div>Launch date: Forming</div><div>Help form this local chapter</div>'
   d="M32 2a20 20 0 0 0-20 20c0 18 20 40 20 40s20-22 20-40A20 20 0 0 0 32 2zm0 28a8 8 0 1 1 8-8 8 8 0 0 1-8 8z" transform="translate(850,100) scale(0.5 0.5)"
   fill="#2F5179"></path>
   </a>
 
-  <a xlink:href="https://www.americanpromise.net/take-action/join-a-program/business-for-american-promise/start-a-chapter/">
+  <a xlink:href="https://www.americanpromise.net/take-action/join-a-program/business-for-american-promise/start-a-chapter/" target="_Blank">
   <path data-name="Virginia" class = "active-chapter-pin chapter-pin" data-info= '<div>Virginia BAP</div><div>Launch date: Forming</div><div>Help form this local chapter</div>'
   d="M32 2a20 20 0 0 0-20 20c0 18 20 40 20 40s20-22 20-40A20 20 0 0 0 32 2zm0 28a8 8 0 1 1 8-8 8 8 0 0 1-8 8z" transform="translate(775,260) scale(0.5 0.5)"
   fill="#2F5179"></path>
