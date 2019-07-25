@@ -10,8 +10,11 @@
   border-bottom-width: 1px;
   border-bottom-style: solid;
   border-bottom-color: black;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
 
-  @media only screen and (max-width: 1020px) {
+  @media only screen and (max-width: 1022px) {
     display: none;
   }
 }
@@ -22,7 +25,7 @@
 }
 
 .bap-sub-header_left-side {
-  width: 50%;
+  width: 60%;
 }
 
 .bap-sub-header__h1 {
@@ -60,7 +63,7 @@
   z-index: 1;
 
   @media only screen and (max-width: 1430px) {
-    font-size: .65em;
+    font-size: .75em;
     margin-top: -7px;
   }
 }
@@ -78,7 +81,7 @@
   color:black;
 
   @media only screen and (max-width: 1430px) {
-    font-size: .65em;
+    font-size: .75em;
   }
 }
 
@@ -97,4 +100,9 @@
 .membership-btn {
   border: 1px black solid;
   padding: 5px;
+}
+
+#BAP_sub-menu__spacer {
+  height: 191.25px;
+  display: none;
 }

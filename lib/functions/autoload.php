@@ -37,6 +37,7 @@ function load_nonadmin_files() {
 		'structure/comments.php',
 		'structure/footer.php',
 		'structure/header.php',
+		'structure/navigation.php',
 		'structure/menu.php',
 		'structure/popups.php',
 		'structure/post.php',
