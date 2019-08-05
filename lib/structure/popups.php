@@ -31,7 +31,7 @@ function signup_popup() {
             	<i class="fa fa-window-close close-popup" aria-hidden="true"></i>
             </div>
             <div class="message-overlay-con">
-            	Sign up for our newsletter to stay up-to-date on the latest news around the movement to get big money out of politics
+                <strong>Sign here to tell Congress:</strong> Take a break from fundraising and listen to the people. Pass the 28th Amendment NOW to end corrupt pay-to-play politics and give EVERY American a voice.
             </div>
         </div>
         <?php echo do_shortcode('[gravityform id="6" title="false" description="false" ajax="true"]'); ?>
