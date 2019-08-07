@@ -1,6 +1,6 @@
 jQuery(document).ready(function() {
   const mq = window.matchMedia( "(min-width: 550px)" );
-  const hq = window.matchMedia( "(min-height: 500px)" );
+  const hq = window.matchMedia( "(min-height: 600px)" );
   var isMobile = isMobileDevice()
   if(isMobile == false && mq.matches && hq.matches){
     //Prevent's cookie from being given twice
@@ -12,7 +12,6 @@ jQuery(document).ready(function() {
     }
     // If user closes lightbox set cookie for 30 days to not show again
     jQuery('.close-popup').click(function() {
-      console.log(signedUp)
       if(signedUp == false){
         Cookies.set('noti', 'closed', { expires: 30 });
       };
