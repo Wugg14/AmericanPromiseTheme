@@ -14,4 +14,7 @@ jQuery(document).ready( function () {
   jQuery('#table4').DataTable({
     pageLength: 10
   });
+    jQuery('#table5').DataTable({
+        pageLength: 25
+    });
 });

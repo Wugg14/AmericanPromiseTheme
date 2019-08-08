@@ -1,11 +1,26 @@
 jQuery(document).ready( function () {
   jQuery('#table1_wrapper').hide();
+  jQuery('#table2_wrapper').hide();
+  jQuery('#pres').on('click',function(){
+    jQuery('#pres').removeClass('not-active-button');
+    jQuery('#pres').addClass('active-button');
+    jQuery('#2019').removeClass('active-button');
+    jQuery('#2019').addClass('not-active-button');
+    jQuery('#2018').removeClass('active-button');
+    jQuery('#2018').addClass('not-active-button');
+    jQuery('#table2_wrapper').slideUp(400);
+    jQuery('#table1_wrapper').slideUp(400);
+    jQuery('#table5_wrapper').slideDown(400);
+  });
   jQuery('#2018').on('click',function(){
     jQuery('#2018').removeClass('not-active-button');
     jQuery('#2018').addClass('active-button');
     jQuery('#2019').removeClass('active-button');
     jQuery('#2019').addClass('not-active-button');
+    jQuery('#pres').removeClass('active-button');
+    jQuery('#pres').addClass('not-active-button');
     jQuery('#table2_wrapper').slideUp(400);
+    jQuery('#table5_wrapper').slideUp(400);
     jQuery('#table1_wrapper').slideDown(400);
   });
   jQuery('#2019').on('click',function(){
@@ -13,7 +28,10 @@ jQuery(document).ready( function () {
     jQuery('#2019').addClass('active-button');
     jQuery('#2018').removeClass('active-button');
     jQuery('#2018').addClass('not-active-button');
+    jQuery('#pres').removeClass('active-button');
+    jQuery('#pres').addClass('not-active-button');
     jQuery('#table1_wrapper').slideUp(400);
+    jQuery('#table5_wrapper').slideUp(400);
     jQuery('#table2_wrapper').slideDown(400);
     });
 });
