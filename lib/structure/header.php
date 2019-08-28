@@ -45,7 +45,7 @@ function featured_image_header() {
                 <img src=<?php echo $imgURL ?>></img>
                 </div><?php
             } else {
-                ?><div class="featured-page-image" style="background: url(<?php echo $imgURL ?>);">
+                ?><div class="featured-page-image" style="background: url(<?php echo $imgURL ?>); background-position: 50%;">
                 <h1><?php the_title(); ?></h1>
                 </div><?php
             }
