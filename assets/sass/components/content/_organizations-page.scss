@@ -1,0 +1,24 @@
+/* ## Organization Page
+--------------------------------------------- */
+
+.org-logos__container {
+  display:flex;
+
+  @media only screen and (max-width: 860px) {
+    flex-direction: column;
+  }
+}
+
+.org-logos__box {
+  margin: 10px;
+
+  @media only screen and (min-width: 860px) {
+    border: 1px solid #d0d0d0;
+    padding: 5px;
+  }
+}
+
+.org-logos__logo {
+  text-align: center;
+}
+
