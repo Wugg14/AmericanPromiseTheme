@@ -127,5 +127,3 @@ function state_blog_posts(){
 };
 
 genesis();
-
-genesis();

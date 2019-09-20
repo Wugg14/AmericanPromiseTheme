@@ -10,7 +10,7 @@
  */
 namespace AmericanPromise\AmericanPromiseTheme;
 
-add_action( 'genesis_after_footer', __NAMESPACE__ . '\signup_popup' );
+add_action( 'genesis_before_header', __NAMESPACE__ . '\signup_popup' );
 
 
 /**
@@ -21,7 +21,8 @@ add_action( 'genesis_after_footer', __NAMESPACE__ . '\signup_popup' );
  * @return void
  */
 function signup_popup() {
-	if(!is_page('donate') && !is_page('renew') && !is_user_logged_in() && !is_page('ohio') && !is_page('pennsylvania') && !is_page('maine') && !is_page('wisconsin') && !is_page('michigan') && !is_page('colorado') && !is_page('new_york')) {
+    $popupfield = get_field("turn_off_popup");
+	if(!is_user_logged_in() && !$popupfield) {
   ?>
   <div class="email-popup-con">
     <div class="email-popup-inner-con">
