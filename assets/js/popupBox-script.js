@@ -1,6 +1,6 @@
 jQuery(document).ready(function() {
   const mq = window.matchMedia( "(min-width: 550px)" );
-  const hq = window.matchMedia( "(min-height: 600px)" );
+  const hq = window.matchMedia( "(min-height: 710px)" );
   var isMobile = isMobileDevice()
   if(isMobile == false && mq.matches && hq.matches){
     //Prevent's cookie from being given twice
@@ -8,7 +8,7 @@ jQuery(document).ready(function() {
     // Functionality that controls hiding/showing the email signup lightbox
     // Check to see if cookie is set prior to showing email signup after 5 second delay
     if( Cookies.get('noti') !== 'closed' ) {
-      jQuery('.email-popup-con').delay(5000).fadeIn();
+      jQuery('.email-popup-con').delay(7500).fadeIn();
     }
     // If user closes lightbox set cookie for 30 days to not show again
     jQuery('.close-popup').click(function() {

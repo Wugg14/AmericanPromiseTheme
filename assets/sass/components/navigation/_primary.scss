@@ -15,9 +15,14 @@
 	@media only screen and (max-width: 1023px) {
 		margin-top: 52px;
 	}
+
 }
 
 #menu-main-nav{
+	@media only screen and (max-width: 1350px) {
+		font-size: 1.8rem;
+	}
+
 	a {
 		color: $white;
 	}
@@ -83,7 +88,6 @@
 
 #menu-main-nav{
 	margin: 0 auto;
-	max-width: 1200px;
 
 	@include media( $breakpoint__screen-size--larger ) {
 		max-width: $max-width-larger-screen;
@@ -110,8 +114,12 @@
 }
 
 .navigation-bar__spacer{
-	@media only screen and (min-width: 1023px){
+	@media only screen and (min-width: 1350px){
 		margin-top: 85px;
+	}
+
+	@media only screen and (min-width: 1024px) {
+		margin-top: 81px;
 	}
 
 	@media only screen and (max-width: 1023px){
