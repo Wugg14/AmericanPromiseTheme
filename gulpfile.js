@@ -65,12 +65,6 @@ gulp.task('postcss', function(){
 				outputStyle: 'expanded' // Options: nested, expanded, compact, compressed
 			}))
 
-		   .pipe( postcss([
-			   autoprefixer({
-				   browsers: ['last 2 versions']
-			   })
-		   ]))
-
 			// creates the sourcemap
 			.pipe(sourcemaps.write())
 
@@ -78,7 +72,7 @@ gulp.task('postcss', function(){
 
 });
 
-gulp.task('css:minify', ['postcss'], function() {
+gulp.task('css:minify', gulp.series('postcss'), function() {
 	return gulp.src('style.css')
        // Error handling
        .pipe(plumber({
@@ -95,7 +89,7 @@ gulp.task('css:minify', ['postcss'], function() {
 		}))
 });
 
-gulp.task('sass:lint', ['css:minify'], function() {
+gulp.task('sass:lint', gulp.series('css:minify'), function() {
 	gulp.src([
 		'assets/sass/style.scss',
 		'!assets/sass/base/html5-reset/_normalize.scss',
@@ -119,4 +113,4 @@ gulp.task('watch', function () {
  * Individual tasks.
  */
 // gulp.task('scripts', [''])
-gulp.task('styles', ['sass:lint'] );
+gulp.task('styles', gulp.series('sass:lint') );

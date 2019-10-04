@@ -5,7 +5,7 @@
  * @package  	AmericanPromise\AmericanPromiseTheme
  * @since		1.0.0
  * @author		MarkSteininger
- * @link		marksteininger.me
+ * @link		marksteininger.com
  * @license		GNU General Public License 2.0+
  */
 namespace AmericanPromise\AmericanPromiseTheme;
@@ -145,7 +145,7 @@ function join_list_section() {
 			$row_counter = 0;
 
 			while ($homepagePosts->have_posts()) {
-				$homepagePosts->the_post();
+                    $homepagePosts->the_post();
 
 				//Check for if it is the first in the row
 				if ($blog_counter == 0 || $blog_counter == 3 || $blog_counter == 6){
@@ -210,8 +210,6 @@ function events_section() {
 					$start_date_year = tribe_get_start_date($event->ID, false, 'Y');
 					$start_date_day = tribe_get_start_date($event->ID, false, 'j');
 					$start_date_month = tribe_get_start_date($event->ID, false, 'M');
-					$venue_name = tribe_get_venue($event->ID);
-					$venue_address = tribe_get_full_address($event->ID, true);
 
 
 
