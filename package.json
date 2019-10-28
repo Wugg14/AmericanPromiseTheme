@@ -7,16 +7,17 @@
     "lib": "lib"
   },
   "dependencies": {
+    "eslint": "^6.6.0",
     "https-proxy-agent": "^3.0.1"
   },
   "devDependencies": {
-    "autoprefixer": "^9.6.1",
+    "autoprefixer": "^9.7.0",
     "browserslist": [
       "last 2 versions",
       ">1%"
     ],
-    "bourbon": "^5.1.0",
-    "bourbon-neat": "^1.9.1",
+    "bourbon": "^6.0.0",
+    "bourbon-neat": "^4.0.0",
     "css-mqpacker": "^7.0.0",
     "gulp": "^4.0.2",
     "gulp-cssnano": "^2.1.3",
