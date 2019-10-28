@@ -6,9 +6,15 @@
   "directories": {
     "lib": "lib"
   },
-  "dependencies": {},
+  "dependencies": {
+    "https-proxy-agent": "^3.0.1"
+  },
   "devDependencies": {
     "autoprefixer": "^9.6.1",
+    "browserslist": [
+      "last 2 versions",
+      ">1%"
+    ],
     "bourbon": "^5.1.0",
     "bourbon-neat": "^1.9.1",
     "css-mqpacker": "^7.0.0",
@@ -21,7 +27,7 @@
     "gulp-sass": "^4.0.2",
     "gulp-sass-lint": "^1.4.0",
     "gulp-sourcemaps": "^2.6.5",
-    "npm": "^6.11.3",
+    "npm": "^6.12.0",
     "sass-rem": "^2.0.1"
   },
   "scripts": {

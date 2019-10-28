@@ -2,20 +2,20 @@
 
 var gulp = require('gulp'),
 
-	// Sass/CSS processes
-	bourbon = require('bourbon').includePaths,
-	neat = require('bourbon-neat').includePaths,
-	sass = require('gulp-sass'),
-	postcss = require('gulp-postcss'),
-	autoprefixer = require('autoprefixer'),
-	sourcemaps = require('gulp-sourcemaps'),
-	cssMinify = require('gulp-cssnano'),
-	sassLint = require('gulp-sass-lint'),
+    // Sass/CSS processes
+    bourbon = require('bourbon').includePaths,
+    neat = require('bourbon-neat').includePaths,
+    sass = require('gulp-sass'),
+    postcss = require('gulp-postcss'),
+    autoprefixer = require('autoprefixer'),
+    sourcemaps = require('gulp-sourcemaps'),
+    cssMinify = require('gulp-cssnano'),
+    sassLint = require('gulp-sass-lint'),
 
-	// Utilities
-	rename = require('gulp-rename'),
-	notify = require('gulp-notify'),
-	plumber = require('gulp-plumber');
+    // Utilities
+    rename = require('gulp-rename'),
+    notify = require('gulp-notify'),
+    plumber = require('gulp-plumber');
 
 /*************
  * Utilities
@@ -27,16 +27,16 @@ var gulp = require('gulp'),
  * @function
  */
 function handleErrors() {
-	var args = Array.prototype.slice.call(arguments);
+    var args = Array.prototype.slice.call(arguments);
 
-	notify.onError({
-		title: 'Task Failed [<%= error.message %>',
-		message: 'See console.',
-		sound: 'Sosumi' // See: https://github.com/mikaelbr/node-notifier#all-notification-options-with-their-defaults
-	}).apply(this, args);
+    notify.onError({
+        title: 'Task Failed [<%= error.message %>',
+        message: 'See console.',
+        sound: 'Sosumi' // See: https://github.com/mikaelbr/node-notifier#all-notification-options-with-their-defaults
+    }).apply(this, args);
 
-	// Prevent the 'watch' task from stopping
-	this.emit('end');
+    // Prevent the 'watch' task from stopping
+    this.emit('end');
 }
 
 
@@ -49,56 +49,61 @@ function handleErrors() {
  */
 gulp.task('postcss', function(){
 
-	return gulp.src('assets/sass/style.scss')
+    return gulp.src('assets/sass/style.scss')
 
-           // Error handling
-           .pipe(plumber({
-                errorHandler: handleErrors
-           }))
+    // Error handling
+        .pipe(plumber({
+            errorHandler: handleErrors
+        }))
 
-	           // Wrap tasks in a sourcemap
-			.pipe( sourcemaps.init())
+        // Wrap tasks in a sourcemap
+        .pipe( sourcemaps.init())
 
-			.pipe( sass({
-				includePaths: [].concat( bourbon, neat ),
-				errLogToConsole: true,
-				outputStyle: 'expanded' // Options: nested, expanded, compact, compressed
-			}))
+        .pipe( sass({
+            includePaths: [].concat( bourbon, neat ),
+            errLogToConsole: true,
+            outputStyle: 'expanded' // Options: nested, expanded, compact, compressed
+        }))
 
-			// creates the sourcemap
-			.pipe(sourcemaps.write())
+        .pipe( postcss([
+            autoprefixer()
+        ]))
 
-			.pipe(gulp.dest('./'));
+        // creates the sourcemap
+        .pipe(sourcemaps.write())
+
+        .pipe(gulp.dest('./'));
 
 });
 
-gulp.task('css:minify', gulp.series('postcss'), function() {
-	return gulp.src('style.css')
-       // Error handling
-       .pipe(plumber({
-           errorHandler: handleErrors
-       }))
+gulp.task('css:minify', gulp.series('postcss', function() {
+    return gulp.src('style.css')
+    // Error handling
+        .pipe(plumber({
+            errorHandler: handleErrors
+        }))
 
-		.pipe( cssMinify({
-			safe: true
-		}))
-       .pipe(rename('style.min.css'))
-       .pipe(gulp.dest('./'))
-		.pipe(notify({
-			message: 'Styles are built.'
-		}))
-});
+        .pipe( cssMinify({
+            safe: true
+        }))
+        .pipe(rename('style.min.css'))
+        .pipe(gulp.dest('./'))
+        .pipe(notify({
+            message: 'Styles are built.'
+        }))
+}));
 
-gulp.task('sass:lint', gulp.series('css:minify'), function() {
-	gulp.src([
-		'assets/sass/style.scss',
-		'!assets/sass/base/html5-reset/_normalize.scss',
-		'!assets/sass/utilities/animate/**/*.*'
-	])
-		.pipe(sassLint())
-		.pipe(sassLint.format())
-		.pipe(sassLint.failOnError())
-});
+gulp.task('sass:lint', gulp.series('css:minify', function(done) {
+    gulp.src([
+        'assets/sass/style.scss',
+        '!assets/sass/base/html5-reset/_normalize.scss',
+        '!assets/sass/utilities/animate/**/*.*'
+    ])
+        .pipe(sassLint())
+        .pipe(sassLint.format())
+        .pipe(sassLint.failOnError())
+    done();
+}));
 
 
 /********************
@@ -106,11 +111,11 @@ gulp.task('sass:lint', gulp.series('css:minify'), function() {
  *******************/
 
 gulp.task('watch', function () {
-	gulp.watch('assets/sass/**/*.scss', ['styles']);
+    gulp.watch('assets/sass/**/*.scss', ['styles']);
 });
 
 /**
  * Individual tasks.
  */
 // gulp.task('scripts', [''])
-gulp.task('styles', gulp.series('sass:lint') );
+gulp.task('styles', gulp.series('sass:lint' ));
