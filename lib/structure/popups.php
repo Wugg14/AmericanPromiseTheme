@@ -35,7 +35,7 @@ function signup_popup() {
                 <strong>Sign here to tell Congress:</strong> Take a break from fundraising and listen to the people. Pass the 28th Amendment NOW to end corrupt pay-to-play politics and give EVERY American a voice.
             </div>
         </div>
-        <?php echo do_shortcode('[gravityform id="6" title="false" description="false" ajax="true"]'); ?>
+        <?php echo do_shortcode('[gravityform id="26" title="false" description="false" ajax="true"]'); ?>
        </div>
   </div>
   <?php

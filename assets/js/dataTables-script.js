@@ -12,7 +12,8 @@ jQuery(document).ready( function () {
     order: [[1, 'asc']]
   });
   jQuery('#table4').DataTable({
-    pageLength: 10
+    pageLength: 10,
+      order: [[3, 'asc']]
   });
     jQuery('#table5').DataTable({
         pageLength: 25
