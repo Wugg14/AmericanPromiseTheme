@@ -44,10 +44,13 @@
 }
 
 .donate__flex-grid {
-  display: flex;
+  	display: flex;
+	justify-content: center;
+	background-color: $ampro--blue;
 }
 .donate-col {
-  flex: 1;
+  	flex: 1;
+	max-width: 670px;
 }
 
 #donate-button{
