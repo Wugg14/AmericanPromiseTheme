@@ -1,0 +1,41 @@
+.nclc-review___header{
+  text-align: center;
+  background-color: $nclc--dark-blue;
+
+  h1, h3, p{
+    font-color: white;
+  }
+}
+
+
+.nclc-review__button {
+  display: inline-block;
+  border-radius: 300px;
+}
+
+.nclc-review__button-row{
+  margin-top: 25px;
+}
+
+.nclc-review__video-row{
+  margin-top: 25px;
+};
+
+.nclc-review__video-caption{
+  font-size: .5em;
+};
+
+.nclc-review__button--white{
+  color: #5b2b7b;
+  background-color: #fff;
+  border-color: #fff;
+
+}
+
+.nclc-review__section-1{
+  background-color: $nclc--yellow
+}
+
+.nclc-review-sub-header__text-block{
+  border-left: black solid 1px;
+}
