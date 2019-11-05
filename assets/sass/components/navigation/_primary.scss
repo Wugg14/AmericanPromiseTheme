@@ -88,20 +88,20 @@
 
 #menu-main-nav{
 	margin: 0 auto;
-	max-width: 1300px;
+	max-width: $screen-size--larger;
 
-	@include media( $breakpoint__screen-size--larger ) {
+	@media screen and ( max-width: $screen-size--larger ) {
 		max-width: $max-width-larger-screen;
 	}
-	 @include media( $breakpoint__screen-size--large ) {
+	 @media screen and ( max-width: $screen-size--large ) {
 		max-width: $max-width-large-screen;
 	}
 
-	 @include media( $breakpoint__screen-size--medium ) {
+	 @media screen and ( max-width: $screen-size--medium ) {
 		max-width: $max-width--medium-screen;
 	}
 
-	 @include media( $breakpoint__screen-size--small ) {
+	 @media screen and ( max-width: $screen-size--small ) {
 		padding: 5% 5% 0;
 	}
 }
