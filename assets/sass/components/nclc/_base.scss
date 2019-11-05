@@ -1,29 +1,116 @@
-.nclc-review___header{
-  text-align: center;
-  background-color: $nclc--dark-blue;
+.nclc-review__parallax {
 
-  h1, h3, p{
-    font-color: white;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.nclc-review__parallax--purple{
+  background-image: url(https://www.americanpromise.net/wp-content/uploads/2019/11/purple-pattern.png);
+}
+
+.nclc-review__parallax--teal{
+  background-image: url(https://www.americanpromise.net/wp-content/uploads/2019/11/teal-pattern.png);
+}
+
+.nclc-review__container{
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1550px;
+
+  h1 {
+    font-family: $nclc-header--font-family;
+    font-size: $nclc-h1--size;
+    font-weight: $nclc-h1--weight;
+    line-height: $nclc-h1--line-height;
+    font-style: normal;
+  }
+
+  h2 {
+    font-family: $nclc-header--font-family;
+    font-size: $nclc-h2--size;
+    font-weight: $nclc-h2--weight;
+    line-height: $nclc-h2--line-height;
+    font-style: normal;
+  }
+
+  p {
+    font-family: $nclc-body--font-family;
+    font-size: $nclc-body--size;
+    font-weight: $nclc-body--weight;
+    line-height: $nclc-body--line-height;
+    font-style: normal;
   }
 }
 
+.nclc-review___header{
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 30px;
+
+  h1, h2, p{
+    color: white;
+  }
+}
+
+.nclc-review__header__blurb{
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 .nclc-review__button {
   display: inline-block;
   border-radius: 300px;
+  padding: 30px;
+  margin-bottom: 25px;
+  font-weight: 530;
+  font-family: $nclc-header--font-family;
+  font-style: normal;
+
+  &:hover{
+    opacity: .9;
+  }
 }
 
 .nclc-review__button-row{
+  display: inline-block;
   margin-top: 25px;
+  width: 100%;
+  text-align: center;
 }
 
 .nclc-review__video-row{
   margin-top: 25px;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
 };
 
 .nclc-review__video-caption{
-  font-size: .5em;
+  font-size: .8em;
 };
+
+.video-spacer {
+  margin-bottom: 25px;
+}
+
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 30px; height: 0; overflow: hidden;
+}
+
+.video-container iframe,
+.video-container object,
+.video-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
 
 .nclc-review__button--white{
   color: #5b2b7b;
@@ -32,10 +119,61 @@
 
 }
 
+.nclc-review__button--purple{
+  color: white;
+  background-color: $nclc--purple;
+  border-color: $nclc--purple;
+}
+
 .nclc-review__section-1{
-  background-color: $nclc--yellow
+  background-color: $nclc--yellow;
+
+  h1, p, span {
+    color: #000;
+  }
+}
+
+.nclc-review__section-2{
+
+  h1, p, span {
+    color: white;
+  }
+}
+
+.nclc-review__section-3{
+  background-color: $nclc--pink;
+
+  h1, p, span {
+    color: white;
+  }
+}
+
+.nclc-review__section-4{
+
+  h1, p, span {
+    color: white;
+  }
 }
 
 .nclc-review-sub-header__text-block{
-  border-left: black solid 1px;
+  margin-top: 55px;
+  padding-top: 15px;
+}
+
+.nclc-review-sub-header__text-block--right{
+  border-left: solid 1px;
+  padding-left: 20px;
+}
+
+.nclc-review-sub-header__text-block--left{
+  border-right: solid 1px;
+  padding-right: 20px;
+}
+
+.nclc-review-sub-header__text-block--white{
+  border-color: white;
+}
+
+.nclc-review-sub-header__text-block--black{
+  border-color: black;
 }
