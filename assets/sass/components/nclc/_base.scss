@@ -1,10 +1,11 @@
 .nclc-review__parallax {
-
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  @media only screen and (min-width: $screen-size--small) {
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 }
 
 .nclc-review__parallax--purple{
@@ -29,6 +30,12 @@
     font-style: normal;
     margin-left: 20px;
     margin-right: 20px;
+    margin-bottom: 20px;
+
+    @media only screen and (max-width: $screen-size--small) {
+      font-size: 37.5px;
+      line-height: 1em;
+    }
   }
 
   h2 {
@@ -39,6 +46,11 @@
     font-style: normal;
     margin-left: 20px;
     margin-right: 20px;
+
+    @media only screen and (max-width: $screen-size--small) {
+      font-size: 20px;
+      line-height: 1em;
+    }
   }
 
   p {
@@ -47,7 +59,16 @@
     font-weight: $nclc-body--weight;
     line-height: $nclc-body--line-height;
     font-style: normal;
+
+    @media only screen and (max-width: $screen-size--small) {
+      font-size: 16px;
+      line-height: 1em;
+    }
   }
+}
+
+.nclc_review__subheader{
+  color: white;
 }
 
 .nclc-review___header{
@@ -103,18 +124,23 @@
 }
 
 .video-container {
-  position: relative;
-  padding-bottom: 56.25%;
-  padding-top: 30px; height: 0; overflow: hidden;
+  @media only screen and (min-width: $screen-size--small) {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px; height: 0; overflow: hidden;
+  }
 }
 
 .video-container iframe,
 .video-container object,
 .video-container embed {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
+  @media only screen and (min-width: $screen-size--small) {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
 }
 
 .nclc-review__button--white{
@@ -161,18 +187,16 @@
 }
 
 .nclc-review-sub-header__text-block{
-  margin-top: 55px;
   padding-top: 15px;
+  margin-bottom: 15px;
+  @media only screen and (min-width: $screen-size--small) {
+    margin-top: 55px;
+  }
 }
 
 .nclc-review-sub-header__text-block--right{
   border-left: solid 1px;
   padding-left: 20px;
-}
-
-.nclc-review-sub-header__text-block--left{
-  border-right: solid 1px;
-  padding-right: 20px;
 }
 
 .nclc-review-sub-header__text-block--white{
@@ -183,25 +207,45 @@
   border-color: black;
 }
 
-.nclc_review__collage-container {
+.nclc_review__collage-container--right {
   display: flex;
   flex-direction: row-reverse;
   max-width: 900px;
   align-items: center;
   margin-left: auto;
   margin-bottom: 25px;
+
+  @media only screen and (max-width: $screen-size--small) {
+    flex-direction: column;
+  }
+}
+
+.nclc_review__collage-container--left {
+  display: flex;
+  max-width: 900px;
+  align-items: center;
+  margin-left: auto;
+  margin-bottom: 25px;
+
+  @media only screen and (max-width: $screen-size--small) {
+    flex-direction: column;
+  }
 }
 
 .nclc_review__image-container {
   max-width: 700px;
-  width: 60%;
+  @media only screen and (min-width: $screen-size--small) {
+    width: 50%;
+  }
 }
 
 .nclc_review__card-container{
   justify-content: flex-start;
-  width: 50%;
   z-index: 2;
-  margin: -12%;
+  margin: -10%;
+  @media only screen and (min-width: $screen-size--small) {
+    width: 50%;
+  }
 }
 
 .nclc_review__quote {
