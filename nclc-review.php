@@ -34,6 +34,27 @@ function nclc_review(){
         <div class="nclc-review__container">
             <div class="first two-thirds"><h1>Cause of Our Time: Inviting more young Americans to the movement</h1></div>
             <div class="one-third nclc-review-sub-header__text-block nclc-review-sub-header__text-block--black nclc-review-sub-header__text-block--right"><p>The rising generation of young Americans faces so many issues—among them crippling student loan debt, a broken healthcare system, and the mounting consequences of climate change. Young Americans are ready to tackle the underlying cause of these issues: big money in politics. At the NCLC, we launched the Cause of Our Time Statement of Principle, inviting young Americans to sign on to take a stand against big money in politics. </p></div>
+            <div class="nclc-review__photos-container">
+                <div class="first one-third">
+                    <div class="nclc-review__small-photo-container">
+                        <img src="https://www.americanpromise.net/wp-content/uploads/2019/11/image1-1.jpeg"/>
+                    </div>
+                    <div class="nclc-review__small-photo-container">
+                        <img src="https://www.americanpromise.net/wp-content/uploads/2019/11/image1-1.jpeg"/>
+                    </div>
+                </div>
+                <div class="two-thirds">
+                    <div class="nclc_review__collage-container">
+                        <div class="nclc_review__image-container"><img width="100%" src="https://www.americanpromise.net/wp-content/uploads/2019/11/Ellen-Greene-Bush.jpg"></div>
+                        <div class="nclc_review__card-container">
+                            <div class="nclc_review__quote-card">
+                                <p class="nclc_review__quote">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam tempus vitae tortor ac tempor. Maecenas egestas odio in nunc aliquam, ac aliquet enim suscipit. Nulla facilisi. Suspendisse consectetur vitae enim nec maximus. </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
             <hr/>
             <div class="nclc-review__button-row">
                 <div class="first one-fourth"><a class="nclc-review__button nclc-review__button--white">Cause of Our Time: Article 1</a></div>
@@ -63,6 +84,27 @@ function nclc_review(){
         <div class="nclc-review__container">
             <div class="first one-third nclc-review-sub-header__text-block nclc-review-sub-header__text-block--left nclc-review-sub-header__text-block--white"><p>Our grassroots movement is successful when citizen leaders across the nation are empowered to win support among their fellow community members, local elected officials, and state officials. Our citizen leaders have been extremely effective in racking up local victories over the course of the past year, and we are ready to double down on these victories in 2020. </p></div>
             <div class="two-thirds"><h1>Citizen Leadership: Furthering citizen-led action and successes across the nation</h1></div>
+            <div class="nclc-review__photos-container">
+                <div class="first one-third">
+                    <div class="nclc-review__small-photo-container">
+                        <img src="https://www.americanpromise.net/wp-content/uploads/2019/11/image1-1.jpeg"/>
+                    </div>
+                    <div class="nclc-review__small-photo-container">
+                        <img src="https://www.americanpromise.net/wp-content/uploads/2019/11/image1-1.jpeg"/>
+                    </div>
+                </div>
+                <div class="two-thirds">
+                    <div class="nclc_review__collage-container">
+                        <div class="nclc_review__image-container"><img width="100%" src="https://www.americanpromise.net/wp-content/uploads/2019/11/Ellen-Greene-Bush.jpg"></div>
+                        <div class="nclc_review__card-container">
+                            <div class="nclc_review__quote-card" style="background-color: #5b2b7c;">
+                                <p class="nclc_review__quote">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam tempus vitae tortor ac tempor. Maecenas egestas odio in nunc aliquam, ac aliquet enim suscipit. Nulla facilisi. Suspendisse consectetur vitae enim nec maximus. </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
             <hr/>
             <div class="nclc-review__button-row">
                 <div class="first one-fourth"><a class="nclc-review__button nclc-review__button--purple">Citizen Leadership Article 1</a></div>
@@ -93,6 +135,27 @@ function nclc_review(){
         <div class="nclc-review__container">
             <div class="first two-thirds"><h1>We the People: Building an inclusive movement across political parties, interests, occupations, and generations</h1></div>
             <div class="one-third nclc-review-sub-header__text-block nclc-review-sub-header__text-block--white nclc-review-sub-header__text-block--right"><p>Business leaders, veterans, farmers, environmentalists—Americans of all stripes are motivated to end the domination of big money in politics. Our movement invites all Americans to the table, inclusive of all points along the political spectrum, and those from all occupations and walks of life. Learn more about the reasons all types of Americans care about this fundamental issue.</p></div>
+            <div class="nclc-review__photos-container">
+                <div class="first one-third">
+                    <div class="nclc-review__small-photo-container">
+                        <img src="https://www.americanpromise.net/wp-content/uploads/2019/11/image1-1.jpeg"/>
+                    </div>
+                    <div class="nclc-review__small-photo-container">
+                        <img src="https://www.americanpromise.net/wp-content/uploads/2019/11/image1-1.jpeg"/>
+                    </div>
+                </div>
+                <div class="two-thirds">
+                    <div class="nclc_review__collage-container">
+                        <div class="nclc_review__image-container"><img width="100%" src="https://www.americanpromise.net/wp-content/uploads/2019/11/Ellen-Greene-Bush.jpg"></div>
+                        <div class="nclc_review__card-container">
+                            <div class="nclc_review__quote-card">
+                                <p class="nclc_review__quote">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam tempus vitae tortor ac tempor. Maecenas egestas odio in nunc aliquam, ac aliquet enim suscipit. Nulla facilisi. Suspendisse consectetur vitae enim nec maximus. </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
             <hr/>
             <div class="nclc-review__button-row">
                 <div class="first one-fourth"><a class="nclc-review__button nclc-review__button--white">Business leaders</a></div>
@@ -122,6 +185,27 @@ function nclc_review(){
         <div class="nclc-review__container">
             <div class="first one-third nclc-review-sub-header__text-block nclc-review-sub-header__text-block--left nclc-review-sub-header__text-block--white"><p>Building congressional support around the 28th Amendment is a key component of our ratification strategy. Our work to build support in Washington has seen an array of key successes over the past year, and we aim to grow this impact in 2020, with a particular focus on growing collaboration across the political aisle. </p></div>
             <div class="two-thirds"><h1>Building Congressional Support: Empowering elected officials to take the lead on this cross-partisan issue in Congress </h1></div>
+            <div class="nclc-review__photos-container">
+                <div class="first one-third">
+                    <div class="nclc-review__small-photo-container">
+                        <img src="https://www.americanpromise.net/wp-content/uploads/2019/11/image1-1.jpeg"/>
+                    </div>
+                    <div class="nclc-review__small-photo-container">
+                        <img src="https://www.americanpromise.net/wp-content/uploads/2019/11/image1-1.jpeg"/>
+                    </div>
+                </div>
+                <div class="two-thirds">
+                    <div class="nclc_review__collage-container">
+                        <div class="nclc_review__image-container"><img width="100%" src="https://www.americanpromise.net/wp-content/uploads/2019/11/Ellen-Greene-Bush.jpg"></div>
+                        <div class="nclc_review__card-container">
+                            <div class="nclc_review__quote-card">
+                                <p class="nclc_review__quote">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam tempus vitae tortor ac tempor. Maecenas egestas odio in nunc aliquam, ac aliquet enim suscipit. Nulla facilisi. Suspendisse consectetur vitae enim nec maximus. </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
             <hr/>
             <div class="nclc-review__button-row">
                 <div class="first one-fourth"><a class="nclc-review__button nclc-review__button--white">Lobby Day overview article</a></div>
