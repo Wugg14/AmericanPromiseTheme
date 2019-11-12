@@ -47,7 +47,7 @@ figure.testimonial-card {
 		line-height: 1.6em;
 		box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
 
-		&:before, &:after{
+		&:before {
 			content: "\201C";
 			position: absolute;
 			font-size: 50px;
@@ -55,12 +55,21 @@ figure.testimonial-card {
 			font-style: normal;
 		}
 
+		&:after {
+			content: "\201D";
+			position: absolute;
+			font-size: 50px;
+			opacity: 0.3;
+			font-style: normal;
+		}
+
+
 		&:before {
 			top: 35px;
 			left: 20px;
 		}
 
-		&:after{
+		&:after {
 			right: 20px;
 			bottom: 35px;
 		}
