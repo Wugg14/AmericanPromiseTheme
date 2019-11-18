@@ -188,7 +188,7 @@
 
 .nclc-review-sub-header__text-block{
   padding-top: 15px;
-  margin-bottom: 15px;
+  margin-bottom: 25px;
   @media only screen and (min-width: $screen-size--small) {
     margin-top: 55px;
   }
@@ -261,4 +261,12 @@
 
 .nclc-review__small-photo-container{
   margin-bottom: 25px;
+  text-align: center;
+}
+
+.nclc-quote-text{
+  margin-bottom: 10px;
+  font-size: 1.3em;
+  line-height: 1.2em;
+  color: white;
 }
