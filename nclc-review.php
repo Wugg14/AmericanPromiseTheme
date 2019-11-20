@@ -36,17 +36,17 @@ function nclc_review(){
            <div class="nclc-review__photos-container">
                 <div class="first one-third">
                     <div class="nclc-review__small-photo-container">
-                        <a target="_blank" href="https://www.flickr.com/photos/185173265@N08/sets/72157711782759566/"><img alt="Katie Fahey" src="https://www.americanpromise.net/wp-content/uploads/2019/11/Katie-Fahey-podium-scaled-e1574092635154.jpg"/></a>
+                        <a target="_blank" href="https://www.americanpromise.net/nclc-photos/"><img alt="Katie Fahey" src="https://www.americanpromise.net/wp-content/uploads/2019/11/Katie-Fahey-podium-scaled-e1574092635154.jpg"/></a>
                         <span class="nclc-review__video-caption">Katie Fahey, Executive Director of The People, speaks at the conference.</span>
                     </div>
                     <div class="nclc-review__small-photo-container">
-                        <a target="_blank" href="https://www.flickr.com/photos/185173265@N08/sets/72157711782759566/"><img src="https://www.americanpromise.net/wp-content/uploads/2019/11/Doris-Kearns-Goodwin-book-signing-youth-scaled-e1574092923667.jpg"/></a>
+                        <a target="_blank" href="https://www.americanpromise.net/nclc-photos/"><img src="https://www.americanpromise.net/wp-content/uploads/2019/11/Doris-Kearns-Goodwin-book-signing-youth-scaled-e1574092923667.jpg"/></a>
                         <span class="nclc-review__video-caption">Presidential Historian Doris Kearns Goodwin signs copies of her book for two attendees.</span>
                     </div>
                 </div>
                 <div class="two-thirds">
                     <div class="nclc_review__collage-container--right">
-                        <div class="nclc_review__image-container"><a target="_blank" href="https://www.flickr.com/photos/185173265@N08/sets/72157711782759566/"><img width="100%" alt="Manu Meel" src="https://www.americanpromise.net/wp-content/uploads/2019/11/manu-portrait.png"/></a></div>
+                        <div class="nclc_review__image-container"><a target="_blank" href="https://www.americanpromise.net/nclc-photos/"><img width="100%" alt="Manu Meel" src="https://www.americanpromise.net/wp-content/uploads/2019/11/manu-portrait.png"/></a></div>
                         <div class="nclc_review__card-container">
                             <div class="nclc_review__quote-card">
                                 <p class="nclc_review__quote"><span class="nclc-quote-text" style="color: white;">I think that even in our divisive political moment today, where things seem absolutely hopeless, I still believe in everyday Americans, especially young people's ability to make change. So thank you so much for investing in today, while myself and my fellow leaders continue to invest in&nbsp;tomorrow.</span><br/><br/> ―Manu Meel, Chief Executive Officer, BridgeUSA</p>
@@ -88,7 +88,7 @@ function nclc_review(){
             <div class="nclc-review__photos-container">
                 <div class="first two-thirds">
                     <div class="nclc_review__collage-container--left">
-                        <div class="nclc_review__image-container"><a target="_blank" href="https://www.flickr.com/photos/185173265@N08/sets/72157711782759566/"><img width="100%" src="https://www.americanpromise.net/wp-content/uploads/2019/11/burke-portrait.png"/></a></div>
+                        <div class="nclc_review__image-container"><a target="_blank" href="https://www.americanpromise.net/nclc-photos/"><img width="100%" src="https://www.americanpromise.net/wp-content/uploads/2019/11/burke-portrait.png"/></a></div>
                         <div class="nclc_review__card-container">
                             <div class="nclc_review__quote-card">
                                 <p class="nclc_review__quote" style="background-color: #5b2b7c;"><span class="nclc-quote-text">Every single one of us as a citizen is called to participate in our democracy. We can't wait for one large change, one person to be impeached, one rule to be shifted, to fully participate in our democratic republic. Every single one of us is expected to engage and be active citizens whether or not there's an election day&nbsp;happening.</span><br/><br/> ―Leslie Danks Burke, Founder and President of Trailblazers PAC</p>
@@ -98,11 +98,11 @@ function nclc_review(){
                 </div>
                 <div class="one-third">
                     <div class="nclc-review__small-photo-container">
-                        <a target="_blank" href="https://www.flickr.com/photos/185173265@N08/sets/72157711782759566/"><img src="https://www.americanpromise.net/wp-content/uploads/2019/11/Heather-Santos-Podium.jpg"/></a>
+                        <a target="_blank" href="https://www.americanpromise.net/nclc-photos/"><img src="https://www.americanpromise.net/wp-content/uploads/2019/11/Heather-Santos-Podium.jpg"/></a>
                         <span class="nclc-review__video-caption">Citizen Leader Heather Santos delivers a testimonial at the conference.</span>
                     </div>
                     <div class="nclc-review__small-photo-container">
-                        <a target="_blank" href="https://www.flickr.com/photos/185173265@N08/sets/72157711782759566/"><img src="https://www.americanpromise.net/wp-content/uploads/2019/11/Steven-Miller-Barbara-Miller-Joan-Divor-Hats-off-citizen-leaders-scaled-e1574096383637.jpg"/></a>
+                        <a target="_blank" href="https://www.americanpromise.net/nclc-photos/"><img src="https://www.americanpromise.net/wp-content/uploads/2019/11/Steven-Miller-Barbara-Miller-Joan-Divor-Hats-off-citizen-leaders-scaled-e1574096383637.jpg"/></a>
                         <span class="nclc-review__video-caption">Citizen Leaders give a 'Hats Off' to the NCLC.</span>
                     </div>
                 </div>
@@ -140,17 +140,17 @@ function nclc_review(){
             <div class="nclc-review__photos-container">
                 <div class="first one-third">
                     <div class="nclc-review__small-photo-container">
-                        <a target="_blank" href="https://www.flickr.com/photos/185173265@N08/sets/72157711782759566/"><img alt="Cheryl Crawford, Executive Director of MassVOTE and Matt Cox, NC State Senate Candidate" src="https://www.americanpromise.net/wp-content/uploads/2019/11/Cheryl-Crawford-Matt-Cox.jpg"/></a>
+                        <a target="_blank" href="https://www.americanpromise.net/nclc-photos/"><img alt="Cheryl Crawford, Executive Director of MassVOTE and Matt Cox, NC State Senate Candidate" src="https://www.americanpromise.net/wp-content/uploads/2019/11/Cheryl-Crawford-Matt-Cox.jpg"/></a>
                         <span class="nclc-review__video-caption">Cheryl Crawford, Executive Director of MassVOTE (Left) and Matt Cox, NC State Senate Candidate (Right).</span>
                     </div>
                     <div class="nclc-review__small-photo-container">
-                        <a target="_blank" href="https://www.flickr.com/photos/185173265@N08/sets/72157711782759566/"><img alt="Courtney Hight, Rod Morrison, Elizabeth Doty" src="https://www.americanpromise.net/wp-content/uploads/2019/11/Courtney-Hight-Rod-Morrison-Elizabeth-Doty-scaled-e1574100106801.jpg"/></a>
+                        <a target="_blank" href="https://www.americanpromise.net/nclc-photos/"><img alt="Courtney Hight, Rod Morrison, Elizabeth Doty" src="https://www.americanpromise.net/wp-content/uploads/2019/11/Courtney-Hight-Rod-Morrison-Elizabeth-Doty-scaled-e1574100106801.jpg"/></a>
                         <span class="nclc-review__video-caption">Courtney Hight, Director, Democracy Program of the Sierra Club (left), Rod Morrison, Wyoming Promise (center), Elizabeth Doty, Founder of Leadership Momentum and National Program Coordinator of Business for American Promise (right)</span>
                     </div>
                 </div>
                 <div class="two-thirds">
                     <div class="nclc_review__collage-container--right">
-                        <div class="nclc_review__image-container"><a target="_blank" href="https://www.flickr.com/photos/185173265@N08/sets/72157711782759566/"><img width="100%" src="https://www.americanpromise.net/wp-content/uploads/2019/11/Ellen-Read-Portrait.png"/></a></div>
+                        <div class="nclc_review__image-container"><a target="_blank" href="https://www.americanpromise.net/nclc-photos/"><img width="100%" src="https://www.americanpromise.net/wp-content/uploads/2019/11/Ellen-Read-Portrait.png"/></a></div>
                         <div class="nclc_review__card-container">
                             <div class="nclc_review__quote-card">
                                 <p class="nclc_review__quote"><span class="nclc-quote-text" style="color: white;">It doesn't matter what issue is your issue. Whether it is climate and healthcare, or government spending, and industrial subsidies that end up raising taxes on everyone. There will be no progress on any issue, no real common sense progress that reflects the will of the people, until we have a government that actually represents&nbsp;people.</span><br/><br/> ―Ellen Read, New Hampshire State Representative</p>
@@ -191,7 +191,7 @@ function nclc_review(){
             <div class="nclc-review__photos-container">
                 <div class="first two-thirds">
                     <div class="nclc_review__collage-container--left">
-                        <div class="nclc_review__image-container"><a target="_blank" href="https://www.flickr.com/photos/185173265@N08/sets/72157711782759566/"><img width="100%" src="https://www.americanpromise.net/wp-content/uploads/2019/11/curran-portrait.png"/></a></div>
+                        <div class="nclc_review__image-container"><a target="_blank" href="https://www.americanpromise.net/nclc-photos/"><img width="100%" src="https://www.americanpromise.net/wp-content/uploads/2019/11/curran-portrait.png"/></a></div>
                         <div class="nclc_review__card-container">
                             <div class="nclc_review__quote-card">
                                 <p class="nclc_review__quote"><span class="nclc-quote-text" style="color: white;">We are the people we've been waiting for. Every single one of you that is going to be engaged in coalition building, gathering signatures and putting things on ballots in your own states and making sure that your state legislatures are stepping up and taking this pledge, and then taking that fight to Washington DC. That's enormously important&nbsp;work.</span><br/><br/> ―Sean Curran, Principal, Waterville Consulting</p>
@@ -201,11 +201,11 @@ function nclc_review(){
                 </div>
                 <div class="one-third">
                     <div class="nclc-review__small-photo-container">
-                        <a target="_blank" href="https://www.flickr.com/photos/185173265@N08/sets/72157711782759566/"><img src="https://www.americanpromise.net/wp-content/uploads/2019/11/TX-Rep.-Van-Taylor-David-Stringfellow-e1574105229579.jpg"/></a>
+                        <a target="_blank" href="https://www.americanpromise.net/nclc-photos/"><img src="https://www.americanpromise.net/wp-content/uploads/2019/11/TX-Rep.-Van-Taylor-David-Stringfellow-e1574105229579.jpg"/></a>
                         <span class="nclc-review__video-caption">Citizen Leader David Stringfellow meets with Congressman Van Taylor (R - Texas).</span>
                     </div>
                     <div class="nclc-review__small-photo-container">
-                        <a target="_blank" href="https://www.flickr.com/photos/185173265@N08/sets/72157711782759566/"><img src="https://www.americanpromise.net/wp-content/uploads/2019/11/MG_8407-2.jpg"/></a>
+                        <a target="_blank" href="https://www.americanpromise.net/nclc-photos/"><img src="https://www.americanpromise.net/wp-content/uploads/2019/11/MG_8407-2.jpg"/></a>
                         <span class="nclc-review__video-caption">Citizen leaders gather at the Capitol for Lobby Day.</span>
                     </div>
                 </div>
@@ -238,7 +238,7 @@ function nclc_review(){
         <div class="nclc-review__container">
             <h1 style="margin-top: 0px; padding-top: 25px;">See More From NCLC 2019</h1>
             <div class="bottom-buttons__row">
-                <a target="_blank" href="https://www.americanpromise.net/a-citizen-leaders-experience-at-lobby-day/" class="nclc-review__button nclc-review__button--white">See More Photos</a>
+                <a target="_blank" href="https://www.americanpromise.net/nclc-photos/" class="nclc-review__button nclc-review__button--white">See More Photos</a>
                 <a target="_blank" href="https://www.youtube.com/watch?v=z2hEadQLEeg&list=PLNo82vL0CYkx0xMGikKphNgzHKS8MB0nc" class="nclc-review__button nclc-review__button--white">See More Videos</a>
             </div>
         </div>
