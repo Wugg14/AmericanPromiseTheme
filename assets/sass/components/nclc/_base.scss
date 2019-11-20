@@ -275,3 +275,14 @@
   color: white;
   font-style: italic;
 }
+
+.bottom-buttons__row{
+  padding: 30px;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+
+  @media only screen and (max-width: $screen-size--small) {
+    flex-direction: column;
+  }
+}

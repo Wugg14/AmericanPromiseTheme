@@ -234,6 +234,15 @@ function nclc_review(){
             </div>
         </div>
     </div>
+    <div class="nclc-review__section-1">
+        <div class="nclc-review__container">
+            <h1 style="margin-top: 0px; padding-top: 25px;">See More From NCLC 2019</h1>
+            <div class="bottom-buttons__row">
+                <a target="_blank" href="https://www.americanpromise.net/a-citizen-leaders-experience-at-lobby-day/" class="nclc-review__button nclc-review__button--white">See More Photos</a>
+                <a target="_blank" href="https://www.youtube.com/watch?v=z2hEadQLEeg&list=PLNo82vL0CYkx0xMGikKphNgzHKS8MB0nc" class="nclc-review__button nclc-review__button--white">See More Videos</a>
+            </div>
+        </div>
+    </div>
 <?php
 };
 
