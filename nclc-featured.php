@@ -22,7 +22,13 @@ remove_action("genesis_loop", "genesis_do_loop");
 add_action("genesis_loop", __NAMESPACE__ . '\nclc_features');
 
 
-
+/**
+ * NCLC Featured Container
+ *
+ * @since 1.0.10
+ *
+ * @return void
+ */
 function nclc_features(){
     ?>
     <div class="nclc-review___header nclc-review__parallax nclc-review__parallax--purple">

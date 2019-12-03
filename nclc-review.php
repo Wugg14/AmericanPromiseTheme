@@ -20,6 +20,14 @@ remove_action("genesis_loop", "genesis_do_loop");
 // add a custom loop
 add_action("genesis_loop", __NAMESPACE__ . '\nclc_review');
 
+
+/**
+ * NCLC Review Template
+ *
+ * @since 1.0.10
+ *
+ * @return void
+ */
 function nclc_review(){
     ?>
     <div class="nclc-review___header nclc-review__parallax nclc-review__parallax--purple">

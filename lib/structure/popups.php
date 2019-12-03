@@ -31,9 +31,9 @@ function signup_popup() {
             <div class="pop-up__close">
             	<i class="fa fa-window-close close-popup" aria-hidden="true"></i>
             </div>
-            <div class="message-overlay-con">
-                <strong>Sign here to tell Congress:</strong> Take a break from fundraising and listen to the people. Pass the 28th Amendment NOW to end corrupt pay-to-play politics and give EVERY American a voice.
-            </div>
+          <div class="message-overlay-con">
+              <strong>Think there's too much money in politics?</strong> We're working on a constitutional amendment to fix it. Stay informed on our progress and how you can get involved.
+          </div>
         </div>
         <?php echo do_shortcode('[gravityform id="26" title="false" description="false" ajax="true"]'); ?>
        </div>
