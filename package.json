@@ -7,7 +7,7 @@
     "lib": "lib"
   },
   "dependencies": {
-    "eslint": "^6.6.0",
+    "eslint": "^6.7.2",
     "https-proxy-agent": "^3.0.1"
   },
   "devDependencies": {

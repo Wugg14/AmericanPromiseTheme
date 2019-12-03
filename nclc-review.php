@@ -265,6 +265,12 @@ function nclc_review(){
             <p style="margin-bottom: 0px;">Photography by <a href="https://www.instagram.com/mctroia.photography/" target="_blank">Sam Troia</a></p>
         </div>
     </div>
+    <div class="nclc-review__section-2">
+        <div class="nclc-review__container">
+            <h1 style="margin-top: 0px; padding-top: 25px;text-align:center;">Thank You to Our Supporting Sponsors:</h1>
+            <p style="text-align: center; margin-bottom: 0px"><img src="https://www.americanpromise.net/wp-content/uploads/2019/12/nclc-sponsors.png" /></p>
+        </div>
+    </div>
     <?php
 };
 
