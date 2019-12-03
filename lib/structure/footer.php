@@ -54,7 +54,7 @@ function ap_custom_footer() {
 			<p style="line-height: 14px;">Since 1776, the American people have worked to fulfill the American promise: human liberty, equal citizenship, government by the people.   American Promise is a non-profit organization founded in 2016 to win the 28th Amendment that says people - not money - govern America. </p>
 			<p><a href="<?php echo esc_url(site_url('/state-nonprofit-disclosures/')); ?>">See our state nonprofit disclosures.</a></p>
 			<p>American Promise  ·  33 Bradford Street  ·  Concord, MA 01742  ·  978-254-6275</p>
-			<p>© 2018 American Promise. All rights reserved. Built with Genesis and Wordpress</p>
+			<p>© 2019 American Promise. All rights reserved. Built with Genesis and Wordpress</p>
 		</div>
 	</div>
 	<?php
