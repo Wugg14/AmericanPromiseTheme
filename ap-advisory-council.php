@@ -271,7 +271,30 @@ function custom_advisory_cards(){
 				</div>
 			</figure>
 		</div>
-	</div>
+
+
+    <div class="grid-item">
+        <figure class="testimonial-card">
+            <blockquote>American Promise has taken on the audacious goal of getting big money out of politics through ratification of a constitutional amendment. This may seem impossible to some, however we know that great democratic reforms are borne out of moments of national crisis. These moments make what appears to be impossible become inevitable. I am honored to join democracy reformers and citizen leaders from across the aisle to restore our core American values.</blockquote>
+            <div class="council-member">
+                <img src="https://www.americanpromise.net/wp-content/uploads/2019/12/Pic-for-American-Promise_Yael-Bromberg1.jpg" alt="Bromberg"/>
+                <h5>Yael Bromberg<span>Yael Bromberg, Esq. Bromberg Law LLC; Former Georgetown University Law Center</span><span>New York, NY</span></h5>
+            </div>
+        </figure>
+    </div>
+
+        <div class="grid-item">
+            <figure class="testimonial-card">
+                <blockquote>Imagine and think about what our country could look like if our elected officials were actually working to execute the will of the people to advance people's interests instead of money interest and financial interests...What would our country look like if elected officials could spend all their time representing us and studying issues and developing relationships and advancing sound policy instead of sort of being fundraisers who govern on the side a little bit when they get around to it.</blockquote>
+                <div class="council-member">
+                    <img src="https://www.americanpromise.net/wp-content/uploads/2019/12/greg-berhman.png" alt="Behrman"/>
+                    <h5>Greg Behrman<span>Founder & CEO, <strong>NationSwell</strong>; Strategic Advisor, Gen. David Petraeus and Gen. John Allen; fmr. Policy Staff, U.S. State Dept.</span><span>New York, NY</span></h5>
+                </div>
+            </figure>
+        </div>
+
+
+    </div>
 	<?php
 }
 
