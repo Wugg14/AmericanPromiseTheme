@@ -53,7 +53,7 @@ function custom_maine_loop(){
 
         <div class="one-fourth">
             <figure class="testimonial-card">
-                <blockquote>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus et vehicula mi. Vivamus dignissim mauris sed ipsum varius, eget faucibus ante sagittis. Maecenas congue finibus nibh, in porttitor turpis pulvinar eget. Sed a convallis nulla. Curabitur sem purus, ultricies vitae euismod a, sollicitudin at diam.</blockquote>
+                <blockquote>More than 80% of Americans know we need this Constitutional amendment so that all citizens can exercise our free speech rights and participate in self-government on equal terms. Constitutional amendments take persistence and action from Americans who put the country ahead of their political party. Stand With Maine and American Promise are bringing Mainers and all Americans together to make this Constitutional amendment a reality, and all of us will be better for it.</blockquote>
                 <div class="council-member">
 
                     <img src="https://www.americanpromise.net/wp-content/uploads/2019/12/tom-allen.jpg" alt="Tom Allen" />
