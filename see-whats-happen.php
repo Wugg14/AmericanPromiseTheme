@@ -20,7 +20,7 @@ function ap_map_content(){
 <div style="position:relative;width:100%;height:396px">
 <xml version="1.0" encoding="UTF-8" standalone="no">
 <svg xmlns="http://www.w3.org/2000/svg" id="us-map" viewBox="0 0 1000 600" xmlns:xlink="http://www.w3.org/1999/xlink">
-<title>Blank US states map</title>
+<title>US states map</title>
 <g id="outlines">
 
 <a xlink:href="http://www.americanpromise.net/alaska">

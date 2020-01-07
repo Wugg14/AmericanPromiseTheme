@@ -102,4 +102,77 @@ function custom_maine_loop(){
     <?php
 }
 
+
+function events_section() {
+    ?>
+    <div class="event-section__background">
+        <div class="container narrow-section__container">
+            <h1 style="margin-top: 40px;color:white;">Upcoming Citizen Uprising Events</h1>
+            <div class="event-cards__row">
+                <?php
+                $homepageEvents = tribe_get_events(array(
+                    'posts_per_page' => 3,
+                    'start_date' => date( 'Y-m-d H:i:s' )
+                ));
+                $event_counter = 0;
+                foreach ($homepageEvents as $event) {
+                    $start_date_year = tribe_get_start_date($event->ID, false, 'Y');
+                    $start_date_day = tribe_get_start_date($event->ID, false, 'j');
+                    $start_date_month = tribe_get_start_date($event->ID, false, 'M');
+
+
+
+                    ?>
+                    <div class="post__card flex-col">
+                        <div class="thumbnail__container" style="overflow:auto;"><?php
+
+                            // Check for thumbnail
+                            if (has_post_thumbnail($event->ID)){
+                                $image = wp_get_attachment_image_src( get_post_thumbnail_id( $event->ID ), $size = 'medium');
+                                $imageURL = $image[0];
+                                ?>
+                                <img class="post-thumbnail" alt="post-thumbnail" src="<?php echo $imageURL; ?>"/>
+                                <?php
+                            }else{
+                                ?>
+                                <img class="post-thumbnail" alt="default-thumbnail" src="<?php echo get_theme_file_uri('/assets/images/APLogoColorOptimized.jpg') ?>"/>
+                                <?php
+                            }?>
+
+                        </div>
+                        <p style="color: #d0d0d0"><?php echo $start_date_month ?> <?php echo $start_date_day ?>, <?php echo $start_date_year ?></p>
+                        <h3 style="margin-bottom: 45px;"><a style="color: white;text-decoration: underline;" href="<?php echo esc_url(get_permalink($event->ID)); ?>"><?php echo $event->post_title; ?></a></h3>
+                    </div> <?php
+                    $event_counter += 1;
+                }
+                if ($event_counter == 2){
+                    ?>
+                    <div class="post__card flex-col">
+                        <div class="thumbnail__container" style="overflow:auto;">
+                            <p class="view-all">No Other Upcoming Events</p>
+                        </div>
+                    </div>
+                    <?php
+                } elseif($event_counter == 1){
+                    ?>
+                    <div class="post__card one-third">
+                        <div class="thumbnail__container" style="overflow:auto;">
+                            <p class="view-all">No Other Announced Events</p>
+                        </div>
+                    </div>
+                    <div class="post__card one-third">
+                        <div class="thumbnail__container" style="overflow:auto;">
+                            <p class="view-all">No Other Announced Events</p>
+                        </div>
+                    </div>
+                    <?php
+                }
+                ?>
+            </div>
+            <form action="<?php echo esc_url(site_url('/events')); ?>"><button class="events-link-button">American Promise Calendar</button></form>
+        </div>
+    </div>
+    <?php
+};
+
 genesis();
