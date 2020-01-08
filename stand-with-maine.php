@@ -32,12 +32,30 @@ add_action( "genesis_loop",__NAMESPACE__  . "\custom_maine_loop" );
  */
 function custom_maine_loop(){
     ?>
+    <style>
+        .featured-page-image{
+            background-color: #2f5179;
+        }
+    </style>
+    <br/>
     <div class="site-inner">
-        <hr/>
-        <?php
-        the_content();
-        ?>
+        <div class="first two-thirds">
+            <div style="background-color: #d0d0d0; padding: 8px;">
+                <h2 style="color: black; font-size: 1em;"><b>We the people of Maine agree with the Maine Resolution calling for an amendment to the United States Constitution to “reaffirm the power of citizens through their government to regulate the raising and spending of money in elections.”</b></h2>
+                We urge all candidates and elected officials to pledge to work together, without regard to party or other political differences, to pass and ratify such a constitutional amendment as soon as possible.
+
+                <?php gravity_form( 28, $display_title = false, $display_description = false, $display_inactive = false, $field_values = null, $ajax = false, $tabindex, $echo = true ); ?>
+
+            </div>
+            <strong><a href="https://www.americanpromise.net/event/stand-with-maine-launch/">RSVP now to join us in Brewer on the evening of January 22, 2020.</a> Join the fastest growing reform movement in American and help us launch Stand With Maine!</strong>
+
+        </div>
+        <div class="one-third state-page__sidebar">In 2013, Maine State Senators Ed Youngblood (Republican), Dick Woodbury (Independent), State Representative Diane Russell (Democrat) helped pass SP 548, a powerful call on Congress to do its part to stop the waves of outside money pouring into local elections. They haven’t. We’re in the midst of the most expensive Senate election we’ve ever seen and <strong>it’s time to unite Mainers so we can fix this once and for all: Stand With Maine! When Mainers are united, we can make sure our all of our elected representatives, regardless of party, stand with Maine, not with big donors and outside interests.</strong>.The Supreme Court has made it <strong>unconstitutional</strong> to limit money spent in elections and between 2008-2012, outside spending in ME elections <strong>rose 574%</strong>. The result? Local governments beholden to those other than their constituents, candidates dependent on major donors, growing industry power that opens the door to life-threatening situations like the opioid crisis, in brief, a government and the policies it creates up for sale to the highest bidder.
+
+        </div>
     </div>
+    </div>
+    <br/>
     <div style="background-color:#2f5179;">
         <div class="site-inner">
         <h1 style="color: white; font-size:1.5em;" >What Mainers Are Saying:</h1>
