@@ -92,21 +92,31 @@ function custom_maine_loop(){
 
                 <div class="grid-item">
                     <figure class="testimonial-card">
-                        <blockquote>Stand with Maine, and its partnership with American Promise nationally, offers a pathway to containing the excessive spending in today’s politics. Acting together, across all parties and independents, we can reverse the divisive impact of unlimited money in political campaigns and restore citizen voice in our democracy.</blockquote>
-                        <div class="council-member">
-                            <img src="https://www.americanpromise.net/wp-content/uploads/2019/12/dick-woodbury.jpg" alt="Dick Woodbury" />
-                            <h5>Dick Woodbury<span class="noautop">Former State Senator, (I-Maine 11th)</span><span class="noautop">Brunswick, ME</span></h5>
-                        </div></figure>
-                </div>
-
-                <div class="grid-item">
-                    <figure class="testimonial-card">
                         <blockquote>I believe that a sustained effort to achieve this amendment will be a legacy Americans, and Mainers in particular, will be proud of in future generations. I want my children to say ‘my mom was an entrepreneur, and she helped pass the 28th Amendment to overturn Citizen’s United.’ I would like them to see that they can innovate, build, achieve their dreams, enjoy living in and working in Maine, and participate in our democracy on equal terms with all other citizens. I urge Maine politicians to lead on this issue, supported by their bi-partisan constituents.</blockquote>
                         <div class="council-member">
                             <img src="https://www.americanpromise.net/wp-content/uploads/2020/01/Maranda-Cook.jpg" alt="Marada Cook" />
                             <h5>Marada Cook<span class="noautop">General Manager, Crown O Maine</span><span class="noautop">North Vassalboro, ME</span></h5>
                         </div>
                     </figure>
+                </div>
+
+                <div class="grid-item">
+                    <figure class="testimonial-card">
+                        <blockquote>After more than 40 years of organic farming we’re convinced that working to advance the common good is the best way to reclaim our democracy, support our neighbors and build community. Maine has pioneered public financing of elections and has shown how our country can elect leaders without them selling out to corporations and powerful interests with agendas. Let’s be sure to give corporations rights as “citizens” the day after they send their children to war on our behalf.</blockquote>
+                        <div class="council-member">
+                            <img src="https://www.americanpromise.net/wp-content/uploads/2020/01/JimCaleb-Gerritsen1.jpg" alt="Jim Gerritsen" />
+                            <h5>Jim Gerritsen<span class="noautop">Two-Generation Certified Organic Seed Farm</span><span class="noautop">Bridgewater, ME</span></h5>
+                        </div>
+                    </figure>
+                </div>
+
+                <div class="grid-item">
+                    <figure class="testimonial-card">
+                        <blockquote>Stand with Maine, and its partnership with American Promise nationally, offers a pathway to containing the excessive spending in today’s politics. Acting together, across all parties and independents, we can reverse the divisive impact of unlimited money in political campaigns and restore citizen voice in our democracy.</blockquote>
+                        <div class="council-member">
+                            <img src="https://www.americanpromise.net/wp-content/uploads/2019/12/dick-woodbury.jpg" alt="Dick Woodbury" />
+                            <h5>Dick Woodbury<span class="noautop">Former State Senator, (I-Maine 11th)</span><span class="noautop">Brunswick, ME</span></h5>
+                        </div></figure>
                 </div>
             </div>
         </div>
