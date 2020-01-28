@@ -40,7 +40,13 @@ if(isset($_COOKIE['apchannel'])){
  */
 function populate_referral_url( $form ){
     // Grab URL from HTTP Server Var and put it into a variable
-    $refurl = $_SERVER['HTTP_REFERER'];
+    if(isset($_SERVER['HTTP_REFERER'])) {
+        $refurl = $_SERVER['HTTP_REFERER'];
+    }
+    else
+    {
+        $refurl = '';
+    }
 
     // Return that value to the form
     return esc_url_raw($refurl);

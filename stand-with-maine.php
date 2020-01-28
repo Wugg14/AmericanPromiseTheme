@@ -44,7 +44,7 @@ function custom_maine_loop(){
                 <h2 style="color: black; font-size: 1em;"><b>We the people of Maine agree with the Maine Resolution calling for an amendment to the United States Constitution to “reaffirm the power of citizens through their government to regulate the raising and spending of money in elections.”</b></h2>
                 We urge all candidates and elected officials to pledge to work together, without regard to party or other political differences, to pass and ratify such a constitutional amendment as soon as possible.
 
-                <?php gravity_form( 28, $display_title = false, $display_description = false, $display_inactive = false, $field_values = null, $ajax = false, $tabindex, $echo = true ); ?>
+                <?php gravity_form( 28, $display_title = false, $display_description = false, $display_inactive = false, $field_values = null, $ajax = false, $echo = true ); ?>
 
             </div>
             <strong><a href="https://www.americanpromise.net/event/stand-with-maine-launch/">RSVP now to join us in Brewer on the evening of January 22, 2020.</a> Join the fastest growing reform movement in American and help us launch Stand With Maine!</strong>
@@ -128,7 +128,7 @@ function custom_maine_loop(){
         <br/>
         <span style="font-size: 24pt;">1 </span><span style="font-size: 12pt;">Get connected with the Maine’s first American Promise Association and join an organized, dynamic group of active citizen leaders already in your community! Contact: Amy Cartmell, <a href="mailto:dansciman@gmail.com">acartmell@kw.com</a> .</span>
 
-        <?php gravity_form( 5, $display_title = true, $display_description = false, $display_inactive = false, $field_values = null, $ajax = false, $tabindex, $echo = true ); ?>
+        <?php gravity_form( 5, $display_title = true, $display_description = false, $display_inactive = false, $field_values = null, $ajax = false, $echo = true ); ?>
         <br/>
 
         <strong><span style="font-size: 24pt;">2 </span></strong><span style="font-size: 24pt;"><span style="font-size: 12pt;">Share this page and ask your friends to sign the Stand with Maine petition themselves!</span></span>
