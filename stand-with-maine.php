@@ -9,7 +9,7 @@ namespace AmericanPromise\AmericanPromiseTheme;
 // Force full-width-content layout setting in Genesis
 add_filter( 'genesis_pre_get_option_site_layout', '__genesis_return_full_width_content' );
 
-// Remove Site Inner Markup for custom homepage
+// Remove Site Inner Markup for custom page
 add_filter( 'genesis_markup_site-inner', '__return_null' );
 add_filter( 'genesis_markup_content-sidebar-wrap_output', '__return_false' );
 add_filter( 'genesis_markup_content', '__return_null' );
