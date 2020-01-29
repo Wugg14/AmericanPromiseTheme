@@ -31,7 +31,7 @@ function custom_people_power_loop() {
             <p><strong>Throughout our nation’s history, citizen leaders have coalesced around reform movements that expand our fundamental rights to broader coalitions of Americans and improve our democratic self-governance—often through the amendment process. Through the passage of amendments, Americans have abolished slavery, expanded access to citizenship, granted voting rights regardless of race or gender, and more.</strong></p>
             <p>Now, it is time once again to pass a constitutional amendment to empower the American people — this time by ending the domination of big money in our political system. Drawing inspiration from generations of reformers before us helps guide and strengthen our movement. Here you will find a historical breakdown of moments when Americans have used our ultimate power to improve our nation, as well as articles that contextualize our fight for an amendment in the broader scope of history.</p>
         </div>
-        <div class="one-half"><?php echo do_shortcode('[gallery size="large" slick_active="true" sl_dots="true" ids="4964,4969,4968,4967,4966,4965"]'); ?></div>
+        <div class="one-half"><?php echo do_shortcode('[gallery size="large" slick_active="true" sl_dots="true" ids="4969,4964,4968,4967,4966,4965"]'); ?></div>
     </div>
 
     <div style="background-color:#2f5179;">
