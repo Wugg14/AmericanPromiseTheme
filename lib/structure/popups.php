@@ -27,12 +27,12 @@ function signup_popup() {
   <div class="email-popup-con">
     <div class="email-popup-inner-con">
       <div class="email-popup-img-con darkened-background">
-        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/DonateToOurCauseImage-optimized.png" alt="Email Subscribe Image">
+        <a href="https://www.americanpromise.net/take-action/sign-up-to-learn-more"><img src="https://www.americanpromise.net/wp-content/uploads/2020/01/twitter-cartoon-of-the-week.png" style="z-index: 1;" alt="Email Subscribe Image"/></a>
             <div class="pop-up__close">
             	<i class="fa fa-window-close close-popup" aria-hidden="true"></i>
             </div>
           <div class="message-overlay-con">
-              <strong>Think there's too much money in politics?</strong> We're working on a constitutional amendment to fix it. Stay informed on our progress and how you can get involved.
+              <p></p>
           </div>
         </div>
         <?php echo do_shortcode('[gravityform id="26" title="false" description="false" ajax="true"]'); ?>
