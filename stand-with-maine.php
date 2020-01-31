@@ -47,8 +47,9 @@ function custom_maine_loop(){
                 <?php gravity_form( 28, $display_title = false, $display_description = false, $display_inactive = false, $field_values = null, $ajax = false, $echo = true ); ?>
 
             </div>
-            <strong><a href="https://www.americanpromise.net/event/stand-with-maine-launch/">RSVP now to join us in Brewer on the evening of January 22, 2020.</a> Join the fastest growing reform movement in American and help us launch Stand With Maine!</strong>
-
+            <div style="text-align: center; font-size: 2em;">
+            <strong><a target="_blank" href="https://drive.google.com/drive/u/0/folders/1WE5HfAi5C4W7Vqcv6CXaP6c_TrGqFKKM">See the Stand with Maine Resource Library</a></strong>
+            </div>
         </div>
         <div class="one-third state-page__sidebar">In 2013, Maine State Senators Ed Youngblood (Republican), Dick Woodbury (Independent), State Representative Diane Russell (Democrat) helped pass SP 548, a powerful call on Congress to do its part to stop the waves of outside money pouring into local elections. They haven’t. We’re in the midst of the most expensive Senate election we’ve ever seen and <strong>it’s time to unite Mainers so we can fix this once and for all: Stand With Maine! When Mainers are united, we can make sure our all of our elected representatives, regardless of party, stand with Maine, not with big donors and outside interests.</strong>.The Supreme Court has made it <strong>unconstitutional</strong> to limit money spent in elections and between 2008-2012, outside spending in ME elections <strong>rose 574%</strong>. The result? Local governments beholden to those other than their constituents, candidates dependent on major donors, growing industry power that opens the door to life-threatening situations like the opioid crisis, in brief, a government and the policies it creates up for sale to the highest bidder. When we Stand With Maine and the 28th Amendment, we can fix this- forever.
 
