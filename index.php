@@ -36,7 +36,7 @@ function custom_archive_loop() {
 
 function custom_archive_header() {
 	?>
-	<div class="featured-page-image" style="background: url(<?php echo get_theme_file_uri('/assets/images/BannerStories.jpg') ?>);">
+	<div class="featured-page-image" style="background: url(https://res.cloudinary.com/dfzj6lgdn/image/upload/v1581352015/BannerStories_oavczx.jpg);background-position:center;">
 		<h1>Promising Stories</h1>
 	</div>
 	<?php
@@ -45,6 +45,7 @@ function custom_archive_header() {
 function custom_blog_archive_loop(){
 	?>
 		<div class="spacer">
+
 
 				<?php
 				$postCounter = 0;

@@ -47,12 +47,16 @@ function custom_maine_loop(){
                 <?php gravity_form( 28, $display_title = false, $display_description = false, $display_inactive = false, $field_values = null, $ajax = false, $echo = true ); ?>
 
             </div>
-            <div style="text-align: center; font-size: 2em;">
-            <strong><a target="_blank" href="https://drive.google.com/drive/u/0/folders/1WE5HfAi5C4W7Vqcv6CXaP6c_TrGqFKKM">See the Stand with Maine Resource Library</a></strong>
-            </div>
         </div>
-        <div class="one-third state-page__sidebar">In 2013, Maine State Senators Ed Youngblood (Republican), Dick Woodbury (Independent), State Representative Diane Russell (Democrat) helped pass SP 548, a powerful call on Congress to do its part to stop the waves of outside money pouring into local elections. They haven’t. We’re in the midst of the most expensive Senate election we’ve ever seen and <strong>it’s time to unite Mainers so we can fix this once and for all: Stand With Maine! When Mainers are united, we can make sure our all of our elected representatives, regardless of party, stand with Maine, not with big donors and outside interests.</strong>.The Supreme Court has made it <strong>unconstitutional</strong> to limit money spent in elections and between 2008-2012, outside spending in ME elections <strong>rose 574%</strong>. The result? Local governments beholden to those other than their constituents, candidates dependent on major donors, growing industry power that opens the door to life-threatening situations like the opioid crisis, in brief, a government and the policies it creates up for sale to the highest bidder. When we Stand With Maine and the 28th Amendment, we can fix this- forever.
+        <div class="one-third">
+            <strong>Learn More:</strong>
+            <br/>
+            <a href="https://drive.google.com/open?id=0B5VZHQJbBX6zcUpXRmN0eW0zSDkzZHZlR0tsMzY2MGVNNFl3" target="_blank"><button style="margin: 10px;" class="small-button--purple">Background One-Pager</button></a>
+            <br/>
+            <a href="https://drive.google.com/open?id=1G_wbBzmn7KsZfLJCwG7zyjtOk0hmYADn" target="_blank"><button style="margin: 10px;" class="small-button--purple">FAQ</button></a>
 
+            <div class="state-page__sidebar">In 2013, Maine State Senators Ed Youngblood (Republican), Dick Woodbury (Independent), State Representative Diane Russell (Democrat) helped pass SP 548, a powerful call on Congress to do its part to stop the waves of outside money pouring into local elections. They haven’t. We’re in the midst of the most expensive Senate election we’ve ever seen and <strong>it’s time to unite Mainers so we can fix this once and for all: Stand With Maine! When Mainers are united, we can make sure our all of our elected representatives, regardless of party, stand with Maine, not with big donors and outside interests.</strong>.The Supreme Court has made it <strong>unconstitutional</strong> to limit money spent in elections and between 2008-2012, outside spending in ME elections <strong>rose 574%</strong>. The result? Local governments beholden to those other than their constituents, candidates dependent on major donors, growing industry power that opens the door to life-threatening situations like the opioid crisis, in brief, a government and the policies it creates up for sale to the highest bidder. When we Stand With Maine and the 28th Amendment, we can fix this- forever.
+        </div>
         </div>
     </div>
     </div>
@@ -78,6 +82,15 @@ function custom_maine_loop(){
 
                             <img src="https://www.americanpromise.net/wp-content/uploads/2019/12/tom-allen.jpg" alt="Tom Allen" />
                             <h5>Tom Allen<span class="noautop">Former Congressman, (D-Maine)</span><span class="noautop">Portland, ME</span></h5>
+                        </div></figure>
+                </div>
+
+                <div class="grid-item">
+                    <figure class="testimonial-card">
+                        <blockquote>We are about to enter an election where an endless supply of outside money is about to overwhelm our elections, our voices, our Republic. This disturbing trend means rural residents, in lightly populated areas, have a diminishing ability to raise money and defend their communities from those that impose their political will from another region of the state or nation. I stand with Maine for a constitutional amendment to defend our rights to stop the money take-over of our elections and to secure our representative government of the people.</blockquote>
+                        <div class="council-member">
+                            <img src="https://americanpromise.net/wp-content/uploads/2020/02/portland-press-herald_3591214.jpeg" alt="David Trahan" />
+                            <h5>David Trahan<span class="noautop">Executive Director, Sportsman’s Alliance of Maine, former State Senator & Representative</span><span class="noautop">Waldoboro, ME</span></h5>
                         </div></figure>
                 </div>
 
@@ -119,6 +132,7 @@ function custom_maine_loop(){
                             <h5>Dick Woodbury<span class="noautop">Former State Senator, (I-Maine 11th)</span><span class="noautop">Brunswick, ME</span></h5>
                         </div></figure>
                 </div>
+
             </div>
         </div>
     </br>

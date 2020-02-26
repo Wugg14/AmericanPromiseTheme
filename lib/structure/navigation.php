@@ -75,7 +75,7 @@ function bap_subheader(){
                            class="subhead_l1 dropdown">What We Believe <i class="fa fa-angle-down fa-lg"></i></a>
                         <div class="dropdown-content">
                             <a target="_Blank"
-                               href="https://www.americanpromise.net/wp-content/uploads/2019/04/BAP_SoP_v1.5_final.pdf">Statement
+                               href="https://americanpromise.net/take-action/join-a-program/business-for-american-promise/statement-of-principle/">Statement
                                 of Principle</a>
                             <a href="https://www.americanpromise.net/bap-signers-of-the-statement-of-principle/">See the
                                 Signers</a>

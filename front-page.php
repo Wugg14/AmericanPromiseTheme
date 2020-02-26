@@ -226,7 +226,7 @@ function events_section() {
 								<?php
 						}else{
 								?>
-									<img class="post-thumbnail" alt="default-thumbnail" src="<?php echo get_theme_file_uri('/assets/images/APLogoColorOptimized.jpg') ?>"/>
+									<img class="post-thumbnail" alt="default-thumbnail" src="https://res.cloudinary.com/dfzj6lgdn/image/upload/v1581345935/APLogoColorOptimized_bgxzqr.jpg"/>
 								<?php
 						}?>
 
