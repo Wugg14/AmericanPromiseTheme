@@ -293,6 +293,16 @@ function custom_advisory_cards(){
             </figure>
         </div>
 
+        <div class="grid-item">
+            <figure class="testimonial-card">
+                <blockquote>Many people recognize that unlimited political spending is a key driver of the growing distrust in our society and lack of faith in our civic institutions — yet they may not be aware that it is also bad for business. A pay-to-play political system pushes businesses into short-termism and an ‘arms race’ of political spending just to maintain their positions — rather than focusing on real value-creation in the marketplace. This is why it is so important for business leaders to add their voices to those of millions of other Americans calling for a 28th amendment to limit political spending.</blockquote>
+                <div class="council-member">
+                    <img src="https://americanpromise.net/wp-content/uploads/2019/02/EDoty-150x150.png" alt="Doty"/>
+                    <h5>Elizabeth Doty<span>Founder, Leadership Momentum</span><span>San Francisco, CA</span></h5>
+                </div>
+            </figure>
+        </div>
+
 
     </div>
 	<?php

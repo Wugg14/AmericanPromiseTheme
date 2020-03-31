@@ -27,7 +27,7 @@ function signup_popup() {
   <div class="email-popup-con">
     <div class="email-popup-inner-con">
       <div class="email-popup-img-con darkened-background">
-        <a href="https://www.americanpromise.net/take-action/sign-up-to-learn-more"><img src="https://www.americanpromise.net/wp-content/uploads/2020/01/twitter-cartoon-of-the-week.png" style="z-index: 1;" alt="Email Subscribe Image"/></a>
+        <a href="https://www.americanpromise.net/take-action/sign-up-to-learn-more"><img src="https://americanpromise.net/wp-content/uploads/2020/03/twitter-cartoon-of-the-week-2.png" style="z-index: 1;" alt="Email Subscribe Image"/></a>
             <div class="pop-up__close">
             	<i class="fa fa-window-close close-popup" aria-hidden="true"></i>
             </div>

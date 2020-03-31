@@ -211,7 +211,7 @@ function ap_map_content(){
 <div class="map-key">
 	<svg style="width:30px;height:30px;"><polygon points="2.5,.25 1,4.95 4.75,1.95 .5,1.95 4,4.95" r="4" transform="translate(10,19)" style="fill:#FFFF00;stroke:#FFFF00;stroke-width:5;fill-rule:nonzero;" /></svg><p class="map-key__text"> = Called on Congress to pass a 28th Amendment</p>
 	<br>
-	<div class="map-key__icon" id="icon-2"></div><p class="map-key__text">  = Active American Promise Association or Business for American Promise Chapter</p>
+	<div class="map-key__icon" id="icon-2"></div><p class="map-key__text">  = Active American Promise Chapter</p>
 	<br>
 	<div class="map-key__icon" id="icon-3"></div><p class="map-key__text">  = Active citizen leaders working to pass an amendment</p>
 	<br>
