@@ -24,7 +24,7 @@ function state_blog_posts(){
   $relatedPostsQueryArgs = array(
         'posts_per_page' => 4,
         'post_type' => 'post',
-        'tag' => $page_slug, //use tag to filter posts
+        'category_name' => $page_slug, //use tag to filter posts
     );
 
   // remove underspaces from the slug for displaying it as a string

@@ -98,6 +98,9 @@ function enqueue_assets() {
         if(is_page('american-promise-url-builder')){
             wp_enqueue_script( CHILD_TEXT_DOMAIN . '-urlBuilderScript', CHILD_URL . '/assets/js/urlBuilder-script.js', array( 'jquery' ), CHILD_THEME_VERSION, true );
         }
+        if(is_page('stand-with-maine')){
+            wp_enqueue_script( CHILD_TEXT_DOMAIN . '-standWIthMaine', CHILD_URL . '/assets/js/standWithMaine-script.js', array( 'jquery' ), CHILD_THEME_VERSION, true );
+        }
 	};
 	$localized_script_args = array(
 		'mainMenu' => __( 'Menu', CHILD_TEXT_DOMAIN ),

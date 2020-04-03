@@ -141,8 +141,29 @@ function custom_maine_loop(){
                             <h5>Ed Youngblood<span class="noautop">Former State Senator, (R-Maine 31st)</span><span class="noautop">Brewer, ME</span></h5>
                         </div></figure>
                 </div>
+            <div class="grid-item">
+                <figure class="testimonial-card">
+                    <blockquote>‘As Maine goes, so goes the nation!’.  Let’s revitalize this message by being a leader in the tri-partisan effort to stop the dominance of big money in all aspects of our political system.  In this age of divisiveness, this can be a unifying principle—left and right-- to move our country ahead</blockquote>
+                    <div class="council-member">
+                        <img src="https://americanpromise.net/wp-content/uploads/2020/03/RogerKatz.jpg" alt="Roger Katz" />
+                        <h5>Roger Katz<span class="noautop">Former State Senator, (R-Maine 15th)</span><span class="noautop">Augusta, ME</span></h5>
+                    </div>
+                </figure>
+            </div>
+
+
+            <div class="grid-item">
+                <figure class="testimonial-card">
+                    <blockquote>Our democracy is built on the idea that the best hope for our future is to entrust voters with the power to set the course for our states and our nation. Nothing should interfere with that process, yet each election cycle is marred by the ever-increasing influence of money, distorting our access to information and drowning out the voices of the people. But we the people have the power to regain control. I support Stand with Maine as the best way to use our power to bring about a more perfect union and a more perfect Maine.</blockquote>
+                    <div class="council-member">
+                        <img src="https://americanpromise.net/wp-content/uploads/2020/03/JohnBrautigam.png" alt="John Brautigam" />
+                        <h5>John Brautigam<span class="noautop">Former State Representative, (D-Maine 113th); Counsel, Maine Center for Clean Elections</span><span class="noautop">Falmouth, ME</span></h5>
+                    </div>
+                </figure>
+            </div>
 
             </div>
+            <h1 style="color:white;text-align: right; text-decoration: underline" id="showmore">See More</h1>
         </div>
     </br>
 
