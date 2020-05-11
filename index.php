@@ -101,8 +101,19 @@ function custom_blog_archive_loop(){
                                         <h1>Special Content Pages:</h1>
                                     </div>
                                     <div>
+                                         <div class="index-page__card slide-top" style="background: white;">
+                                             <div class="index-page__card__img__container" style="background: white;"><img class="index-page__card__img" src="https://americanpromise.net/wp-content/uploads/2020/03/landing-page-banners.png" /></div>
+                                            <header class="index-page__card__header">
+                                                <h1 style="padding: 10px 10px 0px 10px;"><a style="color: black; text-decoration: none;" href="https://americanpromise.net/building-support-in-congress/" target="_blank" rel="noopener noreferrer">Building Support in Congress</a></h1>
+                                            </header>
+                                            <div class="index-page__blog-posts">
+                                                Passing a constitutional amendment is difficult by design: the only way to achieve it is with widespread, cross-partisan support driven by grassroots action. While there are two routes to passing a constitutional amendment, only one method has ever been successfully used—acquiring two-thirds support from both houses of Congress and approval by three-quarters of the states. <a target="_blank" href="https://americanpromise.net/building-support-in-congress/">Read More</a></div>
+                                        </div>
+                                    </div>
+
+                                    <div>
                                         <div class="index-page__card slide-top" style="background: white;">
-                                            <div class="index-page__card__img__container" style="background: white;"><img class="index-page__card__img" src="https://americanpromise.net/wp-content/uploads/2020/03/6-1.png" /></div>
+                                            <div class="index-page__card__img__container" style="background: white;"><img class="index-page__card__img" src="https://americanpromise.net/wp-content/uploads/2020/03/51.png" /></div>
                                             <header class="index-page__card__header">
                                                 <h1 style="padding: 10px 10px 0px 10px;"><a style="color: black; text-decoration: none;" href="https://americanpromise.net/money-in-politics-and-health-care/" target="_blank" rel="noopener noreferrer">Money in Politics and Health Care</a></h1>
                                             </header>

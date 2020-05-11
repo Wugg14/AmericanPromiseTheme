@@ -57,7 +57,7 @@ function custom_advisory_cards(){
                 <blockquote>I have a lot of hope because I believe in the power of people. I am not speculating; the needle of progress moves forward when leaders, citizens, and activists combine conviction with empathy to drive unified change in our democracy. Even in our divisive political moment, everyday people have the ability to make change because the American spirit is defined by overcoming challenges in the face of overwhelming odds. </blockquote>
                 <div class="council-member">
                     <img src="<?php echo esc_url(site_url('/wp-content/uploads/2020/04/Manu-Meel.jpg')); ?>" alt="Meel"/>
-                    <h5>Manu Meel<span>CEO, BridgeUSA</span><span>San Francisco, CA</span></h5>
+                    <h5>Manu Meel<span>CEO, BridgeUSA</span><span>San Francisco</span></h5>
                 </div>
             </figure>
         </div>

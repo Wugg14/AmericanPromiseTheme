@@ -101,6 +101,12 @@ function enqueue_assets() {
         if(is_page('stand-with-maine')){
             wp_enqueue_script( CHILD_TEXT_DOMAIN . '-standWIthMaine', CHILD_URL . '/assets/js/standWithMaine-script.js', array( 'jquery' ), CHILD_THEME_VERSION, true );
         }
+        if(is_page('american-promise-pledge-signers')){
+            wp_enqueue_style( CHILD_TEXT_DOMAIN . '-dataTablesStyles', '//cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css', array(), CHILD_THEME_VERSION );
+            wp_enqueue_script( CHILD_TEXT_DOMAIN . '-dataTablesJS', '//cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js', array('jquery'), false, true );
+            wp_enqueue_script( CHILD_TEXT_DOMAIN . '-dataTablesScript', CHILD_URL . '/assets/js/dataTables-script.js', array('jquery'), CHILD_THEME_VERSION, true );
+            wp_enqueue_script( CHILD_TEXT_DOMAIN . '-pledgeDatabaseScript', CHILD_URL . '/assets/js/pledgeDatabase-script.js', array('jquery'), CHILD_THEME_VERSION, true );
+        }
 	};
 	$localized_script_args = array(
 		'mainMenu' => __( 'Menu', CHILD_TEXT_DOMAIN ),

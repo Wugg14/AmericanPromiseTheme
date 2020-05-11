@@ -51,12 +51,11 @@ function custom_maine_loop(){
         <div class="one-third">
             <strong>Learn More:</strong>
             <br/>
-            <a href="https://drive.google.com/open?id=0B5VZHQJbBX6zcUpXRmN0eW0zSDkzZHZlR0tsMzY2MGVNNFl3" target="_blank"><button style="margin: 10px;" class="small-button--purple">Background One-Pager</button></a>
+            <a href="https://drive.google.com/open?id=0B5VZHQJbBX6zcUpXRmN0eW0zSDkzZHZlR0tsMzY2MGVNNFl3" target="_blank"><button style="margin: 10px;font-size: 1.25em;" class="small-button--purple">Background One-Pager</button></a>
             <br/>
-            <a href="https://drive.google.com/open?id=1G_wbBzmn7KsZfLJCwG7zyjtOk0hmYADn" target="_blank"><button style="margin: 10px;" class="small-button--purple">FAQ</button></a><a href="https://docs.google.com/document/d/1QZpjWOBwIkQZdT8OifEixWWK2VqmTTILYuTMhN9-lCs/edit?usp=sharing" target="_blank"><button style="margin: 10px;" class="small-button--purple">Get Involved</button></a>
-
-            <div class="state-page__sidebar">In 2013, Maine State Senators Ed Youngblood (Republican), Dick Woodbury (Independent), State Representative Diane Russell (Democrat) helped pass SP 548, a powerful call on Congress to do its part to stop the waves of outside money pouring into local elections. They haven’t. We’re in the midst of the most expensive Senate election we’ve ever seen and <strong>it’s time to unite Mainers so we can fix this once and for all: Stand With Maine! When Mainers are united, we can make sure our all of our elected representatives, regardless of party, stand with Maine, not with big donors and outside interests.</strong>.The Supreme Court has made it <strong>unconstitutional</strong> to limit money spent in elections and between 2008-2012, outside spending in ME elections <strong>rose 574%</strong>. The result? Local governments beholden to those other than their constituents, candidates dependent on major donors, growing industry power that opens the door to life-threatening situations like the opioid crisis, in brief, a government and the policies it creates up for sale to the highest bidder. When we Stand With Maine and the 28th Amendment, we can fix this- forever.
-        </div>
+            <a href="https://drive.google.com/open?id=1G_wbBzmn7KsZfLJCwG7zyjtOk0hmYADn" target="_blank"><button style="margin: 10px;font-size: 1.5em;" class="small-button--purple">FAQ</button></a>
+            <br/>
+            <a href="https://docs.google.com/document/d/1QZpjWOBwIkQZdT8OifEixWWK2VqmTTILYuTMhN9-lCs/edit?usp=sharing" target="_blank"><button style="margin: 10px;background-color:#DB1E3B;font-size: 1.6em;" class="small-button--purple">Get Involved</button></a>
         </div>
     </div>
     </div>
@@ -161,6 +160,16 @@ function custom_maine_loop(){
                     </div>
                 </figure>
             </div>
+
+                <div class="grid-item">
+                    <figure class="testimonial-card">
+                        <blockquote>I support American Promise and Stand with Maine because BIG money in politics is the root cause of corruption, preventing ordinary people from impacting the causes they believe in.</blockquote>
+                        <div class="council-member">
+                            <img src="https://americanpromise.net/wp-content/uploads/2020/04/Jennifer-Heselton-Pope.jpg" alt="Jennifer Heselton Pope" />
+                            <h5>Jennifer Heselton Pope<span class="noautop"></span><span class="noautop">Gardiner, ME</span></h5>
+                        </div>
+                    </figure>
+                </div>
 
             </div>
             <h1 style="color:white;text-align: right; text-decoration: underline" id="showmore">See More</h1>

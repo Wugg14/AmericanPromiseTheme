@@ -1,3 +1,4 @@
+// Legacy Code from 2018 for handling database swapping
 jQuery(document).ready( function () {
   jQuery('#table1_wrapper').hide();
   jQuery('#table2_wrapper').hide();

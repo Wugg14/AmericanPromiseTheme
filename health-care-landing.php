@@ -24,7 +24,19 @@ function healthcare_content(){
     );
 
     $relatedPosts = new \WP_Query($relatedPostsQueryArgs);
-    $postCounter = 0;
+    $postCounter = 1;
+
+    ?>
+    <div class="first one-half">
+        <div class="index-page__card slide-top">
+            <div class="index-page__card__img__container"><img class="index-page__card__img" src="https://assets-c3.propublica.org/images/articles/_threeTwo1200w/20200420-PE-staffing-ads-3x2.jpg" /></div>
+            <header class="index-page__card__header">
+                <h1 style="padding: 10px 10px 0px 10px;"><a style="color: black; text-decoration: none;" href="https://www.propublica.org/article/medical-staffing-companies-cut-doctors-pay-while-spending-millions-on-political-ads" target="_blank" rel="noopener noreferrer">From ProPublica - Medical Staffing Companies Cut Doctors’ Pay While Spending Millions on Political Ads</a></h1>
+            </header>
+            <div class="index-page__blog-posts">Private equity-backed medical staffing companies that have cut doctors’ pay are continuing to spend millions on political ads, according to Federal Communications Commission disclosures. The ads amount to $2.2 million since Health and Human Services Secretary Alex Azar declared a public health emergency on Jan. 31. About $1.2 million has been spent since President Donald Trump’s national emergency declaration on March 13, the disclosures show. <a class="nu gray" target="_Blank" href="https://www.propublica.org/article/medical-staffing-companies-cut-doctors-pay-while-spending-millions-on-political-ads/">Read more</a></div>
+        </div>
+    </div>
+    <?php
 
     while ($relatedPosts->have_posts()) {
         $relatedPosts->the_post();
