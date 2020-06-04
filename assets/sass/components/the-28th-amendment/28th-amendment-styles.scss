@@ -1,0 +1,319 @@
+.full-size-landing-hero {
+  align-items: center;
+  display: flex;
+  font-size: 18px;
+  height: 85vh;
+  justify-content: center;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  transform-style: preserve-3d;
+  perspective: 100px;
+
+  @media only screen and (max-height: 825px) {
+    height: auto;
+  }
+}
+
+.full-size-landing-hero:before {
+  animation: fade-slide-down 2s .5s cubic-bezier(0, 0.5, 0, 1) forwards;
+  background: linear-gradient(to bottom, rgba(0,0,0,.1), rgba(0,0,0,.9)),
+  url(https://res.cloudinary.com/dfzj6lgdn/image/upload/v1588696219/constitution-hero-background-gradient_kakp1c.jpg) no-repeat bottom;
+  background-size: cover;
+  content: "";
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.full-size-landing-hero:after {
+  background: #F9FCFF;
+  content: "";
+  height: 40rem;
+  left: -5%;
+  position: absolute;
+  right: -5%;
+  top: 100%;
+  transform-origin: 0 0;
+  z-index: 0;
+}
+
+.header-title, .header-subtitle {
+  color: #fff;
+}
+
+.header-subtitle {
+  font-size: 1.5em;
+  margin-bottom: 7rem;
+
+  @media only screen and (max-height: 825px) {
+    margin-bottom: 3rem;
+  }
+}
+
+.header-button {
+  transform: translateZ(.1px);
+  position: relative;
+  z-index: 10;
+  margin: 5px;
+
+ .button {
+   @media only screen and (max-height: 825px) {
+     font-size: 12px;
+     margin: 8px;
+   }
+  }
+}
+
+.animate-pop-in {
+  animation: pop-in .6s cubic-bezier(0, 0.9, 0.3, 1.2) forwards;
+  opacity: 0;
+}
+
+.hero-logo {
+  animation-delay: .6s;
+  max-width: 25%;
+}
+
+.header-title {
+  animation-delay: .8s;
+  font-size: 4em;
+
+  @media only screen and (max-height: 825px) {
+    font-size: 3em;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+  }
+}
+
+.header-subtitle {
+  animation-delay: 1s;
+}
+
+.header-button {
+  animation-delay: 1.2s;
+}
+
+
+/* Animations */
+
+@keyframes fade-slide-down {
+  0% {
+    opacity: 0;
+    transform: translateY(-4rem);
+  }
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes pop-in {
+  0% {
+    opacity: 0;
+    transform: translateY(-4rem) scale(.8);
+  }
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
+
+.hero-anchor-links{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 7rem;
+
+  @media only screen and (max-height: 825px) {
+    margin-bottom: 3rem;
+  }
+
+  @media only screen and (max-width: 860px) {
+    flex-direction: column;
+  }
+}
+
+.header-content{
+  max-width: 80%;
+  min-width: 60%;
+  margin: 10px;
+}
+
+.hero-arrow{
+  font-size: 3em;
+  color: white;
+}
+
+.shake-icon {
+  animation: pop-in .6s cubic-bezier(0, 0.9, 0.3, 1.2) 1.3s forwards, shake 0.82s cubic-bezier(.36,.07,.19,.97) 2s both;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+  opacity: 0;
+
+  @media only screen and (max-width: 860px) {
+    display: none;
+  }
+}
+
+/*What Section*/
+.what-section{
+  background-color: #366AB3;
+  color: white;
+}
+
+.large-custom__h1 {
+  color: #5B2B7B;
+  margin-bottom: .1em;
+  color: white;
+  margin-top: 35px;
+}
+
+.large-custom__h1 h1 {
+  font-size: 2.5em;
+}
+
+.large-custom__h1 h1:after {
+  content: ' ';
+  display: block;
+  border: 2px solid white;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+  width: 20%;
+  margin-top: 10px;
+  margin-botom: .2em;
+}
+
+.section-1-flex-container{
+  display: flex;
+}
+
+.why-card-icon{
+  font-size: 5em;
+  margin-bottom: 20px;
+}
+
+.why-section{
+  background-color: #5b2b7b;
+  padding-bottom: 35px;
+}
+
+.why-card-header {
+  font-size:25px;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  margin-top: 0px;
+  padding: 15px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  background-color:white;
+}
+
+.why-card{
+  border: solid white 1px;
+  border-radius: 20px;
+  text-align: center;
+  color:white;
+  margin-bottom: 20px;
+}
+
+.why-card span{
+  padding: 25px;
+}
+
+.why-section-small-button{
+  color: white;
+  border: solid 1px white;
+  background-color: #5b2b7b;
+  margin: 15px;
+  padding: 10px 20px;
+}
+
+.why-section-small-button:hover{
+  color: #5b2b7b;
+  background-color: white;
+}
+
+.why-card a{
+  color: white;
+  text-decoration: underline;
+}
+
+.how-section{
+  background-color:#DB1E3B;
+  color:white;
+}
+
+.how-bullet{
+  font-size: 20px;
+  color: white;
+  text-decoration: underline;
+}
+
+.faq-section{
+  background-color: white;
+}
+
+.faq-q-header{
+  color: black;
+  font-size: 25px;
+  text-decoration: underline;
+  margin-top: 40px;
+}
+
+.large-custom__h1 {
+  color: #5B2B7B;
+  margin-bottom: .1em;
+  color: white;
+  margin-top: 35px;
+}
+
+.large-custom__h1-black h1 {
+  font-size: 2.5em;
+  color: black;
+}
+
+.large-custom__h1-black h1:after {
+  content: ' ';
+  display: block;
+  border: 2px solid black;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+  width: 20%;
+  margin-top: 10px;
+  margin-botom: .2em;
+}
+
+.faq-ans{
+  display: none;
+}

@@ -39,6 +39,9 @@ function custom_maine_loop(){
     </style>
     <br/>
     <div class="site-inner">
+        <div style="text-align: center;">
+            <img alt="Mainers from all walks of life Stand with Maine" src="https://americanpromise.net/wp-content/uploads/2020/05/Mainers-from-all-walks-of-life-from-across-the-state-Stand-with-Maine.-1.png"/>
+        </div>
         <div class="first two-thirds">
             <div style="background-color: #d0d0d0; padding: 8px;">
                 <h2 style="color: black; font-size: 1em;"><b>We the people of Maine agree with the Maine Resolution calling for an amendment to the United States Constitution to “reaffirm the power of citizens through their government to regulate the raising and spending of money in elections.”</b></h2>
@@ -53,146 +56,21 @@ function custom_maine_loop(){
             <br/>
             <a href="https://drive.google.com/open?id=0B5VZHQJbBX6zcUpXRmN0eW0zSDkzZHZlR0tsMzY2MGVNNFl3" target="_blank"><button style="margin: 10px;font-size: 1.25em;" class="small-button--purple">Background One-Pager</button></a>
             <br/>
-            <a href="https://drive.google.com/open?id=1G_wbBzmn7KsZfLJCwG7zyjtOk0hmYADn" target="_blank"><button style="margin: 10px;font-size: 1.5em;" class="small-button--purple">FAQ</button></a>
+            <a href="https://americanpromise.net/wp-content/uploads/2020/05/Stand-with-Maine_-Money-in-Maine-Politics-Fact-Sheet-Final-3.pdf" target="_blank"><button style="margin: 10px;font-size: 1.5em;" class="small-button--purple">Fact Sheet</button></a>
             <br/>
             <a href="https://docs.google.com/document/d/1QZpjWOBwIkQZdT8OifEixWWK2VqmTTILYuTMhN9-lCs/edit?usp=sharing" target="_blank"><button style="margin: 10px;background-color:#DB1E3B;font-size: 1.6em;" class="small-button--purple">Get Involved</button></a>
         </div>
     </div>
     </div>
     <br/>
-    <div style="background-color:#2f5179;">
+    <div style="background:url(https://americanpromise.net/wp-content/uploads/2018/12/pledge-banner-opaque.jpg);background-position: 50%;background-size:cover;">
         <div class="site-inner">
-        <h1 style="color: white; font-size:1.5em;" >What Mainers Are Saying:</h1>
-            <div class="grid" style="margin:0 auto;">
-                <div class="grid-item">
-                    <figure class="testimonial-card">
-                        <blockquote>I am encouraged to see the progress of this proposed Constitutional amendment. We need effective and reasonable regulation of money in our political system to protect the integrity of elections and secure the equal right of all Americans to free speech, representation, and participation in self-government.</blockquote>
-                        <div class="council-member">
-
-                            <img src="https://www.americanpromise.net/wp-content/uploads/2018/12/snowe.jpg" alt="Olympia Snowe" />
-                            <h5>Olympia Snowe<span class="noautop">Former Senator, (R-Maine)</span><span class="noautop">Lewiston, ME</span></h5>
-                        </div></figure>
-                </div>
-
-                <div class="grid-item">
-                    <figure class="testimonial-card">
-                        <blockquote>More than 80% of Americans know we need this Constitutional amendment so that all citizens can exercise our free speech rights and participate in self-government on equal terms. Constitutional amendments take persistence and action from Americans who put the country ahead of their political party. Stand With Maine and American Promise are bringing Mainers and all Americans together to make this Constitutional amendment a reality, and all of us will be better for it.</blockquote>
-                        <div class="council-member">
-
-                            <img src="https://www.americanpromise.net/wp-content/uploads/2019/12/tom-allen.jpg" alt="Tom Allen" />
-                            <h5>Tom Allen<span class="noautop">Former Congressman, (D-Maine)</span><span class="noautop">Portland, ME</span></h5>
-                        </div></figure>
-                </div>
-
-                <div class="grid-item">
-                    <figure class="testimonial-card">
-                        <blockquote>We are about to enter an election where an endless supply of outside money is about to overwhelm our elections, our voices, our Republic. This disturbing trend means rural residents, in lightly populated areas, have a diminishing ability to raise money and defend their communities from those that impose their political will from another region of the state or nation. I stand with Maine for a constitutional amendment to defend our rights to stop the money take-over of our elections and to secure our representative government of the people.</blockquote>
-                        <div class="council-member">
-                            <img src="https://americanpromise.net/wp-content/uploads/2020/02/portland-press-herald_3591214.jpeg" alt="David Trahan" />
-                            <h5>David Trahan<span class="noautop">Executive Director, Sportsman’s Alliance of Maine, former State Senator & Representative</span><span class="noautop">Waldoboro, ME</span></h5>
-                        </div></figure>
-                </div>
-
-                <div class="grid-item">
-                    <figure class="testimonial-card">
-                        <blockquote>Maine has been a leader in the fight to get money out of politics, but our democracy is literally drowning in corporate and wealthy donations which is impacting policies across the board. While Americans largely agree on raising the minimum wage, addressing climate change, ensuring universal health care and education, protecting women's rights, protecting our environment, and reducing wealth inequality, uber rich donors are demanding politicians represent them and not the people. It's time to unrig the system once and for all, and we can't do that without rebalancing the money in politics problem.</blockquote>
-                        <div class="council-member">
-                            <img src="https://www.americanpromise.net/wp-content/uploads/2019/12/Headshot-Diane.jpg" alt="Diane Russell" />
-                            <h5>Diane Russell<span class="noautop">Former State Representative, (D-Maine 39th)</span><span class="noautop">Brunswick, ME</span></h5>
-                        </div>
-                    </figure>
-                </div>
-
-                <div class="grid-item">
-                    <figure class="testimonial-card">
-                        <blockquote>I believe that a sustained effort to achieve this amendment will be a legacy Americans, and Mainers in particular, will be proud of in future generations. I want my children to say ‘my mom was an entrepreneur, and she helped pass the 28th Amendment to overturn Citizen’s United.’ I would like them to see that they can innovate, build, achieve their dreams, enjoy living in and working in Maine, and participate in our democracy on equal terms with all other citizens. I urge Maine politicians to lead on this issue, supported by their bi-partisan constituents.</blockquote>
-                        <div class="council-member">
-                            <img src="https://www.americanpromise.net/wp-content/uploads/2020/01/Maranda-Cook.jpg" alt="Marada Cook" />
-                            <h5>Marada Cook<span class="noautop">General Manager, Crown O Maine</span><span class="noautop">North Vassalboro, ME</span></h5>
-                        </div>
-                    </figure>
-                </div>
-
-                <div class="grid-item">
-                    <figure class="testimonial-card">
-                        <blockquote>After more than 40 years of organic farming we’re convinced that working to advance the common good is the best way to reclaim our democracy, support our neighbors and build community. Maine has pioneered public financing of elections and has shown how our country can elect leaders without them selling out to corporations and powerful interests with agendas. Let’s be sure to give corporations rights as “citizens” the day after they send their children to war on our behalf.</blockquote>
-                        <div class="council-member">
-                            <img src="https://www.americanpromise.net/wp-content/uploads/2020/01/JimCaleb-Gerritsen1.jpg" alt="Jim Gerritsen" />
-                            <h5>Jim Gerritsen<span class="noautop">Two-Generation Certified Organic Seed Farm</span><span class="noautop">Bridgewater, ME</span></h5>
-                        </div>
-                    </figure>
-                </div>
-
-                <div class="grid-item">
-                    <figure class="testimonial-card">
-                        <blockquote>Stand with Maine, and its partnership with American Promise nationally, offers a pathway to containing the excessive spending in today’s politics. Acting together, across all parties and independents, we can reverse the divisive impact of unlimited money in political campaigns and restore citizen voice in our democracy.</blockquote>
-                        <div class="council-member">
-                            <img src="https://www.americanpromise.net/wp-content/uploads/2019/12/dick-woodbury.jpg" alt="Dick Woodbury" />
-                            <h5>Dick Woodbury<span class="noautop">Former State Senator, (I-Maine 11th)</span><span class="noautop">Brunswick, ME</span></h5>
-                        </div></figure>
-                </div>
-
-                <div class="grid-item">
-                    <figure class="testimonial-card">
-                        <blockquote>So let’s Stand with Maine. From York to Aroostook County, a group of Mainers of all different perspectives, political views and walks of life are organizing to stand with Maine and say enough is enough: outside money is concerned not with the wellbeing of Mainers but the wellbeing of entrenched power and special interests</blockquote>
-                        <div class="council-member">
-                            <img src="https://americanpromise.net/wp-content/uploads/2020/03/youngblood-2.jpg" alt="Ed Youngblood" />
-                            <h5>Ed Youngblood<span class="noautop">Former State Senator, (R-Maine 31st)</span><span class="noautop">Brewer, ME</span></h5>
-                        </div></figure>
-                </div>
-            <div class="grid-item">
-                <figure class="testimonial-card">
-                    <blockquote>‘As Maine goes, so goes the nation!’.  Let’s revitalize this message by being a leader in the tri-partisan effort to stop the dominance of big money in all aspects of our political system.  In this age of divisiveness, this can be a unifying principle—left and right-- to move our country ahead</blockquote>
-                    <div class="council-member">
-                        <img src="https://americanpromise.net/wp-content/uploads/2020/03/RogerKatz.jpg" alt="Roger Katz" />
-                        <h5>Roger Katz<span class="noautop">Former State Senator, (R-Maine 15th)</span><span class="noautop">Augusta, ME</span></h5>
-                    </div>
-                </figure>
+        <h1 style="color: black; font-size:1.5em;text-align:center;" >What Mainers Are Saying:</h1>
+            <div style="max-width:40%;margin-left:auto;margin-right:auto;margin-bottom: 25px;">
+                <?php echo do_shortcode('[gallery size="large" media_category="8" sl_autoplay="true" sl_lazyload="anticipated" slick_active="true" sl_autoplayspeed="5000" ids="5783,5784,5785,5786,5787,5788,5789,5790,5791,5792,5793,5860"]') ?>
             </div>
-
-
-            <div class="grid-item">
-                <figure class="testimonial-card">
-                    <blockquote>Our democracy is built on the idea that the best hope for our future is to entrust voters with the power to set the course for our states and our nation. Nothing should interfere with that process, yet each election cycle is marred by the ever-increasing influence of money, distorting our access to information and drowning out the voices of the people. But we the people have the power to regain control. I support Stand with Maine as the best way to use our power to bring about a more perfect union and a more perfect Maine.</blockquote>
-                    <div class="council-member">
-                        <img src="https://americanpromise.net/wp-content/uploads/2020/03/JohnBrautigam.png" alt="John Brautigam" />
-                        <h5>John Brautigam<span class="noautop">Former State Representative, (D-Maine 113th); Counsel, Maine Center for Clean Elections</span><span class="noautop">Falmouth, ME</span></h5>
-                    </div>
-                </figure>
-            </div>
-
-                <div class="grid-item">
-                    <figure class="testimonial-card">
-                        <blockquote>I support American Promise and Stand with Maine because BIG money in politics is the root cause of corruption, preventing ordinary people from impacting the causes they believe in.</blockquote>
-                        <div class="council-member">
-                            <img src="https://americanpromise.net/wp-content/uploads/2020/04/Jennifer-Heselton-Pope.jpg" alt="Jennifer Heselton Pope" />
-                            <h5>Jennifer Heselton Pope<span class="noautop"></span><span class="noautop">Gardiner, ME</span></h5>
-                        </div>
-                    </figure>
-                </div>
-
-            </div>
-            <h1 style="color:white;text-align: right; text-decoration: underline" id="showmore">See More</h1>
         </div>
     </br>
-
-    </div>
-    <div class="site-inner" style="margin-bottom: 30px;margin-top: 30px;">
-        <strong style="font-size: 1.5em;">Ready to get involved? Three things you can do right now:</strong>
-        <br/>
-        <span style="font-size: 24pt;">1 </span><span style="font-size: 12pt;">Get connected with the Maine’s first American Promise Association and join an organized, dynamic group of active citizen leaders already in your community! Contact: Amy Cartmell, <a href="mailto:dansciman@gmail.com">acartmell@kw.com</a> .</span>
-
-        <?php gravity_form( 5, $display_title = true, $display_description = false, $display_inactive = false, $field_values = null, $ajax = false, $echo = true ); ?>
-        <br/>
-
-        <strong><span style="font-size: 24pt;">2 </span></strong><span style="font-size: 24pt;"><span style="font-size: 12pt;">Share this page and ask your friends to sign the Stand with Maine petition themselves!</span></span>
-
-        <p style="text-align:center;">
-            <a target="_Blank" href="http://twitter.com/share?url=https://www.americanpromise.net/stand-with-maine/&text=Stand%20with%20Maine%20:Sign%20now%20to%20help%20ensure%20that%20We%20the%20People—not%20big%20money,%20not%20corporations,%20not unions,%20not%20special%20interests—govern%20ourselves." class="fa fa-twitter twitter social" rel="noopener noreferrer"></a><a target="_Blank" href="http://www.facebook.com/sharer/sharer.php?u=https://www.americanpromise.net/stand-with-maine/" class="fa fa-facebook facebook social" rel="noopener noreferrer"></a><a target="_Blank" href="http://www.linkedin.com/shareArticle?url=https://www.americanpromise.net/stand-with-maine/&title=Stand%20with%20Maine%20:Sign%20now%20to%20help%20ensure%20that%20We%20the%20People—not%20big%20money,%20not%20corporations,%20not unions,%20not%20special%20interests—govern%20ourselves." class="fa fa-linkedin linkedin social" rel="noopener noreferrer"></a>
-        </p>
-
-        <br/>
-        <span style="font-size: 24pt;"><strong>3 </strong> <span style="font-size: 12pt;"><a href="https://www.americanpromise.net/donate/" target="_blank" rel="noopener noreferrer">Make a donation</a> now to help ensure that We the People–not big money, not corporations, not unions, not special interests—govern ourselves.
     </div>
     <?php
 }

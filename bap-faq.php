@@ -59,26 +59,6 @@ function bap_FAQ(){
       <a href="#good">Is the 28th Amendment good for business?</a>
     </div>
     <br/>
-  <h3><a href="#action">Moving to Action</a></h3>
-    <div style="margin-left: 25px;">
-      <a href="#strategy">What is American Promise’s strategy for 2019?</a>
-      <br />
-      <a href="#bap-strategy">What is Business for American Promise’s strategy for 2019?</a>
-      <br />
-      <a href="#effective">How can I help most effectively?</a>
-      <br />
-      <a href="#types">What types/sizes of businesses does Business for American Promise focus on?</a>
-      <br />
-      <a href="#endorse">Can my business or professional association endorse BAP’s efforts?</a>
-      <br />
-      <a href="#personally">What if I’m personally interested but don’t want to, or can’t, get my business involved?</a>
-      <br />
-      <a href="#pressing">I am working on other pressing issues. What makes the 28th Amendment so important?</a>
-      <br />
-      <a href="#dues">How much are BAP membership dues?</a>
-      <br />
-      <a href="#anonymous">Are BAP memberships anonymous?</a>
-      <br />
       <a href="#questions">Still have questions?</a>
     </div>
 </div>
@@ -258,7 +238,7 @@ To see a list of American Promises Major Donors <a href="https://www.americanpro
 
 <h2>What is Business for American Promise (BAP)?</h2>
 <i><p>
-  Business for American Promise (BAP), is a program of American Promise. Our mission is to unite business leaders in non-partisan advocacy for a 28th Amendment to end political spending, restore honest competition, and reestablish integrity in government. We are building and supporting a national network of chapters to provide educational forums and tools to help business leaders clarify where they stand and take effective action to advance reasonable reform.
+  Business for American Promise (BAP), is a program of American Promise. Our mission is to unite business leaders in non-partisan advocacy for a 28th Amendment to end political spending, restore honest competition, and reestablish integrity in government. We are building and supporting a national network to provide educational forums and tools to help business leaders clarify where they stand and take effective action to advance reasonable reform.
   </p><p>
   To learn more, please see <a href="https://www.americanpromise.net/business">Business for American Promise</a>.
 </p></i>
@@ -277,146 +257,11 @@ To see a list of American Promises Major Donors <a href="https://www.americanpro
 </p></i>
 <a href="#top">Return to Top</a>
 <hr/>
-
-<div class="anchor">
-  <a name="action"></a>
-</div>
-
-<h1><strong>Moving to Action</strong></h1>
-<div class="anchor">
-  <a name="strategy"></a>
-</div>
-<h2>What is American Promise’s strategy for 2019?</h2>
-<i><p>
-American Promise’s <a href="https://www.americanpromise.net/2019_roadmap_to_success/">roadmap for success</a> includes building a national network of Business for American Promise chapters in 2019. Our vision is to provide educational forums, tools, and support to help business leaders clarify where they stand and take effective action to advance reasonable reform.
-</p></i>
-
-<div class="anchor">
-  <a name="bap-strategy"></a>
-</div>
-
-<h2>What is Business for American Promise’s strategy for 2019?</h2>
-<i><p>
-  We have set ambitious goals for 2019. Building on our two prototype chapters (San Francisco Bay Area and Boston), we have begun engaging business professionals across the country to form a National Business for American Promise Network. Our goals for 2019 include:
-  </p>
-  <ul>
-    <li>Establish three new BAP chapters in strategic locations and support others based on local interest</li>
-    <li>Provide tools and support to make it easy for business professionals to take action with a limited investment of time</li>
-    <li>Support the BAP chapter network in achieving 4 critical outcomes
-    <ul>
-      <li>Add 400 signers to our Statement of Principle</li>
-      <li>Engage 300 new members</li>
-      <li>Host 10 events</li>
-      <li>Write 20 op-eds or letters to the editor</li>
-    </ul>
-    </li>
-  </ul>
-<p>
-To learn more, please see <a href="https://www.americanpromise.net/new-business-for-american-promise/">Business for American Promise: Take Action</a>.
-</p></i>
-
-<div class="anchor">
-  <a name="effective"></a>
-</div>
-
-<h2>How can I help most effectively?</h2>
-<i><p>
-  Business for American Promise is designed to enable busy professionals to take effective action with a limited investment of time. If you agree this is a critical priority for our country, there are three ways to take action:
-  </p>
-  <ol>
-    <li><a href="https://www.americanpromise.net/take-action/join-a-program/business-for-american-promise/become-a-member-of-bap/"><strong>Join.</strong></a> Join your local BAP <a href="https://www.americanpromise.net/take-action/join-a-program/business-for-american-promise/building-a-national-network/">chapter</a>, and gain access to tools and support that enable you to take effective action with a minimum investment of time. Or, gather with a few colleagues and <a href="https://www.americanpromise.net/take-action/join-a-program/business-for-american-promise/start-a-chapter/">start a new chapter</a> in your area.</li>
-    <li><a href="https://www.americanpromise.net/take-action/join-a-program/business-for-american-promise/statement-of-principle/#believe"><strong>Sign.</strong></a> Sign our non-partisan Statement of Principle to show your support for honest competition, representative democracy and integrity in government.</li>
-    <li><a href="https://www.americanpromise.net/take-action/join-a-program/business-for-american-promise/share/"><strong>Share.</strong></a> Tap your network and help us articulate the business case for solving pay-to-play politics. Convene a salon with trusted colleagues, host an event with your business school alumni group or write a letter to the editor. By <a href="https://www.americanpromise.net/take-action/join-a-program/business-for-american-promise/share/">adding your name</a> to our local list, you will receive updates and access to BAP tools so you can have an impact with a limited investment of time. </li>
-  </ol>
-  <p>
-  If you would rather take action in ways other than as a business professional, check out our parent organization <a href="https://www.americanpromise.net/">American Promise</a>, which offers programs tailored for grassroots citizen leaders, legal professionals, veterans, and faith groups.
-  </p><p>
-  To learn more, please see <a href="https://www.americanpromise.net/take-action/join-a-program/business-for-american-promise/bap-join-us/">Business for American Promise: Take Action</a>.
-</p></i>
-
-<div class="anchor">
-  <a name="types"></a>
-</div>
-
-<h2>What types/sizes of businesses does Business for American Promise focus on?</h2>
-<i><p>
-  BAP members are diverse, from small (1-50 employees) and mid-size (50-1000) to large (1000+) companies in every sector, working in roles spanning the C-suite to academia.
-</p></i>
-
-<div class="anchor">
-  <a name="endorse"></a>
-</div>
-
-<h2>Can my business or professional association endorse BAP’s efforts?</h2>
-<i><p>
-  Yes, we welcome organizational endorsements. Please <a href="mailto:bap@americanpromise.net">contact</a> us to discuss how supporting non-partisan, foundational reform to end the business arms race for political influence may actually reinforce your firm’s values and brand, and reduce reputational risk.
-</p></i>
-
-<div class="anchor">
-  <a name="personally"></a>
-</div>
-
-<h2>What if I’m personally interested but don’t want to, or can’t, get my business involved?</h2>
-<i><p>
-Many business professionals share a deep concern for our country and are committed to restoring honest competition and reestablishing integrity in government but face other concerns and responsibilities when they consider endorsing reforms as an organization.
-</p><p>
-With that in mind, Business for American Promise invites professionals to get involved first as individuals. Signing our <a href="https://www.americanpromise.net/take-action/join-a-program/business-for-american-promise/statement-of-principle/">Statement of Principle</a> or <a href="https://www.americanpromise.net/take-action/join-a-program/business-for-american-promise/become-a-member-of-bap/">joining BAP</a> as an individual are highly effective in advancing the 28th Amendment, because business people are uniquely positioned to clarify that a pay-to-play environment damages the real drivers of American innovation, competitiveness, and long-term prosperity. You may choose to include the name of your company or not.
-</p><p>
-And, when and if you are ready, we would welcome an endorsement from your business.  Please <a href="mailto:bap@americanpromise.net">contact us</a> to discuss how supporting non-partisan, foundational reform to end the arms race for political influence may actually reinforce your firm’s values and brand, and reduce reputational risk.
-</p></i>
-
-<div class="anchor">
-  <a name="pressing"></a>
-</div>
-
-<h2>I am working on other pressing issues. What makes the 28th Amendment so important?</h2>
-<i><p>
-Runaway political spending is blocking thoughtful, pragmatic action on almost every issue Americans care about many things, including our creeping tax code, ballooning deficits, regulatory complexity, escalating prescription drug use and costs, energy policy, economic inequality, and societal distrust. Indeed, according to former Sen. Alan Simpson (R-WY), “Money’s dominance over politics...is a growing crisis that prevents us from tackling anything else.”
-</p><p>
-The fact is, whatever issue concerns you most, as a business professional and as a citizen, incorporating the 28th Amendment into your plan of action enables you to address the root cause and increase your long-term impact.
-</p></i>
-
-<div class="anchor">
-  <a name="dues"></a>
-</div>
-
-<h2>How much are BAP membership dues?</h2>
-<i><p>
-Annual dues for individual members in Business for American Promise range from $280 (minimum) to $2800/year.
-</p><p>
-Your membership dues help demonstrate that business is concerned about representative democracy, enables us to provide specialized tools and support for BAP chapters, and contributes to grassroots efforts across the nation.
-</p><p>
-We invite you to considering <a href="https://www.americanpromise.net/take-action/join-a-program/business-for-american-promise/become-a-member-of-bap/">Joining BAP</a> and exploring other ways to <a href="https://www.americanpromise.net/take-action/join-a-program/business-for-american-promise/bap-join-us/">Take Action</a>.
-</p></i>
-
-<div class="anchor">
-  <a name="dues"></a>
-</div>
-
-<h2>Are BAP membership dues and contributions tax-deductible?</h2>
-<i><p>
-BAP dues are used for 510(c)(4) purposes of non-partisan advocacy of a 28th Amendment to end unlimited political spending, foster honest competition, and reestablish integrity in government. These and any other 501(c)(4) contributions are not tax-deductible. Contributions to American Promise's 501(c)(3) support our 28 Founders Fund(s) and charitable donations are tax-deductible.
-</p></i>
-
-<div class="anchor">
-  <a name="anonymous"></a>
-</div>
-
-<h2>Are BAP memberships anonymous?</h2>
-<i><p>
-American Promise is dedicated to principles of full transparency in disclosing the name of all donors. American Promise’s policy is to record and publish full name recognition and contribution level details of individual, foundation, and in-kind gifts on its website and in its Annual Report.
-</p><p>
-If a donor requests anonymity for their contribution, American Promise will accept the contribution only after discussion with the donor. If the donor still requests anonymity, it will be allowed only when approved by the Board of Directors, which will consider and weigh all relevant factors including the reasons for the request (e.g., personal safety or faith), and the amount of the contribution (the larger the contribution, the more likely American Promise will insist on full disclosure.) In the rare and unlikely instance when an anonymous contribution is approved by the Board, American Promise will disclose the amount of the contribution, the reasons given for the request for anonymity, and the reasons for the Board’s decision.
-</p></i>
-
 <div class="anchor">
   <a name="questions"></a>
 </div>
 <h2>Still have questions?</h2>
 Call American Promise at 978-254-6275.
-</p><p>
-<a href="#top">Return to Top</a>
-</p>
 <br/>
 <?php
 }

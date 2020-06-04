@@ -53,9 +53,9 @@ function featured_image_header() {
             if (!is_page('donate') && !is_author() && !is_front_page() && !is_home() && !is_404() && !tribe_is_month() && !tribe_is_day() && !(tribe_is_past() || tribe_is_upcoming() && !is_tax())){
                 remove_action( 'genesis_entry_header', 'genesis_do_post_title' );
                 if(get_field('no_banner_header')){
-                    ?><div class="featured-page-image--no-image"></div><?php
+                    ?><div class="featured-page-image" style="background: url(https://americanpromise.net/wp-content/uploads/2018/12/pledge-banner-opaque.jpg); background-position: 50%;"></div><?php
                 } else {
-                    ?><div class="featured-page-image--no-image">
+                    ?><div class="featured-page-image" style="background: url(https://americanpromise.net/wp-content/uploads/2018/12/pledge-banner-opaque.jpg); background-position: 50%;">
                     <h1><?php the_title(); ?></h1>
                     </div><?php
                 }

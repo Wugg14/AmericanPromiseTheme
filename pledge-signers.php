@@ -49,7 +49,7 @@ function graphics_section(){
                 See Some of the Many Candidates Who Have Signed
             </h1>
         </div>
-        <?php echo do_shortcode('[gallery size="large" media_category="8" sl_autoplay="true" sl_lazyload="anticipated" ids="5615,5616,5617,5671,5611,5619,5620,5622,5621,5623,3407,230,5679,236,238,3639,3944,4030,4291,4654,4781,4783,4931,5045,5052,5053,5054,5055,5126,5127,5128,5129,5153,5201,5205,5206,5207,5208,5280,5281,5290,5291,5495,5504,5505,5528,5604,5605,5696,5703,5772,5771,5770,5769,5760"]'); ?>
+            <?php echo do_shortcode('[gallery size="large" media_category="8" sl_autoplay="true" sl_lazyload="anticipated" ids="5615,5616,5617,5671,5611,5619,5620,5622,5621,5623,3407,230,5679,236,238,3639,3944,4030,4291,4654,4781,4783,4931,5045,5052,5053,5054,5055,5126,5127,5128,5129,5153,5201,5205,5206,5207,5208,5280,5281,5290,5291,5495,5504,5505,5528,5604,5605,5696,5703,5772,5771,5770,5769,5760,5800,5812,5809,5810,5811,5843,5844,5845,5846,5847,5848,5849,5850,5851,5852,5877,5872,5873,5874,5870,5883,5884,5885,5887,5891,5892,5893,5894,5895,5974,5897,5975,5976,5977,5978,5979,5980,5981,5982,5983,5984"]'); ?>
         <p></p>
     </div>
     <?php
@@ -89,6 +89,401 @@ function pledge_table_section(){
                     </thead>
                     <tbody>
                     <tr>
+                        <td>Akzam</td>
+                        <td>Johnny</td>
+                        <td>MN</td>
+                        <td>US Representative</td>
+                        <td>1</td>
+                        <td>Pledged Candidate</td>
+                    </tr>
+                    <tr>
+                        <td>Anderson</td>
+                        <td>Rob</td>
+                        <td>LA</td>
+                        <td>US Representative</td>
+                        <td>3</td>
+                        <td>Pledged Candidate</td>
+                    </tr>
+                    <tr>
+                        <td>Bohren</td>
+                        <td>Jensen</td>
+                        <td>MS</td>
+                        <td>US Senate</td>
+                        <td>nan</td>
+                        <td>Pledged Candidate</td>
+                    </tr>
+                    <tr>
+                        <td>Burch</td>
+                        <td>Lorie</td>
+                        <td>TX</td>
+                        <td>US Representative</td>
+                        <td>3</td>
+                        <td>Pledged Candidate</td>
+                    </tr>
+                    <tr>
+                        <td>Casten</td>
+                        <td>Sean</td>
+                        <td>IL</td>
+                        <td>US Representative</td>
+                        <td>6</td>
+                        <td>Pledged Incumbent</td>
+                    </tr>
+                    <tr>
+                        <td>Cox</td>
+                        <td>Steve</td>
+                        <td>CA</td>
+                        <td>US Representative</td>
+                        <td>39</td>
+                        <td>Pledged Candidate</td>
+                    </tr>
+                    <tr>
+                        <td>Cunningham</td>
+                        <td>William</td>
+                        <td>NJ</td>
+                        <td>US Representative</td>
+                        <td>2</td>
+                        <td>Pledged Candidate</td>
+                    </tr>
+                    <tr>
+                        <td>DePaul</td>
+                        <td>Monica</td>
+                        <td>FL</td>
+                        <td>US Representative</td>
+                        <td>4</td>
+                        <td>Pledged Candidate</td>
+                    </tr>
+                    <tr>
+                        <td>Dingell</td>
+                        <td>Debbie</td>
+                        <td>MI</td>
+                        <td>US Representative</td>
+                        <td>12</td>
+                        <td>Pledged Candidate</td>
+                    </tr>
+                    <tr>
+                        <td>Duenas</td>
+                        <td>Angelica</td>
+                        <td>CA</td>
+                        <td>US Representative</td>
+                        <td>29</td>
+                        <td>Pledged Candidate</td>
+                    </tr>
+                    <tr>
+                        <td>Eastman</td>
+                        <td>Kara</td>
+                        <td>NE</td>
+                        <td>US Representative</td>
+                        <td>2</td>
+                        <td>Pledged Candidate</td>
+                    </tr>
+
+                    <tr>
+                        <td>Fernandez</td>
+                        <td>Veronica</td>
+                        <td>NJ</td>
+                        <td>US Senate</td>
+                        <td>nan</td>
+                        <td>Pledged Candidate</td>
+                    </tr>
+                    <tr>
+                        <td>Galbraith</td>
+                        <td>Allison</td>
+                        <td>MD</td>
+                        <td>US Representative</td>
+                        <td>1</td>
+                        <td>Pledged Candidate</td>
+                    </tr>
+                    <tr>
+                        <td>Guild</td>
+                        <td>Thomas</td>
+                        <td>OK</td>
+                        <td>US Representative</td>
+                        <td>5</td>
+                        <td>Pledged Candidate</td>
+                    </tr>
+                    <tr>
+                        <td>Haaland</td>
+                        <td>Deb</td>
+                        <td>NM</td>
+                        <td>US Representative</td>
+                        <td>1</td>
+                        <td>Pledged Candidate</td>
+                    </tr>
+                    <tr>
+                        <td>Hoyos</td>
+                        <td>Renee</td>
+                        <td>TN</td>
+                        <td>US Representative</td>
+                        <td>2</td>
+                        <td>Pledged Candidate</td>
+                    </tr>
+                    <tr>
+                        <td>Kaptur</td>
+                        <td>Marcy</td>
+                        <td>OH</td>
+                        <td>US Representative</td>
+                        <td>9</td>
+                        <td>Pledged Incumbent</td>
+                    </tr>
+                    <tr>
+                        <td>Kim</td>
+                        <td>Andrew</td>
+                        <td>NJ</td>
+                        <td>US Representative</td>
+                        <td>3</td>
+                        <td>Pledged Incumbent</td>
+                    </tr>
+                    <tr>
+                        <td>Kishineff</td>
+                        <td>Jason</td>
+                        <td>CA</td>
+                        <td>US Representative</td>
+                        <td>5</td>
+                        <td>Pledged Candidate</td>
+                    </tr>
+                    <tr>
+                        <td>Malinowski</td>
+                        <td>Tom</td>
+                        <td>NJ</td>
+                        <td>US Representative</td>
+                        <td>7</td>
+                        <td>Pledged Candidate</td>
+                    </tr>
+                    <tr>
+                        <td>McCormick</td>
+                        <td>Lisa</td>
+                        <td>NJ</td>
+                        <td>US Representative</td>
+                        <td>12</td>
+                        <td>Pledged Candidate</td>
+                    </tr>
+                    <tr>
+                        <td>McLeod-Skinner</td>
+                        <td>Jamie</td>
+                        <td>OR</td>
+                        <td>US Representative</td>
+                        <td>2</td>
+                        <td>Pledged Candidate</td>
+                    </tr>
+                    <tr>
+                        <td>Lax Miller</td>
+                        <td>Loretta</td>
+                        <td>FL</td>
+                        <td>US Representative</td>
+                        <td>15</td>
+                        <td>Pledged Candidate</td>
+                    </tr>
+                    <tr>
+                        <td>Pappas</td>
+                        <td>Chris</td>
+                        <td>NH</td>
+                        <td>US Representative</td>
+                        <td>1</td>
+                        <td>Pledged Incumbent</td>
+                    </tr>
+                    <tr>
+                        <td>Phillips</td>
+                        <td>Dean</td>
+                        <td>MN</td>
+                        <td>US Representative</td>
+                        <td>3</td>
+                        <td>Pledged Incumbent</td>
+                    </tr>
+                    <tr>
+                        <td>Porter</td>
+                        <td>Steven</td>
+                        <td>VA</td>
+                        <td>US Representative</td>
+                        <td>11</td>
+                        <td>Pledged Candidate</td>
+                    </tr>
+                    <tr>
+                        <td>Raskin</td>
+                        <td>Jamie</td>
+                        <td>MD</td>
+                        <td>US Representative</td>
+                        <td>8</td>
+                        <td>Pledged Candidate</td>
+                    </tr>
+                    <tr>
+                        <td>Roberts</td>
+                        <td>Shawna</td>
+                        <td>OH</td>
+                        <td>US Representative</td>
+                        <td>6</td>
+                        <td>Pledged Candidate</td>
+                    </tr>
+                    <tr>
+                        <td>Shepherd</td>
+                        <td>Rick</td>
+                        <td>NV</td>
+                        <td>US Representative</td>
+                        <td>2</td>
+                        <td>Pledged Candidate</td>
+                    </tr>
+                    <tr>
+                        <td>Sherman</td>
+                        <td>Jayesun</td>
+                        <td>MN</td>
+                        <td>US Representative</td>
+                        <td>7</td>
+                        <td>Pledged Candidate</td>
+                    </tr>
+                    <tr>
+                        <td>Todd</td>
+                        <td>Ian</td>
+                        <td>MN</td>
+                        <td>US Representative</td>
+                        <td>6</td>
+                        <td>Pledged Candidate</td>
+                    </tr>
+                    <tr>
+                        <td>Van Drew</td>
+                        <td>Jeff</td>
+                        <td>NJ</td>
+                        <td>US Representative</td>
+                        <td>2</td>
+                        <td>Pledged Incumbent</td>
+                    </tr>
+                    <tr>
+                        <td>Waters</td>
+                        <td>Allen</td>
+                        <td>RI</td>
+                        <td>US Senate</td>
+                        <td>nan</td>
+                        <td>Pledged Candidate</td>
+                    </tr>
+                    <tr>
+                        <td>Young</td>
+                        <td>Geoff</td>
+                        <td>KY</td>
+                        <td>US Representative</td>
+                        <td>6</td>
+                        <td>Pledged Candidate</td>
+                    </tr>
+                    <tr>
+                        <td>Freshour</td>
+                        <td>Shannon</td>
+                        <td>OH</td>
+                        <td>US Representative</td>
+                        <td>4</td>
+                        <td>Pledged Candidate</td>
+                    </tr>
+                    <tr>
+                        <td>Holden</td>
+                        <td>David</td>
+                        <td>FL</td>
+                        <td>US Representative</td>
+                        <td>19</td>
+                        <td>Pledged Candidate</td>
+                    </tr>
+                    <tr>
+                        <td>Ferguson</td>
+                        <td>Dana</td>
+                        <td>MI</td>
+                        <td>US Representative</td>
+                        <td>1</td>
+                        <td>Pledged Candidate</td>
+                    </tr>
+
+                    <tr>
+                        <td>Rubando</td>
+                        <td>Nick</td>
+                        <td>OH</td>
+                        <td>US Representative</td>
+                        <td>5</td>
+                        <td>Pledged Candidate</td>
+                    </tr>
+
+                    <tr>
+                        <td>Connolly</td>
+                        <td>Gerry</td>
+                        <td>VA</td>
+                        <td>US Representative</td>
+                        <td>11</td>
+                        <td>Pledged Incumbent</td>
+                    </tr>
+
+                    <tr>
+                        <td>Mohsini</td>
+                        <td>Zainab</td>
+                        <td>VA</td>
+                        <td>US Representative</td>
+                        <td>11</td>
+                        <td>Pledged Candidate</td>
+                    </tr>
+
+                    <tr>
+                        <td>Brown</td>
+                        <td>Chance</td>
+                        <td>TN</td>
+                        <td>US Representative</td>
+                        <td>2</td>
+                        <td>Pledged Candidate</td>
+                    </tr>
+
+                    <tr>
+                        <td>Marx</td>
+                        <td>Bill</td>
+                        <td>PA</td>
+                        <td>US Representative</td>
+                        <td>14</td>
+                        <td>Pledged Candidate</td>
+                    </tr>
+
+                    <tr>
+                        <td>Shearer</td>
+                        <td>Alaina</td>
+                        <td>OH</td>
+                        <td>US Representative</td>
+                        <td>12</td>
+                        <td>Pledged Candidate</td>
+                    </tr>
+
+                    <tr>
+                        <td>Sanchez</td>
+                        <td>Joseph</td>
+                        <td>NM</td>
+                        <td>US Representative</td>
+                        <td>3</td>
+                        <td>Pledged Candidate</td>
+                    </tr>
+
+
+                    <tr>
+                        <td>Christensen</td>
+                        <td>Adam</td>
+                        <td>FL</td>
+                        <td>US Representative</td>
+                        <td>3</td>
+                        <td>Pledged Candidate</td>
+                    </tr>
+
+                    <tr>
+                        <td>Blair</td>
+                        <td>John</td>
+                        <td>NM</td>
+                        <td>US Representative</td>
+                        <td>3</td>
+                        <td>Pledged Candidate</td>
+                    </tr>
+                    <tr>
+                        <td>Lesinski</td>
+                        <td>John</td>
+                        <td>VA</td>
+                        <td>US Representative</td>
+                        <td>5</td>
+                        <td>Pledged Candidate</td>
+                    </tr>
+                    <tr>
+                        <td>Todd</td>
+                        <td>Ian</td>
+                        <td>MN</td>
+                        <td>US Representative</td>
+                        <td>6</td>
+                        <td>Pledged Candidate</td>
+                    </tr>
+                    <tr>
                         <td>Enoch</td>
                         <td>Vanessa</td>
                         <td>OH</td>
@@ -99,7 +494,7 @@ function pledge_table_section(){
                     <tr>
                         <td>Rashid</td>
                         <td>Qasim</td>
-                        <td>NM</td>
+                        <td>VA</td>
                         <td>US Representative</td>
                         <td>1</td>
                         <td>Pledged Candidate</td>
@@ -400,6 +795,368 @@ function pledge_table_section(){
                     </tr>
                     </thead>
                     <tbody>
+                    <tr>
+                        <td>Daley</td>
+                        <td>Mary Jo</td>
+                        <td>PA</td>
+                        <td>State Representative</td>
+                        <td>148</td>
+                        <td>Pledged Candidate</td>
+                    </tr>
+                    <tr>
+                        <td>Gucker</td>
+                        <td>Ken</td>
+                        <td>CT</td>
+                        <td>State Representative</td>
+                        <td>138</td>
+                        <td>Pledged Candidate</td>
+                    </tr>
+                    <tr>
+                        <td>Guidi</td>
+                        <td>Sharon</td>
+                        <td>PA</td>
+                        <td>State Representative</td>
+                        <td>40</td>
+                        <td>Pledged Candidate</td>
+                    </tr>
+                    <tr>
+                        <td>Legrand</td>
+                        <td>Terri</td>
+                        <td>NC</td>
+                        <td>State Representative</td>
+                        <td>74</td>
+                        <td>Pledged Candidate</td>
+                    </tr>
+                    <tr>
+                        <td>Peterson</td>
+                        <td>Robbie</td>
+                        <td>MI</td>
+                        <td>State Representative</td>
+                        <td>54</td>
+                        <td>Pledged Candidate</td>
+                    </tr>
+                    <tr>
+                        <td>Rabhi</td>
+                        <td>Yousef</td>
+                        <td>MI</td>
+                        <td>State Representative</td>
+                        <td>53</td>
+                        <td>Pledged Candidate</td>
+                    </tr>
+                    <tr>
+                        <td>Schiller</td>
+                        <td>Jill</td>
+                        <td>OH</td>
+                        <td>Hamilton County Treasurer</td>
+                        <td></td>
+                        <td>Pledged Candidate</td>
+                    </tr>
+                    <tr>
+                        <td>Vaughn</td>
+                        <td>Rikki</td>
+                        <td>MD</td>
+                        <td>Mayor of Baltimore</td>
+                        <td></td>
+                        <td>Pledged Candidate</td>
+                    </tr>
+                    <tr>
+                        <td>Woods</td>
+                        <td>Dan</td>
+                        <td>TX</td>
+                        <td>Court of Appeals</td>
+                        <td></td>
+                        <td>Pledged Candidate</td>
+                    </tr>
+                    <tr>
+                        <td>Miller</td>
+                        <td>Addie</td>
+                        <td>MN</td>
+                        <td>State Senator</td>
+                        <td>47</td>
+                        <td>Pledged Candidate</td>
+                    </tr>
+                    <tr>
+                        <td>Wilde</td>
+                        <td>Melissa</td>
+                        <td>OH</td>
+                        <td>State Representative</td>
+                        <td>77</td>
+                        <td>Pledged Candidate</td>
+                    </tr>
+                    <tr>
+                        <td>Sneed</td>
+                        <td>Susan</td>
+                        <td>TN</td>
+                        <td>State Representative</td>
+                        <td>20</td>
+                        <td>Pledged Candidate</td>
+                    </tr>
+                    <tr>
+                        <td>Lawrence</td>
+                        <td>Wesley</td>
+                        <td>TX</td>
+                        <td>El Paso City Council</td>
+                        <td>4</td>
+                        <td>Pledged Candidate</td>
+                    </tr>
+                    <tr>
+                        <td>Morrison</td>
+                        <td>Eric</td>
+                        <td>DE</td>
+                        <td>State Representative</td>
+                        <td>27</td>
+                        <td>Pledged Candidate</td>
+                    </tr>
+                    <tr>
+                        <td>Barnes</td>
+                        <td>Nick</td>
+                        <td>OH</td>
+                        <td>State Representative</td>
+                        <td>87</td>
+                        <td>Pledged Candidate</td>
+                    </tr>
+                    <tr>
+                        <td>Trujillo</td>
+                        <td>Linda</td>
+                        <td>NM</td>
+                        <td>State Representative</td>
+                        <td>48</td>
+                        <td>Pledged Incumbent</td>
+                    </tr>
+                    <tr>
+                        <td>Johnson Stewart</td>
+                        <td>Ann</td>
+                        <td>MN</td>
+                        <td>State Senator</td>
+                        <td>44</td>
+                        <td>Pledged Candidate</td>
+                    </tr>
+
+                    <tr>
+                        <td>Erdmann</td>
+                        <td>Jeff</td>
+                        <td>MN</td>
+                        <td>State Representative</td>
+                        <td>51B</td>
+                        <td>Pledged Candidate</td>
+                    </tr>
+
+                    <tr>
+                        <td>Piper</td>
+                        <td>Gretchen</td>
+                        <td>MN</td>
+                        <td>State Senator</td>
+                        <td>33</td>
+                        <td>Pledged Candidate</td>
+                    </tr>
+
+                    <tr>
+                        <td>Davis</td>
+                        <td>Justin</td>
+                        <td>TN</td>
+                        <td>State Representative</td>
+                        <td>14</td>
+                        <td>Pledged Candidate</td>
+                    </tr>
+
+                    <tr>
+                        <td>Miner</td>
+                        <td>Kristie</td>
+                        <td>ME</td>
+                        <td>State Senator</td>
+                        <td>9</td>
+                        <td>Pledged Candidate</td>
+                    </tr>
+
+                    <tr>
+                        <td>Beheydt</td>
+                        <td>Donna</td>
+                        <td>OH</td>
+                        <td>State Representative</td>
+                        <td>69</td>
+                        <td>Pledged Candidate</td>
+                    </tr>
+
+                    <tr>
+                        <td>Hughes</td>
+                        <td>Hank</td>
+                        <td>NM</td>
+                        <td>Santa Fe County Comissioner</td>
+                        <td>5</td>
+                        <td>Pledged Candidate</td>
+                    </tr>
+
+                    <tr>
+                        <td>Adkison</td>
+                        <td>Dara</td>
+                        <td>OH</td>
+                        <td>State Representative</td>
+                        <td>57</td>
+                        <td>Pledged Candidate</td>
+                    </tr>
+
+                    <tr>
+                        <td>Rader</td>
+                        <td>Betsy</td>
+                        <td>OH</td>
+                        <td>State Senator</td>
+                        <td>18</td>
+                        <td>Pledged Candidate</td>
+                    </tr>
+
+                    <tr>
+                        <td>Dudziak</td>
+                        <td>Adam</td>
+                        <td>OH</td>
+                        <td>State Representative</td>
+                        <td>61</td>
+                        <td>Pledged Candidate</td>
+                    </tr>
+
+                    <tr>
+                        <td>Marton</td>
+                        <td>Janos</td>
+                        <td>NY</td>
+                        <td>Manhattan District Attorney</td>
+                        <td></td>
+                        <td>Pledged Candidate</td>
+                    </tr>
+
+                    <tr>
+                        <td>Workman</td>
+                        <td>Beth</td>
+                        <td>OH</td>
+                        <td>State Representative</td>
+                        <td>92</td>
+                        <td>Pledged Candidate</td>
+                    </tr>
+
+                    <tr>
+                        <td>McCarthy</td>
+                        <td>Kim</td>
+                        <td>OH</td>
+                        <td>State Representative</td>
+                        <td>73</td>
+                        <td>Pledged Candidate</td>
+                    </tr>
+
+                    <tr>
+                        <td>Biberstein</td>
+                        <td>Kathy</td>
+                        <td>ME</td>
+                        <td>State Representative</td>
+                        <td>48</td>
+                        <td>Pledged Candidate</td>
+                    </tr>
+
+                    <tr>
+                        <td>Biberstein</td>
+                        <td>Kathy</td>
+                        <td>ME</td>
+                        <td>State Representative</td>
+                        <td>48</td>
+                        <td>Pledged Candidate</td>
+                    </tr>
+
+                    <tr>
+                        <td>Ottney</td>
+                        <td>Ryan</td>
+                        <td>OH</td>
+                        <td>State Senator</td>
+                        <td>14</td>
+                        <td>Pledged Candidate</td>
+                    </tr>
+
+                    <tr>
+                        <td>Westhoven</td>
+                        <td>Garrett</td>
+                        <td>OH</td>
+                        <td>State Representative</td>
+                        <td>76</td>
+                        <td>Pledged Candidate</td>
+                    </tr>
+
+                    <tr>
+                        <td>Wyenandt</td>
+                        <td>Kathy</td>
+                        <td>OH</td>
+                        <td>State Senator</td>
+                        <td>4</td>
+                        <td>Pledged Candidate</td>
+                    </tr>
+
+                    <tr>
+                        <td>Novak</td>
+                        <td>Michelle</td>
+                        <td>OH</td>
+                        <td>State Representative</td>
+                        <td>53</td>
+                        <td>Pledged Candidate</td>
+                    </tr>
+
+                    <tr>
+                        <td>Stair</td>
+                        <td>Rebecca "Puck"</td>
+                        <td>NM</td>
+                        <td>State Senator</td>
+                        <td>17</td>
+                        <td>Pledged Candidate</td>
+                    </tr>
+
+                    <tr>
+                        <td>Cahill</td>
+                        <td>Caitlin</td>
+                        <td>MN</td>
+                        <td>State Representative</td>
+                        <td>33A</td>
+                        <td>Pledged Candidate</td>
+                    </tr>
+
+                    <tr>
+                        <td>Swope</td>
+                        <td>Alaina</td>
+                        <td>OH</td>
+                        <td>State Representative</td>
+                        <td>97</td>
+                        <td>Pledged Candidate</td>
+                    </tr>
+
+                    <tr>
+                        <td>Helmer</td>
+                        <td>Dan</td>
+                        <td>VA</td>
+                        <td>State Delegate</td>
+                        <td>40</td>
+                        <td>Pledged Incumbent</td>
+                    </tr>
+
+                    <tr>
+                        <td>Cox</td>
+                        <td>Amy</td>
+                        <td>OH</td>
+                        <td>State Representative</td>
+                        <td>43</td>
+                        <td>Pledged Candidate</td>
+                    </tr>
+
+                    <tr>
+                        <td>Darnowsky</td>
+                        <td>Alan</td>
+                        <td>OH</td>
+                        <td>State Representative</td>
+                        <td>65</td>
+                        <td>Pledged Candidate</td>
+                    </tr>
+
+                    <tr>
+                        <td>Carr</td>
+                        <td>Mark</td>
+                        <td>OH</td>
+                        <td>State Representative</td>
+                        <td>71</td>
+                        <td>Pledged Candidate</td>
+                    </tr>
+
                     <tr>
                         <td>Rosiello</td>
                         <td>Erin</td>
@@ -746,7 +1503,7 @@ function pledge_table_section(){
                     </tr>
                     <tr>
                         <td>Clark</td>
-                        <td>Katherine</td>
+                        <td>Katharine</td>
                         <td>NM</td>
                         <td>Santa Fe County Clerk</td>
                         <td></td>
@@ -800,6 +1557,7 @@ function pledge_table_section(){
                     </tr>
                     </thead>
                     <tbody>
+
                     <tr>
                         <td>Abboud</td>
                         <td>Deedra</td>

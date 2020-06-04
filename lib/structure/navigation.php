@@ -11,7 +11,7 @@
 namespace AmericanPromise\AmericanPromiseTheme;
 
 //registers the BAP_Subheader structure
-add_action( 'genesis_after_header' ,  __NAMESPACE__ . '\bap_subheader');
+//add_action( 'genesis_after_header' ,  __NAMESPACE__ . '\bap_subheader');
 
 /**
  * Checks to see if a page is a child page of the given ID
