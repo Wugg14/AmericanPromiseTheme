@@ -796,6 +796,30 @@ function pledge_table_section(){
                     </thead>
                     <tbody>
                     <tr>
+                        <td>Briggs</td>
+                        <td>Richard</td>
+                        <td>TN</td>
+                        <td>State Senator</td>
+                        <td>7</td>
+                        <td>Pledged Incumbent</td>
+                    </tr>
+                    <tr>
+                        <td>Maluchnik</td>
+                        <td>Randy</td>
+                        <td>MN</td>
+                        <td>Carver County Commissioner</td>
+                        <td>3</td>
+                        <td>Pledged Incumbent</td>
+                    </tr>
+                    <tr>
+                        <td>Park</td>
+                        <td>Matthew</td>
+                        <td>TN</td>
+                        <td>State Representative</td>
+                        <td>15</td>
+                        <td>Pledged Candidate</td>
+                    </tr>
+                    <tr>
                         <td>Daley</td>
                         <td>Mary Jo</td>
                         <td>PA</td>
@@ -929,15 +953,6 @@ function pledge_table_section(){
                         <td>MN</td>
                         <td>State Senator</td>
                         <td>44</td>
-                        <td>Pledged Candidate</td>
-                    </tr>
-
-                    <tr>
-                        <td>Erdmann</td>
-                        <td>Jeff</td>
-                        <td>MN</td>
-                        <td>State Representative</td>
-                        <td>51B</td>
                         <td>Pledged Candidate</td>
                     </tr>
 
@@ -3412,14 +3427,6 @@ function pledge_table_section(){
                         <td>CO</td>
                         <td>State Representative</td>
                         <td>5</td>
-                        <td>Pledged Candidate</td>
-                    </tr>
-                    <tr>
-                        <td>Todd</td>
-                        <td>Ian</td>
-                        <td>MN</td>
-                        <td>US Representative</td>
-                        <td>6</td>
                         <td>Pledged Candidate</td>
                     </tr>
                     <tr>
