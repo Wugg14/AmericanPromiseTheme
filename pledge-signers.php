@@ -49,7 +49,7 @@ function graphics_section(){
                 See Some of the Many Candidates Who Have Signed
             </h1>
         </div>
-            <?php echo do_shortcode('[gallery size="large" media_category="8" sl_autoplay="true" sl_lazyload="anticipated" ids="5615,5616,5617,5671,5611,5619,5620,5622,5621,5623,3407,230,5679,236,238,3639,6041,4030,4291,4654,4781,4783,4931,5045,5052,5053,5054,5055,5126,5127,5128,5129,5153,5201,5205,5206,5207,5208,5280,5281,5290,5291,5495,5504,5505,5528,5604,5605,5696,5703,5772,5771,5770,5769,5760,5800,5812,5809,5810,5811,5843,5844,5845,5846,5847,5848,5849,5850,5851,5852,5877,5872,5873,5874,5870,5883,5884,5885,5887,5891,5892,5893,5894,5895,5974,5897,5975,5976,5977,5978,5979,6044,5981,5982,5983,5984,6038,6039,6040,6042,6043"]'); ?>
+            <?php echo do_shortcode('[gallery size="large" media_category="8" sl_autoplay="true" sl_lazyload="anticipated" ids="5615,5616,5617,5671,5611,5619,5620,5622,5621,5623,3407,230,5679,236,238,3639,6041,4030,4291,4654,4781,4783,4931,5045,5052,5053,5054,5055,5126,5127,5128,5129,5153,5201,5205,5206,5207,5208,5280,5281,5290,5291,5495,5504,5505,5528,5604,5605,5696,5703,5772,5771,5770,5769,5760,5800,5812,5809,5810,5811,5843,5844,5845,5846,5847,5848,5849,5850,5851,5852,5877,5872,5873,5874,5870,5883,5884,5885,5887,5891,5892,5893,5894,5895,5974,5897,5975,5976,5977,5978,5979,6044,5981,5982,5983,5984,6038,6039,6040,6042,6043,6167"]'); ?>
         <p></p>
     </div>
     <?php
@@ -88,6 +88,24 @@ function pledge_table_section(){
                     </tr>
                     </thead>
                     <tbody>
+                    <tr>
+                        <td>Zahradka</td>
+                        <td>Tawnja</td>
+                        <td>MN</td>
+                        <td>US Representative</td>
+                        <td>6</td>
+                        <td>Pledged Candidate</td>
+                    </tr>
+
+                    <tr>
+                        <td>Starky</td>
+                        <td>Stuart</td>
+                        <td>AZ</td>
+                        <td>US Representative</td>
+                        <td>4</td>
+                        <td>Pledged Candidate</td>
+                    </tr>
+
                     <tr>
                         <td>DiSanto</td>
                         <td>Delina</td>
@@ -796,6 +814,15 @@ function pledge_table_section(){
                     </tr>
                     </thead>
                     <tbody>
+                    <tr>
+                        <td>Bounds</td>
+                        <td>Patti</td>
+                        <td>TN</td>
+                        <td>State Representative</td>
+                        <td>16</td>
+                        <td>Pledged Candidate</td>
+                    </tr>
+
                     <tr>
                         <td>Briggs</td>
                         <td>Richard</td>
