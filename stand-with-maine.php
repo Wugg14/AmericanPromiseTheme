@@ -42,6 +42,9 @@ function custom_maine_loop(){
         <div style="text-align: center;">
             <img alt="Mainers from all walks of life Stand with Maine" src="https://americanpromise.net/wp-content/uploads/2020/05/Mainers-from-all-walks-of-life-from-across-the-state-Stand-with-Maine.-1.png"/>
         </div>
+        <div style="text-align: center;">
+            <h1>Please sign the petition if you have not already. Then, use the tools on the right to move this campaign forward and protect the right of Mainers– not outside interests.</h1>
+        </div>
         <div class="first two-thirds">
             <div style="background-color: #d0d0d0; padding: 8px;">
                 <h2 style="color: black; font-size: 1em;"><b>We the people of Maine agree with the Maine Resolution calling for an amendment to the United States Constitution to “reaffirm the power of citizens through their government to regulate the raising and spending of money in elections.”</b></h2>
@@ -67,7 +70,7 @@ function custom_maine_loop(){
         <div class="site-inner">
         <h1 style="color: black; font-size:1.5em;text-align:center;" >What Mainers Are Saying:</h1>
             <div style="max-width:40%;margin-left:auto;margin-right:auto;margin-bottom: 25px;">
-                <?php echo do_shortcode('[gallery size="large" media_category="8" sl_autoplay="true" sl_lazyload="anticipated" slick_active="true" sl_autoplayspeed="5000" ids="5783,5784,5785,5786,5787,5788,5789,5790,5791,5792,5793,5860"]') ?>
+                <?php echo do_shortcode('[gallery size="large" media_category="8" sl_autoplay="true" sl_lazyload="anticipated" slick_active="true" sl_autoplayspeed="5000" ids="5783,5784,6139,5786,5787,5788,5789,5790,5791,5792,5793,5860"]') ?>
             </div>
         </div>
     </br>

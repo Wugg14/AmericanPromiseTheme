@@ -51,6 +51,7 @@ function custom_blog_archive_loop(){
             </div>
 
 				<?php
+                query_posts( 'posts_per_page=10' );
 				$postCounter = 0;
 				while (have_posts()) {
 					the_post();
@@ -100,6 +101,17 @@ function custom_blog_archive_loop(){
                                     <div class="internal-custom__h1">
                                         <h1>Special Content Pages:</h1>
                                     </div>
+                                    <div>
+                                        <div class="index-page__card slide-top" style="background: white;">
+                                            <div class="index-page__card__img__container" style="background: white;"><img class="index-page__card__img" src="https://americanpromise.net/wp-content/uploads/2020/06/landing-page-banners-1.png" /></div>
+                                            <header class="index-page__card__header">
+                                                <h1 style="padding: 10px 10px 0px 10px;"><a style="color: black; text-decoration: none;" href="https://americanpromise.net/challenge-accepted/" target="_blank" rel="noopener noreferrer">#ChallengeAccepted: The American Promise Amendment + Reinventing Democracy for the 21st Century</a></h1>
+                                            </header>
+                                        <div class="index-page__blog-posts">
+                                            Americans are in a huge moment of possibility for profound reform, and in that we can find hope. In the midst of systemic failures—in our economy, society, government—American citizens are rising to the challenge of reshaping our democracy for the 21st century and beyond. <a target="_blank" href="https://americanpromise.net/challenge-accepted/">Read More</a></div>
+                                        </div>
+                                    </div>
+
                                     <div>
                                          <div class="index-page__card slide-top" style="background: white;">
                                              <div class="index-page__card__img__container" style="background: white;"><img class="index-page__card__img" src="https://americanpromise.net/wp-content/uploads/2020/03/landing-page-banners.png" /></div>

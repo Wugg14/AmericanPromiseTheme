@@ -97,7 +97,7 @@ function what_is_the_28th_section(){
 
                 </div>
                 <div class="one-half">
-                    <a href="https://americanpromise.net/who-we-are/about-us/ap-advisory-council/"><img src="https://res.cloudinary.com/dfzj6lgdn/image/upload/v1588714694/DKG_no_background_image_ltmm7c.png"/></a>
+                    <a href="https://americanpromise.net/who-we-are/about-us/ap-advisory-council/"><img src="https://res.cloudinary.com/dfzj6lgdn/image/upload/v1592489550/DKG_no_background_image_ltmm7c_f8qihk.jpg"/></a>
                 </div>
             </div>
 
@@ -171,7 +171,7 @@ function get_involved(){
 
             <a class="how-bullet" href="https://americanpromise.net/pledge" target="_blank">4. Candidate Pledge Campaign:</a> Use our guides and materials to ask elected officials and candidates for office to pledge to use their office to support the&nbsp;28th&nbsp;Amendment.</br>
             <a href="https://americanpromise.net/blog/2018/08/07/bill_moyers_speech_at_the_national_citizen_leadership_conference/" target="_blank">
-                <img src="https://res.cloudinary.com/dfzj6lgdn/image/upload/v1588880064/moyers-banner_gosngh.png"/>
+                <img src="https://americanpromise.net/wp-content/uploads/2020/06/moyers-banner_gosngh.png"/>
             </a>
         </div>
     </div>

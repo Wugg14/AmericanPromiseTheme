@@ -49,7 +49,7 @@ function graphics_section(){
                 See Some of the Many Candidates Who Have Signed
             </h1>
         </div>
-            <?php echo do_shortcode('[gallery size="large" media_category="8" sl_autoplay="true" sl_lazyload="anticipated" ids="5615,5616,5617,5671,5611,5619,5620,5622,5621,5623,3407,230,5679,236,238,3639,6041,4030,4291,4654,4781,4783,4931,5045,5052,5053,5054,5055,5126,5127,5128,5129,5153,5201,5205,5206,5207,5208,5280,5281,5290,5291,5495,5504,5505,5528,5604,5605,5696,5703,5772,5771,5770,5769,5760,5800,5812,5809,5810,5811,5843,5844,5845,5846,5847,5848,5849,5850,5851,5852,5877,5872,5873,5874,5870,5883,5884,5885,5887,5891,5892,5893,5894,5895,5974,5897,5975,5976,5977,5978,5979,6044,5981,5982,5983,5984,6038,6039,6040,6042,6043,6167"]'); ?>
+            <?php echo do_shortcode('[gallery size="large" media_category="8" sl_autoplay="true" sl_lazyload="anticipated" ids="5615,5616,5617,5671,5611,5619,5620,5622,5621,5623,3407,230,5679,236,238,3639,6041,4030,4291,4654,4781,4783,4931,5045,5052,5053,5054,5055,5126,5127,5128,5129,5153,5201,5205,5206,5207,5208,5280,5281,5290,5291,5495,5504,5505,5528,5604,5605,5696,5703,5772,5771,5770,5769,5760,5800,5812,5809,5810,5811,5843,5844,5845,5846,5847,5848,5849,5850,5851,5852,5877,5872,5873,5874,5870,5883,5884,5885,5887,5891,5892,5893,5894,5895,5974,5897,5975,5976,5977,5978,5979,6044,5981,5982,5983,5984,6038,6039,6040,6042,6043,6167,6193,6194,6195,6297,6298,6299,6346,6347,6348,6349,6350,6351,6352,6353,6354,6355"]'); ?>
         <p></p>
     </div>
     <?php
@@ -89,6 +89,60 @@ function pledge_table_section(){
                     </thead>
                     <tbody>
                     <tr>
+                        <td>Khanna</td>
+                        <td>Ro</td>
+                        <td>MN</td>
+                        <td>US Representative</td>
+                        <td>17</td>
+                        <td>Pledged Incumbent</td>
+                    </tr>
+
+                    <tr>
+                        <td>Rood</td>
+                        <td>Bill</td>
+                        <td>MN</td>
+                        <td>US Representative</td>
+                        <td>1</td>
+                        <td>Pledged Candidate</td>
+                    </tr>
+
+                    <tr>
+                        <td>Beardsley</td>
+                        <td>Michael</td>
+                        <td>WI</td>
+                        <td>US Representative</td>
+                        <td>6</td>
+                        <td>Pledged Candidate</td>
+                    </tr>
+
+                    <tr>
+                        <td>Castaldo</td>
+                        <td>Richie</td>
+                        <td>OK</td>
+                        <td>US Representative</td>
+                        <td>2</td>
+                        <td>Pledged Candidate</td>
+                    </tr>
+
+                    <tr>
+                        <td>Quilter</td>
+                        <td>Peter</td>
+                        <td>AZ</td>
+                        <td>US Representative</td>
+                        <td>2</td>
+                        <td>Pledged Candidate</td>
+                    </tr>
+
+                    <tr>
+                        <td>Williams</td>
+                        <td>Vangie</td>
+                        <td>VA</td>
+                        <td>US Representative</td>
+                        <td>1</td>
+                        <td>Pledged Candidate</td>
+                    </tr>
+
+                    <tr>
                         <td>Zahradka</td>
                         <td>Tawnja</td>
                         <td>MN</td>
@@ -116,14 +170,6 @@ function pledge_table_section(){
                     </tr>
 
                     <tr>
-                        <td>Akzam</td>
-                        <td>Johnny</td>
-                        <td>MN</td>
-                        <td>US Representative</td>
-                        <td>1</td>
-                        <td>Pledged Candidate</td>
-                    </tr>
-                    <tr>
                         <td>Anderson</td>
                         <td>Rob</td>
                         <td>LA</td>
@@ -136,7 +182,7 @@ function pledge_table_section(){
                         <td>Jensen</td>
                         <td>MS</td>
                         <td>US Senate</td>
-                        <td>nan</td>
+                        <td></td>
                         <td>Pledged Candidate</td>
                     </tr>
                     <tr>
@@ -209,7 +255,7 @@ function pledge_table_section(){
                         <td>Veronica</td>
                         <td>NJ</td>
                         <td>US Senate</td>
-                        <td>nan</td>
+                        <td></td>
                         <td>Pledged Candidate</td>
                     </tr>
                     <tr>
@@ -349,28 +395,12 @@ function pledge_table_section(){
                         <td>Pledged Candidate</td>
                     </tr>
                     <tr>
-                        <td>Todd</td>
-                        <td>Ian</td>
-                        <td>MN</td>
-                        <td>US Representative</td>
-                        <td>6</td>
-                        <td>Pledged Candidate</td>
-                    </tr>
-                    <tr>
                         <td>Van Drew</td>
                         <td>Jeff</td>
                         <td>NJ</td>
                         <td>US Representative</td>
                         <td>2</td>
                         <td>Pledged Incumbent</td>
-                    </tr>
-                    <tr>
-                        <td>Waters</td>
-                        <td>Allen</td>
-                        <td>RI</td>
-                        <td>US Senate</td>
-                        <td>nan</td>
-                        <td>Pledged Candidate</td>
                     </tr>
                     <tr>
                         <td>Young</td>
@@ -492,14 +522,6 @@ function pledge_table_section(){
                         <td>VA</td>
                         <td>US Representative</td>
                         <td>5</td>
-                        <td>Pledged Candidate</td>
-                    </tr>
-                    <tr>
-                        <td>Todd</td>
-                        <td>Ian</td>
-                        <td>MN</td>
-                        <td>US Representative</td>
-                        <td>6</td>
                         <td>Pledged Candidate</td>
                     </tr>
                     <tr>
@@ -814,6 +836,177 @@ function pledge_table_section(){
                     </tr>
                     </thead>
                     <tbody>
+                    <tr>
+                        <td>Rosh</td>
+                        <td>Joe</td>
+                        <td>MN</td>
+                        <td>State Representative</td>
+                        <td>29B</td>
+                        <td>Pledged Candidate</td>
+                    </tr>
+
+                    <tr>
+                        <td>Funk</td>
+                        <td>Thomas</td>
+                        <td>MN</td>
+                        <td>State Senator</td>
+                        <td>47</td>
+                        <td>Pledged Candidate</td>
+                    </tr>
+
+                    <tr>
+                        <td>Sachs</td>
+                        <td>Melanie</td>
+                        <td>ME</td>
+                        <td>State Representative</td>
+                        <td>48</td>
+                        <td>Pledged Candidate</td>
+                    </tr>
+
+                    <tr>
+                        <td>Adair</td>
+                        <td>Tom</td>
+                        <td>TX</td>
+                        <td>State Representative</td>
+                        <td>67</td>
+                        <td>Pledged Candidate</td>
+                    </tr>
+
+                    <tr>
+                        <td>Ulrick</td>
+                        <td>John</td>
+                        <td>MN</td>
+                        <td>State Representative</td>
+                        <td>15B</td>
+                        <td>Pledged Candidate</td>
+                    </tr>
+
+                    <tr>
+                        <td>Tucker</td>
+                        <td>Richard</td>
+                        <td>MN</td>
+                        <td>State Senator</td>
+                        <td>56</td>
+                        <td>Pledged Candidate</td>
+                    </tr>
+
+                    <tr>
+                        <td>Isse</td>
+                        <td>Suleiman</td>
+                        <td>MN</td>
+                        <td>State Senator</td>
+                        <td>59</td>
+                        <td>Pledged Candidate</td>
+                    </tr>
+
+                    <tr>
+                        <td>Erickson</td>
+                        <td>Mike</td>
+                        <td>MN</td>
+                        <td>State Representative</td>
+                        <td>35A</td>
+                        <td>Pledged Candidate</td>
+                    </tr>
+
+                    <tr>
+                        <td>Evans</td>
+                        <td>Jerome</td>
+                        <td>MN</td>
+                        <td>State Representative</td>
+                        <td>63B</td>
+                        <td>Pledged Candidate</td>
+                    </tr>
+
+                    <tr>
+                        <td>Drost</td>
+                        <td>Doria</td>
+                        <td>MN</td>
+                        <td>State Representative</td>
+                        <td>16A</td>
+                        <td>Pledged Candidate</td>
+                    </tr>
+
+                    <tr>
+                        <td>Wilson</td>
+                        <td>Myron</td>
+                        <td>MN</td>
+                        <td>State Representative</td>
+                        <td>15B</td>
+                        <td>Pledged Candidate</td>
+                    </tr>
+
+                    <tr>
+                        <td>Hoffner</td>
+                        <td>Kyra</td>
+                        <td>DE</td>
+                        <td>State Senator</td>
+                        <td>14</td>
+                        <td>Pledged Candidate</td>
+                    </tr>
+
+                    <tr>
+                        <td>Wiester</td>
+                        <td>David</td>
+                        <td>MN</td>
+                        <td>State Representative</td>
+                        <td>63A</td>
+                        <td>Pledged Candidate</td>
+                    </tr>
+
+                    <tr>
+                        <td>Clark</td>
+                        <td>Jay</td>
+                        <td>TN</td>
+                        <td>State Representative</td>
+                        <td>8</td>
+                        <td>Pledged Candidate</td>
+                    </tr>
+
+                    <tr>
+                        <td>Aniano</td>
+                        <td>Jennifer</td>
+                        <td>MI</td>
+                        <td>Kalamazoo County Commissioner</td>
+                        <td>6</td>
+                        <td>Pledged Candidate</td>
+                    </tr>
+
+                    <tr>
+                        <td>Bruns</td>
+                        <td>Matthew</td>
+                        <td>MN</td>
+                        <td>State Representative</td>
+                        <td>21A</td>
+                        <td>Pledged Candidate</td>
+                    </tr>
+
+                    <tr>
+                        <td>Starzyk</td>
+                        <td>Ryan</td>
+                        <td>AZ</td>
+                        <td>State Senator</td>
+                        <td>24</td>
+                        <td>Pledged Candidate</td>
+                    </tr>
+
+                    <tr>
+                        <td>Kritzell</td>
+                        <td>Melissa</td>
+                        <td>OH</td>
+                        <td>Hancock County Commissioner</td>
+                        <td></td>
+                        <td>Pledged Candidate</td>
+                    </tr>
+
+                    <tr>
+                        <td>George</td>
+                        <td>Jane</td>
+                        <td>TN</td>
+                        <td>State Senator</td>
+                        <td>6</td>
+                        <td>Pledged Candidate</td>
+                    </tr>
+
                     <tr>
                         <td>Bounds</td>
                         <td>Patti</td>
@@ -1838,7 +2031,7 @@ function pledge_table_section(){
                         <td>Jensen</td>
                         <td>MS</td>
                         <td>US Senator</td>
-                        <td>0</td>
+                        <td></td>
                         <td>Pledged Candidate</td>
                     </tr>
                     <tr>
