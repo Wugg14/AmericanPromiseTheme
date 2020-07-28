@@ -76,9 +76,8 @@ function enqueue_assets() {
 			wp_enqueue_script( CHILD_TEXT_DOMAIN . '-toggleImageBoxScript', CHILD_URL . '/assets/js/toggleImageBox-script.js', array( 'jquery' ), CHILD_THEME_VERSION, true );
 			wp_enqueue_script( CHILD_TEXT_DOMAIN . '-programBoxResizeScript', CHILD_URL . '/assets/js/programImageBoxResize-script.js', array( 'jquery' ), CHILD_THEME_VERSION, true );
 		}
-		if(is_page('business-for-american-promise')){
+		if(is_page('national-business-network')){
 			wp_enqueue_script( CHILD_TEXT_DOMAIN . '-toggleImageBoxScript', CHILD_URL . '/assets/js/toggleImageBox-script.js', array( 'jquery' ), CHILD_THEME_VERSION, true );
-            wp_enqueue_script( CHILD_TEXT_DOMAIN . '-signerImagesLinkScript', CHILD_URL . '/assets/js/signerImagesLink-script.js', array( 'jquery' ), CHILD_THEME_VERSION, true );
 		}
 		if(is_page('nh_pledges') || is_page('bap-signers-of-the-statement-of-principle') || is_page('2019-constitution-day-statement-of-principle')){
 			wp_enqueue_style( CHILD_TEXT_DOMAIN . '-dataTablesStyles', '//cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css', array(), CHILD_THEME_VERSION );

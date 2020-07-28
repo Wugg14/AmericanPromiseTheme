@@ -167,7 +167,7 @@ function get_involved(){
 
             <a class="how-bullet" href="https://americanpromise.net/take-action/join-a-program/american-promise-chapters/" target="_blank">2. American Promise Chapters:</a> Local American Promise chapters across the nation meaningfully advocate for the 28th Amendment in their communities, cities and states. Learn&nbsp;more&nbsp;or&nbsp;join. </br></br>
 
-            <a class="how-bullet" href="https://americanpromise.net/take-action/join-a-program/business-for-american-promise/" target="_blank">3. Business for American Promise: </a>Business leaders know the pay-to-play political system is bad for our economy and innovation. Sign up for the Business for American Promise quarterly newsletter to learn more.</br></br>
+            <a class="how-bullet" href="https://americanpromise.net/take-action/join-a-program/business-for-american-promise/" target="_blank">3. National Business Network: </a>Business leaders know the pay-to-play political system is bad for our economy and innovation. Sign up for the National Business Network quarterly newsletter to learn more.</br></br>
 
             <a class="how-bullet" href="https://americanpromise.net/pledge" target="_blank">4. Candidate Pledge Campaign:</a> Use our guides and materials to ask elected officials and candidates for office to pledge to use their office to support the&nbsp;28th&nbsp;Amendment.</br>
             <a href="https://americanpromise.net/blog/2018/08/07/bill_moyers_speech_at_the_national_citizen_leadership_conference/" target="_blank">

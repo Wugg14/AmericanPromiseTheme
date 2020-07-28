@@ -44,6 +44,7 @@ function custom_maine_loop(){
         </div>
         <div style="text-align: center;">
             <h1>Please sign the petition if you have not already. Then, use the tools on the right to move this campaign forward and protect the right of Mainers– not outside interests.</h1>
+
         </div>
         <div class="first two-thirds">
             <div style="background-color: #d0d0d0; padding: 8px;">
@@ -64,6 +65,10 @@ function custom_maine_loop(){
             <a href="https://docs.google.com/document/d/1QZpjWOBwIkQZdT8OifEixWWK2VqmTTILYuTMhN9-lCs/edit?usp=sharing" target="_blank"><button style="margin: 10px;background-color:#DB1E3B;font-size: 1.6em;" class="small-button--purple">Get Involved</button></a>
         </div>
     </div>
+    </div>
+    <div class="site-inner">
+        <hr/>
+        <?php gravity_form( 39, $display_title = true, $display_description = false, $display_inactive = false, $field_values = null, $ajax = false, $echo = true ); ?>
     </div>
     <br/>
     <div style="background:url(https://americanpromise.net/wp-content/uploads/2018/12/pledge-banner-opaque.jpg);background-position: 50%;background-size:cover;">
