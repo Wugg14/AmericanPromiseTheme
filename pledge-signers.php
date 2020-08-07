@@ -28,7 +28,7 @@ function custom_pledge_database_content(){
  */
 function pledge_tabs_buttons(){
     ?>
-    <button id="graphics-tab" class="active-button pledge-database__button" style="margin-bottom: 5px;">Candidate Graphics</button><button id="databases-tab" class="pledge-database__button not-active-button" style="margin-bottom: 5px;">Candidate Database</button>
+    <button id="graphics-tab" class="active-button pledge-database__button" style="margin-bottom: 5px;">Candidate and Elected Official Graphics</button><button id="databases-tab" class="pledge-database__button not-active-button" style="margin-bottom: 5px;">Candidate and Elected Official Database</button>
     <hr/>
     <br/>
     <?php
@@ -46,10 +46,10 @@ function graphics_section(){
     <div class="candidate-graphics">
         <div class="internal-custom__h1">
             <h1>
-                See Some of the Many Candidates Who Have Signed
+                See Some of the Many Candidates and Elected Officials Who Have Signed
             </h1>
         </div>
-            <?php echo do_shortcode('[gallery size="large" media_category="8" sl_autoplay="true" sl_lazyload="anticipated" ids="5615,5616,5617,5671,5611,5619,5620,5622,5621,5623,3407,230,5679,236,238,3639,6041,4030,4291,4654,4781,4783,4931,5045,5052,5053,5054,5055,5126,5127,5128,5129,5153,5201,5205,5206,5207,5208,5280,5281,5290,5291,5495,5504,5505,5528,5604,5605,5696,5703,5772,5771,5770,5769,5760,5800,5812,5809,5810,5811,5843,5844,5845,5846,5847,5848,5849,5850,5851,5852,5877,5872,5873,5874,5870,5883,5884,5885,5887,5891,5892,5893,5894,5895,6401,5974,5897,5975,5976,5977,5978,5979,6044,5981,5982,5983,5984,6038,6039,6040,6042,6043,6167,6193,6194,6195,6297,6298,6299,6346,6347,6348,6349,6350,6351,6352,6353,6354,6355,6496,6398,6399,6425,6426,6427,6428,6429,6430,6431,6432,6433,6442,6443,6462,6463,6464,6465,6517,6518,6519,6520,6521,6522,6523,6524,6525,6526,6527,6528"]'); ?>
+            <?php echo do_shortcode('[gallery size="large" media_category="8" sl_autoplay="true" sl_lazyload="anticipated" ids="5615,5616,5617,5671,5611,5619,5620,5622,5621,5623,3407,230,5679,236,238,3639,6041,4030,4291,4654,4781,4783,4931,5045,5052,5053,5054,5055,5126,5127,5128,5129,5153,5201,5205,5206,5207,5208,5280,5281,5290,5291,5495,5504,5505,5528,5604,5605,5696,5703,5772,5771,5770,5769,5760,5800,5812,5809,5810,5811,5843,5844,5845,5846,5847,5848,5849,5850,5851,5852,5877,5872,5873,5874,5870,5883,5884,5885,5887,5891,5892,5893,5894,5895,6401,5974,5897,5975,5976,5977,5978,5979,6044,5981,5982,5983,5984,6038,6039,6040,6042,6043,6167,6193,6194,6195,6297,6298,6299,6346,6347,6348,6349,6350,6351,6352,6353,6354,6355,6496,6398,6399,6425,6426,6427,6428,6429,6430,6431,6432,6433,6442,6443,6462,6463,6464,6465,6517,6518,6519,6520,6521,6522,6523,6524,6525,6526,6527,6528,6553"]'); ?>
         <p></p>
     </div>
     <?php
@@ -88,6 +88,35 @@ function pledge_table_section(){
                     </tr>
                     </thead>
                     <tbody>
+
+                    <tr>
+                        <td>Tims</td>
+                        <td>Desiree</td>
+                        <td>OH</td>
+                        <td>US Representative</td>
+                        <td>10</td>
+                        <td>Pledged Candidate</td>
+                    </tr>
+
+                    <tr>
+                        <td>Wilson</td>
+                        <td>Dave</td>
+                        <td>WA</td>
+                        <td>US Representative</td>
+                        <td>5</td>
+                        <td>Pledged Candidate</td>
+                    </tr>
+
+                    <tr>
+                        <td>Wilson</td>
+                        <td>Dave</td>
+                        <td>WA</td>
+                        <td>US Representative</td>
+                        <td>5</td>
+                        <td>Pledged Candidate</td>
+                    </tr>
+
+
                     <tr>
                         <td>Bailey</td>
                         <td>Corey</td>
@@ -926,6 +955,51 @@ function pledge_table_section(){
                     </tr>
                     </thead>
                     <tbody>
+
+                    <tr>
+                        <td>Crockett</td>
+                        <td>Jasmine</td>
+                        <td>TX</td>
+                        <td>State Representative</td>
+                        <td>100</td>
+                        <td>Pledged Candidate</td>
+                    </tr>
+
+                    <tr>
+                        <td>Sharp</td>
+                        <td>Catia</td>
+                        <td>MA</td>
+                        <td>State Representative</td>
+                        <td>27th Middlesex</td>
+                        <td>Pledged Candidate</td>
+                    </tr>
+
+                    <tr>
+                        <td>Stanley</td>
+                        <td>Chris</td>
+                        <td>OH</td>
+                        <td>State Representative</td>
+                        <td>59</td>
+                        <td>Pledged Candidate</td>
+                    </tr>
+
+                    <tr>
+                        <td>Brady</td>
+                        <td>Gerald</td>
+                        <td>DE</td>
+                        <td>State Representative</td>
+                        <td>4</td>
+                        <td>Pledged Incumbent</td>
+                    </tr>
+
+                    <tr>
+                        <td>Maffeo</td>
+                        <td>Michael</td>
+                        <td>NY</td>
+                        <td>Staten Island Borough President</td>
+                        <td></td>
+                        <td>Pledged Candidate</td>
+                    </tr>
                     <tr>
                         <td>Lee</td>
                         <td>Jeff</td>
@@ -1314,15 +1388,6 @@ function pledge_table_section(){
                         <td>MI</td>
                         <td>Kalamazoo County Commissioner</td>
                         <td>6</td>
-                        <td>Pledged Candidate</td>
-                    </tr>
-
-                    <tr>
-                        <td>Bruns</td>
-                        <td>Matthew</td>
-                        <td>MN</td>
-                        <td>State Representative</td>
-                        <td>21A</td>
                         <td>Pledged Candidate</td>
                     </tr>
 
@@ -1874,14 +1939,7 @@ function pledge_table_section(){
                         <td>4</td>
                         <td>Pledged Incumbent</td>
                     </tr>
-                    <tr>
-                        <td>Taintor</td>
-                        <td>Mavis</td>
-                        <td>VA</td>
-                        <td>State Representative</td>
-                        <td>33</td>
-                        <td>Pledged Candidate</td>
-                    </tr>
+
                     <tr>
                         <td>Grays</td>
                         <td>Tiffany</td>
