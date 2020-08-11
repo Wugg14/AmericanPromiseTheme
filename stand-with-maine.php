@@ -43,7 +43,7 @@ function custom_maine_loop(){
             <img alt="Mainers from all walks of life Stand with Maine" src="https://americanpromise.net/wp-content/uploads/2020/05/Mainers-from-all-walks-of-life-from-across-the-state-Stand-with-Maine.-1.png"/>
         </div>
         <div style="text-align: center;">
-            <h1>Please sign the petition if you have not already. Then, use the tools on the right to move this campaign forward and protect the right of Mainers– not outside interests.</h1>
+            <h1>Individuals, please sign the petition if you have not already. <a href="#endorse">Organizations, please endorse Stand with Maine.</a> Then, use the tools on the right to move this campaign forward and protect the right of Mainers– not outside interests.</h1>
 
         </div>
         <div class="first two-thirds">
@@ -67,6 +67,9 @@ function custom_maine_loop(){
     </div>
     </div>
     <div class="site-inner">
+        <div class="anchor">
+            <a name="endorse"></a>
+        </div>
         <hr/>
         <?php gravity_form( 39, $display_title = true, $display_description = false, $display_inactive = false, $field_values = null, $ajax = false, $echo = true ); ?>
     </div>
