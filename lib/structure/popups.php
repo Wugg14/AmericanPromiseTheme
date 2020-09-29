@@ -10,7 +10,7 @@
  */
 namespace AmericanPromise\AmericanPromiseTheme;
 
-add_action( 'genesis_before_header', __NAMESPACE__ . '\signup_popup' );
+add_action( 'genesis_before_header', __NAMESPACE__ . '\neal_simon_giveaway' );
 
 
 /**
@@ -27,7 +27,7 @@ function signup_popup() {
   <div class="email-popup-con">
     <div class="email-popup-inner-con">
       <div class="email-popup-img-con darkened-background">
-        <a href="https://www.americanpromise.net/take-action/sign-up-to-learn-more"><img src="https://americanpromise.net/wp-content/uploads/2020/03/twitter-cartoon-of-the-week-2.png" style="z-index: 1;" alt="Email Subscribe Image"/></a>
+        <a href="https://www.americanpromise.net/take-action/sign-up-to-learn-more" target="_blank"><img src="https://americanpromise.net/wp-content/uploads/2020/03/twitter-cartoon-of-the-week-2.png" style="z-index: 1;" alt="Email Subscribe Image"/></a>
             <div class="pop-up__close">
             	<i class="fa fa-window-close close-popup" aria-hidden="true"></i>
             </div>
@@ -40,6 +40,35 @@ function signup_popup() {
   </div>
   <?php
 	}
+}
+
+
+/**
+ * Structure for Sign Up Popup
+ *
+ * @since 1.0.1
+ *
+ * @return void
+ */
+function neal_simon_giveaway() {
+    $popupfield = get_field("turn_off_popup");
+    if(!is_user_logged_in() && !$popupfield) {
+        ?>
+        <div class="email-popup-con">
+            <div class="email-popup-inner-con">
+                <div class="email-popup-img-con darkened-background">
+                    <a href="https://mailchi.mp/45471d1a0eb2/neal-simon-book-giveaway" target="_blank"><img src="https://americanpromise.net/wp-content/uploads/2020/08/neal-simon-book-giveaway-popup-1.png" style="z-index: 1;" alt="Email Subscribe Image"/></a>
+                    <div class="pop-up__close">
+                        <i class="fa fa-window-close close-popup" aria-hidden="true"></i>
+                    </div>
+                    <div class="message-overlay-con">
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <?php
+    }
 }
 
 /**

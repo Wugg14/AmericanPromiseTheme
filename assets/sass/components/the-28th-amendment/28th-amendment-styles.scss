@@ -1,24 +1,24 @@
-.full-size-landing-hero {
+.amendment-header {
   align-items: center;
   display: flex;
   font-size: 18px;
-  height: 85vh;
+  height: 95vh;
   justify-content: center;
   overflow: hidden;
   position: relative;
   text-align: center;
   transform-style: preserve-3d;
   perspective: 100px;
-
-  @media only screen and (max-height: 825px) {
-    height: auto;
+  background-color:white;
+  @media (max-width:800px){
+    display: none;
   }
 }
 
-.full-size-landing-hero:before {
+.amendment-header:before {
   animation: fade-slide-down 2s .5s cubic-bezier(0, 0.5, 0, 1) forwards;
-  background: linear-gradient(to bottom, rgba(0,0,0,.1), rgba(0,0,0,.9)),
-  url(https://res.cloudinary.com/dfzj6lgdn/image/upload/v1588696219/constitution-hero-background-gradient_kakp1c.jpg) no-repeat bottom;
+  background: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,.5)),
+  url(https://res.cloudinary.com/dfzj6lgdn/image/upload/v1597072218/faces_collage_graphic_wnn5ao.png) no-repeat bottom;
   background-size: cover;
   content: "";
   opacity: 0;
@@ -30,7 +30,7 @@
   z-index: -1;
 }
 
-.full-size-landing-hero:after {
+.amendment-header:after {
   background: #F9FCFF;
   content: "";
   height: 40rem;
@@ -42,31 +42,25 @@
   z-index: 0;
 }
 
+.hiding-header{
+  @media (min-width:801px){
+  display: none;
+  }
+}
+
 .header-title, .header-subtitle {
-  color: #fff;
+  color:#2f5179;
 }
 
 .header-subtitle {
   font-size: 1.5em;
   margin-bottom: 7rem;
-
-  @media only screen and (max-height: 825px) {
-    margin-bottom: 3rem;
-  }
 }
 
 .header-button {
   transform: translateZ(.1px);
   position: relative;
   z-index: 10;
-  margin: 5px;
-
- .button {
-   @media only screen and (max-height: 825px) {
-     font-size: 12px;
-     margin: 8px;
-   }
-  }
 }
 
 .animate-pop-in {
@@ -76,18 +70,12 @@
 
 .hero-logo {
   animation-delay: .6s;
-  max-width: 25%;
+  max-width: 30%;
 }
 
 .header-title {
   animation-delay: .8s;
-  font-size: 4em;
-
-  @media only screen and (max-height: 825px) {
-    font-size: 3em;
-    margin-bottom: 3rem;
-    margin-top: 3rem;
-  }
+  font-size: 4em
 }
 
 .header-subtitle {
@@ -146,24 +134,19 @@
   justify-content: space-between;
   margin-bottom: 7rem;
 
-  @media only screen and (max-height: 825px) {
-    margin-bottom: 3rem;
-  }
 
-  @media only screen and (max-width: 860px) {
-    flex-direction: column;
-  }
 }
 
 .header-content{
-  max-width: 80%;
-  min-width: 60%;
-  margin: 10px;
+  max-with: 90%;
+  min-width: 70%;
+  margin-bottom:25px;
+  margin-top:auto;
 }
 
 .hero-arrow{
   font-size: 3em;
-  color: white;
+  color: black;
 }
 
 .shake-icon {
@@ -172,16 +155,13 @@
   backface-visibility: hidden;
   perspective: 1000px;
   opacity: 0;
-
-  @media only screen and (max-width: 860px) {
-    display: none;
-  }
 }
 
 /*What Section*/
 .what-section{
   background-color: #366AB3;
   color: white;
+  padding-bottom: 35px;
 }
 
 .large-custom__h1 {
@@ -240,11 +220,25 @@
   border-radius: 20px;
   text-align: center;
   color:white;
+  padding-bottom: 20px;
   margin-bottom: 20px;
 }
 
 .why-card span{
   padding: 25px;
+}
+
+.what-section-small-button{
+  color: white;
+  border: solid 1px white;
+  background-color: #366AB3;
+  margin: 15px;
+  padding: 10px 20px;
+}
+
+.what-section-small-button:hover{
+  color: #366AB3;
+  background-color: white;
 }
 
 .why-section-small-button{
@@ -265,9 +259,14 @@
   text-decoration: underline;
 }
 
+.why-card span{
+  padding: 10px;
+}
+
 .how-section{
-  background-color:#DB1E3B;
+  background-color:white;
   color:white;
+  padding-bottom: 35px;
 }
 
 .how-bullet{
@@ -277,13 +276,14 @@
 }
 
 .faq-section{
-  background-color: white;
+  background: url("https://res.cloudinary.com/dfzj6lgdn/image/upload/o_40/v1598544203/sparkler_yeo2xi.png") center;
+  background-size: cover;
+  padding-bottom:35px;
 }
 
 .faq-q-header{
   color: black;
   font-size: 25px;
-  text-decoration: underline;
   margin-top: 40px;
 }
 
@@ -316,4 +316,100 @@
 
 .faq-ans{
   display: none;
+  color: black;
+}
+
+.faq-ans a{
+  color: black;
+  text-decoration: underline;
+}
+
+.color-top-border-button{
+  background-color: #d0d0d0;
+  border-radius: 0px;
+  color: black;
+  background-size: 100% 200%;
+  transition: background-position .3s;
+
+  @media (min-width:1100px){
+    font-size: 16px;
+  }
+
+  @media (max-width: 1100px) {
+    font-size: 12px;
+  }
+
+  @media (max-width: 850px) {
+    display:none;
+  }
+}
+
+.color-top-border-button:hover{
+  background-position: 0 -100%;
+}
+
+.color-top-border-button--blue{
+  border-top: #366ab3 3px solid;
+  border-bottom: #366ab3 3px solid;
+  background-image: linear-gradient(#d0d0d0, #d0d0d0 50%, #366ab3 50%, #366ab3);
+}
+
+.color-top-border-button--purple{
+  border-top: #5b2b7b 3px solid;
+  border-bottom: #5b2b7b 3px solid;
+  background-image: linear-gradient(#d0d0d0, #d0d0d0 50%, #5b2b7b 50%, #5b2b7b);
+}
+
+.color-top-border-button--red{
+  border-top: #db1e3b 3px solid;
+  border-bottom: #db1e3b 3px solid;
+  background-image: linear-gradient(#d0d0d0, #d0d0d0 50%, #db1e3b 50%, #db1e3b);
+}
+
+.color-top-border-button--yellow{
+  border-top: #e7d818 3px solid;
+  border-bottom: #e7d818 3px solid;
+  background-image: linear-gradient(#d0d0d0, #d0d0d0 50%, #e7d818 50%, #e7d818);
+}
+
+
+.color-top-border-button--dark-blue{
+  border-top: #2f5179 3px solid;
+  border-bottom: #2f5179 3px solid;
+  background-image: linear-gradient(#d0d0d0, #d0d0d0 50%, #2f5179 50%, #2f5179);
+}
+
+.flip-card__back{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.pledge-card{
+  background: url('https://res.cloudinary.com/dfzj6lgdn/image/upload/v1597774636/candidate_pledge_flip_card_adufbv.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.business-card{
+  background: url('https://res.cloudinary.com/dfzj6lgdn/image/upload/v1597774635/business_network_flip_card_wuwfjq.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.newsletter-card{
+  background: url('https://res.cloudinary.com/dfzj6lgdn/image/upload/v1597336005/Flip%20Cards/1_nkerw4.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.chapters-card{
+  background: url('https://res.cloudinary.com/dfzj6lgdn/image/upload/v1597336006/Flip%20Cards/2_hns5nd.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.donate-banner-container{
+  background-color:#2f5179;
+  text-align:center;
 }

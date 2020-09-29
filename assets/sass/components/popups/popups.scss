@@ -11,7 +11,8 @@
   z-index: 101;
 }
 .email-popup-inner-con {
-  width: 600px;
+  /* width was 600px when it included a form */
+  width: 900px;
   @media only screen and (max-height: 800px) {
     width: 350px;
   }

@@ -103,6 +103,15 @@ function custom_blog_archive_loop(){
                                     </div>
                                     <div>
                                         <div class="index-page__card slide-top" style="background: white;">
+                                            <div class="index-page__card__img__container" style="background: white;"><img class="index-page__card__img" src="https://americanpromise.net/wp-content/uploads/2020/09/landing-page-banners-for-web.png" /></div>
+                                                <header class="index-page__card__header">
+                                                    <h1 style="padding: 10px 10px 0px 10px;"><a style="color: black; text-decoration: none;" href="https://americanpromise.net/constitution-day-2020/" target="_blank" rel="noopener noreferrer">Keep the Promise: America250</a></h1>
+                                                </header>
+                                        <div class="index-page__blog-posts">
+                                            America is in crisis. The convergence in 2020 of the Covid-19 pandemic and the interrelated crises of economy, racial justice, political violence, climate disasters, and a collapse of trust has laid bare the danger and high stakes we Americans now face. Our constitutional democracy and commitment to the American promise of human liberty, equal citizenship, and effective self-government are in urgent need of repair and renewal. <a target="_blank" href="https://americanpromise.net/constitution-day-2020/">Read More</a></div>
+                                    </div>
+                                    <div>
+                                        <div class="index-page__card slide-top" style="background: white;">
                                             <div class="index-page__card__img__container" style="background: white;"><img class="index-page__card__img" src="https://americanpromise.net/wp-content/uploads/2020/06/landing-page-banners-1.png" /></div>
                                             <header class="index-page__card__header">
                                                 <h1 style="padding: 10px 10px 0px 10px;"><a style="color: black; text-decoration: none;" href="https://americanpromise.net/challenge-accepted/" target="_blank" rel="noopener noreferrer">#ChallengeAccepted: The American Promise Amendment + Reinventing Democracy for the 21st Century</a></h1>

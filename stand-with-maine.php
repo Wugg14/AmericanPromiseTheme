@@ -58,9 +58,11 @@ function custom_maine_loop(){
         <div class="one-third">
             <strong>Learn More:</strong>
             <br/>
-            <a href="https://drive.google.com/open?id=0B5VZHQJbBX6zcUpXRmN0eW0zSDkzZHZlR0tsMzY2MGVNNFl3" target="_blank"><button style="margin: 10px;font-size: 1.25em;" class="small-button--purple">Background One-Pager</button></a>
+            <a href="https://americanpromise.net/wp-content/uploads/2020/09/Stand-With-Maine-One-Pager-1.pdf" target="_blank"><button style="margin: 10px;font-size: 1.25em;" class="small-button--purple">Background One-Pager</button></a>
             <br/>
-            <a href="https://americanpromise.net/wp-content/uploads/2020/05/Stand-with-Maine_-Money-in-Maine-Politics-Fact-Sheet-Final-3.pdf" target="_blank"><button style="margin: 10px;font-size: 1.5em;" class="small-button--purple">Fact Sheet</button></a>
+            <a href="https://docs.google.com/document/d/12Hsq4EjKb6lTYuB-ZVHp3iyo5fQLfEV_MatPYpVL7Hs/edit?usp=sharing" target="_blank"><button style="margin: 10px;font-size: 1.25em;" class="small-button--purple">Resources</button></a>
+            <br/>
+            <a href="https://americanpromise.net/wp-content/uploads/2020/09/Stand-with-Maine-Money-in-Maine-Politics-Fact-Sheet-Final-1.pdf" target="_blank"><button style="margin: 10px;font-size: 1.5em;" class="small-button--purple">Fact Sheet</button></a>
             <br/>
             <a href="https://docs.google.com/document/d/1QZpjWOBwIkQZdT8OifEixWWK2VqmTTILYuTMhN9-lCs/edit?usp=sharing" target="_blank"><button style="margin: 10px;background-color:#DB1E3B;font-size: 1.6em;" class="small-button--purple">Get Involved</button></a>
         </div>
@@ -72,6 +74,13 @@ function custom_maine_loop(){
         </div>
         <hr/>
         <?php gravity_form( 39, $display_title = true, $display_description = false, $display_inactive = false, $field_values = null, $ajax = false, $echo = true ); ?>
+
+        <div style="max-width:1000px; display: flex; justify-content:center">
+            <img src="https://americanpromise.net/wp-content/uploads/2020/09/SAM-SWM-Endorsement.png" style="max-width:250px;width:25%" alt="Sportsman's Alliance of Maine"/>
+            <img src="https://americanpromise.net/wp-content/uploads/2020/09/MCCE-SWM-Endorsement.png" style="max-width:250px;width:25%" alt="Maine Citizens For Clean Elections"/>
+            <img src="https://americanpromise.net/wp-content/uploads/2020/09/Sierra-Club-SWM-Endorsement.png" style="max-width:250px;width:25%" alt="Sierra Club"/>
+            <img src="https://americanpromise.net/wp-content/uploads/2020/09/CCL-SWM-Endorsement.png" style="max-width:250px;width:25%" alt="Citizen's Climate Lobby"/>
+        </div>
     </div>
     <br/>
     <div style="background:url(https://americanpromise.net/wp-content/uploads/2018/12/pledge-banner-opaque.jpg);background-position: 50%;background-size:cover;">
