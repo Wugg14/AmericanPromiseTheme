@@ -76,10 +76,7 @@ function custom_maine_loop(){
         <?php gravity_form( 39, $display_title = true, $display_description = false, $display_inactive = false, $field_values = null, $ajax = false, $echo = true ); ?>
 
         <div style="max-width:1000px; display: flex; justify-content:center">
-            <img src="https://americanpromise.net/wp-content/uploads/2020/09/SAM-SWM-Endorsement.png" style="max-width:250px;width:25%" alt="Sportsman's Alliance of Maine"/>
-            <img src="https://americanpromise.net/wp-content/uploads/2020/09/MCCE-SWM-Endorsement.png" style="max-width:250px;width:25%" alt="Maine Citizens For Clean Elections"/>
-            <img src="https://americanpromise.net/wp-content/uploads/2020/09/Sierra-Club-SWM-Endorsement.png" style="max-width:250px;width:25%" alt="Sierra Club"/>
-            <img src="https://americanpromise.net/wp-content/uploads/2020/09/CCL-SWM-Endorsement.png" style="max-width:250px;width:25%" alt="Citizen's Climate Lobby"/>
+           <img src="https://americanpromise.net/wp-content/uploads/2020/10/SWM-Endorse-100920.png" alt="Maine Endorsement"/>
         </div>
     </div>
     <br/>

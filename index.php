@@ -178,6 +178,7 @@ function custom_blog_archive_loop(){
                         </div>
                                     </div>
                                 </div>
+                </div>
 				<div style="margin: 20px;" class="first">
 				<?php
 				echo paginate_links();

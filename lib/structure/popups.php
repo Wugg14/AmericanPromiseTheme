@@ -57,7 +57,7 @@ function neal_simon_giveaway() {
         <div class="email-popup-con">
             <div class="email-popup-inner-con">
                 <div class="email-popup-img-con darkened-background">
-                    <a href="https://mailchi.mp/45471d1a0eb2/neal-simon-book-giveaway" target="_blank"><img src="https://americanpromise.net/wp-content/uploads/2020/08/neal-simon-book-giveaway-popup-1.png" style="z-index: 1;" alt="Email Subscribe Image"/></a>
+                    <a href="https://americanpromise.net/win-a-free-copy-of-neal-simons-book-contract-to-unite-america/" target="_blank"><img src="https://americanpromise.net/wp-content/uploads/2020/08/neal-simon-book-giveaway-popup-1.png" style="z-index: 1;" alt="Email Subscribe Image"/></a>
                     <div class="pop-up__close">
                         <i class="fa fa-window-close close-popup" aria-hidden="true"></i>
                     </div>

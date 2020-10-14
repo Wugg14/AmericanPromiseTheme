@@ -63,7 +63,7 @@ function hero_subnav(){
     </header>
     <div>
         <div class="featured-page-image hiding-header" style="height: auto;">
-            <img src="https://res.cloudinary.com/dfzj6lgdn/image/upload/v1597072218/faces_collage_graphic_wnn5ao.png">
+            <img src="https://americanpromise.net/wp-content/uploads/2020/10/faces_collage_graphic_wnn5ao.png">
         </div>
     </div>
     <?php
@@ -105,7 +105,7 @@ function what_is_the_28th_section(){
 
                 </div>
                 <div class="one-half">
-                    <a href="https://americanpromise.net/who-we-are/about-us/ap-advisory-council/"><img src="https://res.cloudinary.com/dfzj6lgdn/image/upload/v1588714679/Kearns_Goowdin_Graphic_1_qmyngw.png"/></a>
+                    <a href="https://americanpromise.net/who-we-are/about-us/ap-advisory-council/"><img src="https://americanpromise.net/wp-content/uploads/2020/10/Kearns_Goowdin_Graphic_1_qmyngw.png"/></a>
                 </div>
                 <div style="text-align:center;"><a href="https://americanpromise.net/take-action/sign-up-to-learn-more/" target="_blank" ><button class="what-section-small-button" style="font-size:25px;">Sign Up for Our Newsletter</button></a></div>
             </div>
@@ -251,7 +251,7 @@ function the_28th_FAQ(){
         </div>
     </div>
     <div class="donate-banner-container">
-        <a href="/donate" target="_blank"><img src="https://res.cloudinary.com/dfzj6lgdn/image/upload/v1598546061/2_hoakef.png" style="width:100%"/></a>
+        <a href="/donate" target="_blank"><img src="https://americanpromise.net/wp-content/uploads/2020/10/2_yjg2lf.png" style="width:100%"/></a>
     </div>
     <?php
 }
