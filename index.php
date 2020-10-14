@@ -51,9 +51,11 @@ function custom_blog_archive_loop(){
             </div>
 
 				<?php
-                query_posts( 'posts_per_page=10' );
+                $paged = ( get_query_var( 'paged' ) ) ? get_query_var( 'paged' ) : 1;
+                query_posts( array('posts_per_page' => 12, 'paged' => $paged) );
 				$postCounter = 0;
 				while (have_posts()) {
+
 					the_post();
 					if ($postCounter%2 == 0){
 						?>
@@ -66,13 +68,16 @@ function custom_blog_archive_loop(){
 								<div class="index-page__card slide-top">
 					<?php
 					}
+
           if (has_post_thumbnail()){
             ?>
             <div class="index-page__card__img__container">
               <img class="index-page__card__img" src="<?php the_post_thumbnail_url('medium'); ?>"></img>
             </div>
             <?php
-          } else{
+          }
+
+          else{
             ?>
             <div class="index-page__card__img__container">
               <img class="index-page__card__img" src="<?php echo get_theme_file_uri('/assets/images/APLogoColorOptimized.jpg') ?>"></img>
@@ -96,6 +101,12 @@ function custom_blog_archive_loop(){
 				<?php
 				$postCounter += 1;
 				} ?>
+
+                 <div style="margin: 20px;" class="first">
+                 <?php
+                 echo paginate_links();
+                 ?>
+                 </div>
                 </div>
                 <div class="one-third" style="padding:10px;background: #d0d0d0">
                                     <div class="internal-custom__h1">
@@ -179,11 +190,6 @@ function custom_blog_archive_loop(){
                                     </div>
                                 </div>
                 </div>
-				<div style="margin: 20px;" class="first">
-				<?php
-				echo paginate_links();
-				?>
-				</div>
 		</div>
 	<?php
 }

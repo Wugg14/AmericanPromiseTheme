@@ -31,14 +31,13 @@ add_action( "genesis_loop",__NAMESPACE__  . "\custom_28th_amendment_loop" );
  * @return void
  */
 function custom_28th_amendment_loop(){
-    ?><div class="site-inner"><?php
     hero_subnav();
     what_is_the_28th_section();
     why_the_28th_section();
     get_involved();
     the_28th_FAQ();
-    ?></div><?php
-}
+
+};
 
 /**
  * 28th Amendment Hero Nav
