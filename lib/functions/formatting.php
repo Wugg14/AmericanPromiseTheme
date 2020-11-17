@@ -70,8 +70,8 @@ function blog_post_footer() {
             <?php echo do_shortcode('[gravityform id="6" title="false" description="false" ajax="true"]'); ?>
         </div>
         <div class="one-half post-footer__box" >
-            <h1>Donate to the Cause of Our Time</h1>
-            <h3>Your support directly impacts how fast We the People can take back control of our country.</h3>
+            <h1>Donate Today!</h1>
+            <h3>Your support enables us to ensure an equal voice for every American—and a better future for all. </h3>
             <form action="https://www.americanpromise.net/donate">
                 <button id="donate-button">Donate</button>
             </form>

@@ -198,7 +198,7 @@ function events_section() {
 	?>
 	<div class="event-section__background">
  		<div class="container narrow-section__container">
- 			<h1 style="margin-top: 40px;color:white;">Upcoming Citizen Uprising Events</h1>
+ 			<h1 style="margin-top: 40px;color:white;">Upcoming American Promise Events</h1>
 			<div class="event-cards__row">
 				<?php
 				$homepageEvents = tribe_get_events(array(

@@ -198,7 +198,7 @@ function get_involved(){
                         <div class="flip-card__front business-card">
                         </div>
                         <div class="flip-card__back">
-                            <a style="font-size:30px;padding:35px;color:white;" href="https://americanpromise.net/bap" target="blank">Business leaders know the pay-to-play political system is bad for our economy and innovation. Sign up for the National Business Network quarterly newsletter to learn more. <span style="text-decoration:underline;">Learn More</span></a>
+                            <a style="font-size:30px;padding:35px;color:white;" href="https://americanpromise.net/take-action/join-a-program/national-business-network/" target="blank">Business leaders know the pay-to-play political system is bad for our economy and innovation. Sign up for the National Business Network quarterly newsletter to learn more. <span style="text-decoration:underline;">Learn More</span></a>
                         </div>
                     </div>
                 </div>
