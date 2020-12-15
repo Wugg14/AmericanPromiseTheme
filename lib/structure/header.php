@@ -24,7 +24,7 @@ function unregister_header_callbacks() {
 }
 
 // Add Google Tag Manager code in <head>
-add_action( 'wp_head', 'google_tag_manager_head' );
+add_action( 'wp_head',  __NAMESPACE__ . '\google_tag_manager_head' );
 function google_tag_manager_head() { ?>
 
     <!-- Google Tag Manager -->
@@ -39,7 +39,7 @@ function google_tag_manager_head() { ?>
 
 
 // Add Google Tag Manager code immediately below opening <body> tag
-add_action( 'genesis_before', 'google_tag_manager_body' );
+add_action( 'genesis_before',  __NAMESPACE__ . '\google_tag_manager_body' );
 function google_tag_manager_body() { ?>
 
     <!-- Google Tag Manager (noscript) -->

@@ -67,7 +67,7 @@ function blog_post_footer() {
         <hr />
         <div class="one-half first">
             <div class="internal-custom__h1"><h1>Sign up for our newsletter to stay up-to-date on news and progress towards the amendment</h1></div>
-            <?php echo do_shortcode('[gravityform id="6" title="false" description="false" ajax="true"]'); ?>
+            <?php echo do_shortcode('[formassembly formid= 4846892]'); ?>
         </div>
         <div class="one-half post-footer__box" >
             <h1>Donate Today!</h1>

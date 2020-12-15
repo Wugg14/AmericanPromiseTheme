@@ -47,12 +47,11 @@ function custom_maine_loop(){
 
         </div>
         <div class="first two-thirds">
-            <div style="background-color: #d0d0d0; padding: 8px;">
+            <div style="background-color: #d0d0d0; padding: 5px;">
                 <h2 style="color: black; font-size: 1em;"><b>We the people of Maine agree with the Maine Resolution calling for an amendment to the United States Constitution to “reaffirm the power of citizens through their government to regulate the raising and spending of money in elections.”</b></h2>
                 We urge all candidates and elected officials to pledge to work together, without regard to party or other political differences, to pass and ratify such a constitutional amendment as soon as possible.
 
-                <?php gravity_form( 28, $display_title = false, $display_description = false, $display_inactive = false, $field_values = null, $ajax = false, $echo = true ); ?>
-
+                <?php echo do_shortcode('[formassembly formid= 4866703]'); ?>
             </div>
         </div>
         <div class="one-third">
