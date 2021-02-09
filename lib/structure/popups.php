@@ -10,7 +10,7 @@
  */
 namespace AmericanPromise\AmericanPromiseTheme;
 
-add_action( 'genesis_before_header', __NAMESPACE__ . '\neal_simon_giveaway' );
+//add_action( 'genesis_before_header', __NAMESPACE__ . '\signup_popup' );
 
 
 /**
@@ -35,7 +35,7 @@ function signup_popup() {
               <p></p>
           </div>
         </div>
-        <?php echo do_shortcode('[gravityform id="26" title="false" description="false" ajax="true"]'); ?>
+        <?php echo do_shortcode('[formassembly formid=4846892]'); ?>
        </div>
   </div>
   <?php

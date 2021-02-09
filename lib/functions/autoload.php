@@ -34,6 +34,7 @@ function load_nonadmin_files() {
 		'functions/formatting.php',
 		'functions/tracking.php',
 		'functions/load-assets.php',
+		'structure/archive.php',
 		'structure/comments.php',
 		'structure/footer.php',
 		'structure/header.php',
