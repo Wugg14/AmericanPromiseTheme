@@ -51,7 +51,7 @@ function custom_maine_loop(){
                 <h2 style="color: black; font-size: 1em;"><b>We the people of Maine agree with the Maine Resolution calling for an amendment to the United States Constitution to “reaffirm the power of citizens through their government to regulate the raising and spending of money in elections.”</b></h2>
                 We urge all candidates and elected officials to pledge to work together, without regard to party or other political differences, to pass and ratify such a constitutional amendment as soon as possible.
 
-                <?php echo do_shortcode('[formassembly formid= 4866703]'); ?>
+                <?php echo do_shortcode('[formassembly formid=4849487]'); ?>
             </div>
         </div>
         <div class="one-third">

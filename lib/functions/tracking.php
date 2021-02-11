@@ -118,7 +118,7 @@ function check_channel_code_with_js() {
 function prefix_filter_news_permalink( $url, $post ) {
 
     // If the custom_link ACF field is set get it's value
-    $zoom_meeting_id = get_field( 'zoom_meeting_id');
+    $zoom_meeting_id = get_field( 'sf_campaign_id');
     $SF_meeting_name = get_field ('sf_campaign_name');
     $SF_meeting_name = preg_replace('/\s+/', '%20', $SF_meeting_name);
     $custom_link = $url . '?tfa_122=' . $SF_meeting_name . '&tfa_121=' . $zoom_meeting_id;
