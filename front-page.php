@@ -210,7 +210,14 @@ function events_section() {
 					$start_date_year = tribe_get_start_date($event->ID, false, 'Y');
 					$start_date_day = tribe_get_start_date($event->ID, false, 'j');
 					$start_date_month = tribe_get_start_date($event->ID, false, 'M');
-
+					if (get_field('sf_campaign_id', $event->ID)){
+                        $zoom_meeting_id = get_field( 'sf_campaign_id', $event->ID);
+                        $SF_meeting_name = get_field ('sf_campaign_name', $event->ID);
+                        $SF_meeting_name = preg_replace('/\s+/', '%20', $SF_meeting_name);
+                        $custom_link = get_the_permalink($event->ID) . '?tfa_122=' . $SF_meeting_name . '&tfa_121=' . $zoom_meeting_id;
+                    } else {
+					    $custom_link = get_the_permalink($event->ID);
+                    };
 
 
 					?>
@@ -232,7 +239,7 @@ function events_section() {
 
 						</div>
 						<p style="color: #d0d0d0"><?php echo $start_date_month ?> <?php echo $start_date_day ?>, <?php echo $start_date_year ?></p>
-						<h3 style="margin-bottom: 45px;"><a style="color: white;text-decoration: underline;" href="<?php echo esc_url(get_permalink($event->ID)); ?>"><?php echo $event->post_title; ?></a></h3>
+						<h3 style="margin-bottom: 45px;"><a style="color: white;text-decoration: underline;" href="<?php echo $custom_link; ?>"><?php echo $event->post_title; ?></a></h3>
 					</div> <?php
 					$event_counter += 1;
 				}

@@ -11,7 +11,6 @@ add_action( 'genesis_after_entry' , __NAMESPACE__ . '\see_whats_happening_custom
 
 function see_whats_happening_custom_content(){
 	ap_map_content();
-	ap_calendar_button();
 }
 
 function ap_map_content(){
@@ -183,7 +182,8 @@ function ap_map_content(){
   <path id="WY" fill="#A7A9AC" d="M353,161.9 l-1.5,25.4 -4.4,44 -2.7,-0.3 -83.3,-9.1 -27.9,-3 2,-12 6.9,-41 3.8,-24.2 1.3,-11.2 48.2,7 59.1,6.5z"/>
 </a>
 </g>
-<a xlink:href="http://www.americanpromise.net/california"><polygon points="10,1 4,19.8 19,7.8 1,7.8 16,19.8" r="4" transform="translate(60,270)" id="California" style="fill:#FFFF00;stroke:#FFFF00;stroke-width:5;fill-rule:nonzero;" /></a>
+    <a xlink:href="http://www.americanpromise.net/alaska"><polygon points="10,1 4,19.8 19,7.8 1,7.8 16,19.8" r="4" transform="translate(110,490)" id="Alaska" style="fill:#FFFF00;stroke:#FFFF00;stroke-width:5;fill-rule:nonzero;" /></a>
+    <a xlink:href="http://www.americanpromise.net/california"><polygon points="10,1 4,19.8 19,7.8 1,7.8 16,19.8" r="4" transform="translate(60,270)" id="California" style="fill:#FFFF00;stroke:#FFFF00;stroke-width:5;fill-rule:nonzero;" /></a>
 <a xlink:href="http://www.americanpromise.net/oregon"><polygon points="10,1 4,19.8 19,7.8 1,7.8 16,19.8" r="4" transform="translate(85,110)" id="Oregon" style="fill:#FFFF00;stroke:#FFFF00;stroke-width:5;fill-rule:nonzero;" /></a>
 <a xlink:href="http://www.americanpromise.net/washington"><polygon points="10,1 4,19.8 19,7.8 1,7.8 16,19.8" r="4" transform="translate(110,40)" id="Washington" style="fill:#FFFF00;stroke:#FFFF00;stroke-width:5;fill-rule:nonzero;" /></a>
 <a xlink:href="http://www.americanpromise.net/nevada"><polygon points="10,1 4,19.8 19,7.8 1,7.8 16,19.8" r="4" transform="translate(120,230)" id="Nevada" style="fill:#FFFF00;stroke:#FFFF00;stroke-width:5;fill-rule:nonzero;" /></a>
@@ -193,7 +193,9 @@ function ap_map_content(){
 <a xlink:href="http://www.americanpromise.net/illinois"><polygon points="10,1 4,19.8 19,7.8 1,7.8 16,19.8" r="4" transform="translate(585,250)" id="Illinois" style="fill:#FFFF00;stroke:#FFFF00;stroke-width:5;fill-rule:nonzero;" /></a>
 <a xlink:href="http://www.americanpromise.net/new_york"><polygon points="10,1 4,19.8 19,7.8 1,7.8 16,19.8" r="4" transform="translate(805,145)" id="NewYork" style="fill:#FFFF00;stroke:#FFFF00;stroke-width:5;fill-rule:nonzero;" /></a>
 <a xlink:href="http://www.americanpromise.net/west_virginia"><polygon points="5,.5 2,9.9 9.5,3.9 .5,3.9 8,9.9" r="4" transform="translate(735,265)" id="WestVirginia" style="fill:#FFFF00;stroke:#FFFF00;stroke-width:5;fill-rule:nonzero;" /></a>
-<a xlink:href="http://www.americanpromise.net/maine"><polygon points="5,.5 2,9.9 9.5,3.9 .5,3.9 8,9.9" r="4" transform="translate(885,70)" id="Maine" style="fill:#FFFF00;stroke:#FFFF00;stroke-width:5;fill-rule:nonzero;" /></a>
+    <a xlink:href="http://www.americanpromise.net/virginia"><polygon points="5,.5 2,9.9 9.5,3.9 .5,3.9 8,9.9" r="4" transform="translate(780,280)" id="Virginia" style="fill:#FFFF00;stroke:#FFFF00;stroke-width:5;fill-rule:nonzero;" /></a>
+
+    <a xlink:href="http://www.americanpromise.net/maine"><polygon points="5,.5 2,9.9 9.5,3.9 .5,3.9 8,9.9" r="4" transform="translate(885,70)" id="Maine" style="fill:#FFFF00;stroke:#FFFF00;stroke-width:5;fill-rule:nonzero;" /></a>
 <a xlink:href="http://www.americanpromise.net/maryland"><polygon points="2.5,.25 1,4.95 4.75,1.95 .5,1.95 4,4.95" r="4" transform="translate(799,240)" id="Maryland" style="fill:#FFFF00;stroke:#FFFF00;stroke-width:5;fill-rule:nonzero;" /></a>
 <a xlink:href="http://www.americanpromise.net/delaware"><polygon points="2.5,.25 1,4.95 4.75,1.95 .5,1.95 4,4.95" r="4" transform="translate(823,245)" id="Delaware" style="fill:#FFFF00;stroke:#FFFF00;stroke-width:5;fill-rule:nonzero;" /></a>
 <a xlink:href="http://www.americanpromise.net/new_hampshire"><polygon points="2.5,.25 1,4.95 4.75,1.95 .5,1.95 4,4.95" r="4" transform="translate(843,118)" id="NewHampshire" style="fill:#FFFF00;stroke:#FFFF00;stroke-width:5;fill-rule:nonzero;" /></a>

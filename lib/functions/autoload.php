@@ -35,6 +35,7 @@ function load_nonadmin_files() {
 		'functions/api-extension.php',
 		'functions/tracking.php',
 		'functions/load-assets.php',
+		'structure/archive.php',
 		'structure/comments.php',
 		'structure/footer.php',
 		'structure/header.php',
