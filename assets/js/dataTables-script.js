@@ -8,8 +8,8 @@ jQuery(document).ready( function () {
     order: [[0, 'asc']]
 	});
   jQuery('#table3').DataTable({
-    pageLength: 10,
-    order: [[1, 'asc']]
+    pageLength: 25,
+    order: [[0, 'asc']]
   });
   jQuery('#table4').DataTable({
     pageLength: 10,

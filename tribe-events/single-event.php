@@ -22,7 +22,7 @@ $events_label_plural   = tribe_get_event_label_plural();
 $event_id = get_the_ID();
 
 ?>
-
+    <style>.tribe-events-event-categories-label{display:none;}.tribe-events-event-categories{display:none;}</style>
 <div id="tribe-events-content" class="tribe-events-single">
 
 	<p class="tribe-events-back">

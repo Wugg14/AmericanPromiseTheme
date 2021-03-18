@@ -1,7 +1,7 @@
 <?php
 /**
  * Template Name: Pledge Campaign Database
- * Description: Copy of index.php
+ * Description: Custom Template for Pledge Signer Database
  */
 
 
@@ -73,7 +73,7 @@ function graphics_section(){
 };
 
 /**
- * Database Section, HTML code for the tables are created with Python Tools
+ * Database Section wrappers, HTML code for the tables are created by PHP parser in generate_table() for 2019-present. 2018 is hardcoded HTML.
  *
  * @since 1.0.11
  *
@@ -88,18 +88,23 @@ function pledge_table_section(){
         </div>
         See all the candidates and office holders who have taken the pledge for the 28th Amendment, or those marked with * indicating the signing of <a href="https://wolf-pac.com/list_politicians_who_signed_free_and_fair_elections_pledge/" target="_blank">Wolf-PAC's 28th Amendment Pledge</a>. You can search by Name, Office, or State, as well as sort each column alphabetically by clicking the column header. <br/>
     <div style="margin-top: 25px; margin-bottom: 25px;">
-        <button id="pres" class="active-button pledge-database__button" style="margin-bottom: 5px;">2019/20 Congressional Candidates</button><button id="2019" class="pledge-database__button not-active-button" style="margin-bottom: 5px;">2019/20 State and Local Candidates</button><button id="2018" class="pledge-database__button not-active-button" style="margin-bottom: 5px;">2017/18 Candidates</button>
+        <button id="federal" class="active-button pledge-database__button" style="margin-bottom: 5px;">2021/22 Federal Candidates</button><button id="state" class="not-active-button pledge-database__button" style="margin-bottom: 5px;">2021/22 State and Local Candidates</button><button id="2019" class="pledge-database__button not-active-button" style="margin-bottom: 5px;">2019/20</button><button id="2018" class="pledge-database__button not-active-button" style="margin-bottom: 5px;">2017/18</button>
     </div>
         <br/>
         <div class="candidates-tables">
+            <div id="table3_wrapper">
+                <table id="table3" class="display cell-border hover stripe">
+                    <?php generate_table('/assets/data/Pledge Campaign Website Formatting - Federal.csv') ?>
+                </table>
+            </div>
             <div id="table5_wrapper">
                 <table id="table5" class="display cell-border hover stripe">
-                    <?php generate_table('/assets/data/Pledge Campaign Website Formatting - Federal.csv') ?>
+                    <?php generate_table('/assets/data/Pledge Campaign Website Formatting - State.csv') ?>
                 </table>
             </div>
             <div id="table2_wrapper">
                 <table id="table2" class="cell-border hover stripe">
-                    <?php generate_table('/assets/data/Pledge Campaign Website Formatting - State.csv') ?>
+                    <?php generate_table('/assets/data/Pledge Campaign Website Formatting - 2020.csv') ?>
                 </table>
             </div>
             <div id="table1_wrapper">
@@ -2173,7 +2178,13 @@ function pledge_table_section(){
     <?php
 };
 
-
+/**
+ * PHP parser that echos the content of assets/data into HTML tables
+ *
+ * @since 1.0.11
+ *
+ * @return void
+ */
 function generate_table($tableRoute){
     $row = 1;
     if (($handle = fopen(CHILD_URL . $tableRoute, "r")) !== FALSE) {

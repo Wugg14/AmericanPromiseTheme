@@ -29,3 +29,11 @@ jQuery('#form4').click(function(){
 	jQuery('#div3').hide();
 	jQuery('#div5').hide();
 });
+
+jQuery('#form5').click(function(){
+	jQuery('#div5').slideToggle();
+	jQuery('#div1').hide();
+	jQuery('#div2').hide();
+	jQuery('#div3').hide();
+	jQuery('#div4').hide();
+});

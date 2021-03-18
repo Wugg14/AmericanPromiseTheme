@@ -32,6 +32,7 @@ function load_nonadmin_files() {
 		'components/customizer/css-handler.php',
 		'components/customizer/helpers.php',
 		'functions/formatting.php',
+		'functions/api-extension.php',
 		'functions/tracking.php',
 		'functions/load-assets.php',
 		'structure/comments.php',

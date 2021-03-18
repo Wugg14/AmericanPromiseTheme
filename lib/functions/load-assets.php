@@ -58,19 +58,12 @@ function enqueue_assets() {
 	//Enqueue Cookie Scripts
 	wp_enqueue_script( CHILD_TEXT_DOMAIN . '-JScookie', CHILD_URL . '/assets/js/jquery.cookie.js', array( 'jquery' ), CHILD_THEME_VERSION, true );
 	wp_enqueue_script( CHILD_TEXT_DOMAIN . '-popup', CHILD_URL . '/assets/js/popupBox-script.js', array( 'jquery' ), CHILD_THEME_VERSION, true );
-	wp_enqueue_script( CHILD_TEXT_DOMAIN . '-tracking', CHILD_URL . '/assets/js/trackingCookie.js', array( 'jquery' ), CHILD_THEME_VERSION, true );
 	// Page specific assets
 	if(is_page()){ //Check if we are viewing a page
 		//Enqueue jQuery Masontry on the Council Page
 		if(get_field('masonry_js')){
 			wp_enqueue_script('jquery-masonry');
 			wp_enqueue_script( CHILD_TEXT_DOMAIN . '-masonry-script', CHILD_URL . '/assets/js/masonry-script.js', array(), false, true );
-		}
-		if(is_page('pledge-campaign')){
-			wp_enqueue_style( CHILD_TEXT_DOMAIN . '-dataTablesStyles', '//cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css', array(), CHILD_THEME_VERSION );
-			wp_enqueue_script( CHILD_TEXT_DOMAIN . '-dataTablesJS', '//cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js', array('jquery'), false, true );
-			wp_enqueue_script( CHILD_TEXT_DOMAIN . '-dataTablesScript', CHILD_URL . '/assets/js/dataTables-script.js', array('jquery'), false, true );
-			wp_enqueue_script( CHILD_TEXT_DOMAIN . '-pledgeCampaignScript', CHILD_URL . '/assets/js/pledgeCampaign-script.js', array('jquery'), false, true );
 		}
 		if(is_page('join-a-program')){
 			wp_enqueue_script( CHILD_TEXT_DOMAIN . '-toggleImageBoxScript', CHILD_URL . '/assets/js/toggleImageBox-script.js', array( 'jquery' ), CHILD_THEME_VERSION, true );
@@ -94,9 +87,6 @@ function enqueue_assets() {
 		if(is_page('building-a-national-network')){
 			wp_enqueue_script( CHILD_TEXT_DOMAIN . '-mapScript', CHILD_URL . '/assets/js/map-jquery.js', array( 'jquery' ), CHILD_THEME_VERSION, true );
 		}
-        if(is_page('american-promise-url-builder')){
-            wp_enqueue_script( CHILD_TEXT_DOMAIN . '-urlBuilderScript', CHILD_URL . '/assets/js/urlBuilder-script.js', array( 'jquery' ), CHILD_THEME_VERSION, true );
-        }
         if(is_page('american-promise-pledge-signers')){
             wp_enqueue_style( CHILD_TEXT_DOMAIN . '-dataTablesStyles', '//cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css', array(), CHILD_THEME_VERSION );
             wp_enqueue_script( CHILD_TEXT_DOMAIN . '-dataTablesJS', '//cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js', array('jquery'), false, true );
@@ -106,7 +96,8 @@ function enqueue_assets() {
         if(is_page('test-page')|| is_page('the-28th-amendment')){
             wp_enqueue_script( CHILD_TEXT_DOMAIN . '-28thLandingPage', CHILD_URL . '/assets/js/28thLandingPage-script.js', array( 'jquery' ), CHILD_THEME_VERSION, true );
         }
-	};
+	}
+
 	$localized_script_args = array(
 		'mainMenu' => __( 'Menu', CHILD_TEXT_DOMAIN ),
 		'subMenu'  => __( 'Menu', CHILD_TEXT_DOMAIN ),

@@ -90,6 +90,23 @@ function state_blog_posts(){
   <?php
   $postCounter += 1;
   };
+  ?><div style="clear:both;"><?php state_events_cal();?></div><?php
+
 };
+
+/**
+ * State Events Content
+ *
+ * @since 1.0.12
+ *
+ * @return void
+ */
+function state_events_cal(){
+    wp_reset_postdata();
+    global $post;
+    $page_slug = $post->post_name;
+
+    echo do_shortcode('[tribe_events view="month" tribe-bar="false" category=" '. $page_slug . '"]');
+}
 
 genesis();

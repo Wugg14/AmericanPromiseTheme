@@ -1,7 +1,8 @@
-// Legacy Code from 2018 for handling database swapping
+// Legacy Code from 2018 for handling database swapping on the pledge database page
 jQuery(document).ready( function () {
     jQuery('#table1_wrapper').hide();
     jQuery('#table2_wrapper').hide();
+    jQuery('#table5_wrapper').hide();
     jQuery('#pledge-databases').hide();
 
     jQuery('#databases-tab').on('click',function(){
@@ -19,28 +20,60 @@ jQuery(document).ready( function () {
     });
 
 
-    jQuery('#pres').on('click',function(){
-        jQuery('#pres').removeClass('not-active-button').addClass('active-button');
-        jQuery('#2019').removeClass('active-button').addClass('not-active-button');
-        jQuery('#2018').removeClass('active-button').addClass('not-active-button');
+    jQuery('#federal').on('click',function(){
+        jQuery('#federal').removeClass('not-active-button');
+        jQuery('#federal').addClass('active-button');
+        jQuery('#state').removeClass('active-button');
+        jQuery('#state').addClass('not-active-button');
+        jQuery('#2019').removeClass('active-button');
+        jQuery('#2019').addClass('not-active-button');
+        jQuery('#2018').removeClass('active-button');
+        jQuery('#2018').addClass('not-active-button');
         jQuery('#table2_wrapper').slideUp(400);
         jQuery('#table1_wrapper').slideUp(400);
+        jQuery('#table5_wrapper').slideUp(400);
+        jQuery('#table3_wrapper').slideDown(400);
+    });
+    jQuery('#state').on('click',function(){
+        jQuery('#state').removeClass('not-active-button');
+        jQuery('#state').addClass('active-button');
+        jQuery('#federal').removeClass('active-button');
+        jQuery('#federal').addClass('not-active-button');
+        jQuery('#2019').removeClass('active-button');
+        jQuery('#2019').addClass('not-active-button');
+        jQuery('#2018').removeClass('active-button');
+        jQuery('#2018').addClass('not-active-button');
+        jQuery('#table2_wrapper').slideUp(400);
+        jQuery('#table1_wrapper').slideUp(400);
+        jQuery('#table3_wrapper').slideUp(400);
         jQuery('#table5_wrapper').slideDown(400);
     });
     jQuery('#2018').on('click',function(){
-        jQuery('#2018').removeClass('not-active-button').addClass('active-button');
-        jQuery('#2019').removeClass('active-button').addClass('not-active-button');
-        jQuery('#pres').removeClass('active-button').addClass('not-active-button');
+        jQuery('#2018').removeClass('not-active-button');
+        jQuery('#2018').addClass('active-button');
+        jQuery('#2019').removeClass('active-button');
+        jQuery('#2019').addClass('not-active-button');
+        jQuery('#state').removeClass('active-button');
+        jQuery('#state').addClass('not-active-button');
+        jQuery('#federal').removeClass('active-button');
+        jQuery('#federal').addClass('not-active-button');
         jQuery('#table2_wrapper').slideUp(400);
         jQuery('#table5_wrapper').slideUp(400);
+        jQuery('#table3_wrapper').slideUp(400);
         jQuery('#table1_wrapper').slideDown(400);
     });
     jQuery('#2019').on('click',function(){
-        jQuery('#2019').removeClass('not-active-button').addClass('active-button');
-        jQuery('#2018').removeClass('active-button').addClass('not-active-button');
-        jQuery('#pres').removeClass('active-button').addClass('not-active-button');
+        jQuery('#2019').removeClass('not-active-button');
+        jQuery('#2019').addClass('active-button');
+        jQuery('#2018').removeClass('active-button');
+        jQuery('#2018').addClass('not-active-button');
+        jQuery('#state').removeClass('active-button');
+        jQuery('#state').addClass('not-active-button');
+        jQuery('#federal').removeClass('active-button');
+        jQuery('#federal').addClass('not-active-button');
         jQuery('#table1_wrapper').slideUp(400);
         jQuery('#table5_wrapper').slideUp(400);
+        jQuery('#table3_wrapper').slideUp(400);
         jQuery('#table2_wrapper').slideDown(400);
     });
 });
