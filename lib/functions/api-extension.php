@@ -92,7 +92,7 @@ function create_website_event( $request) {
     $category = get_term_by('slug', $request['eventState'], 'tribe_events_cat');
 
 
-    tribe_create_event( array(
+    $post_id = tribe_create_event( array(
         'post_content' => $content,
         'post_title' => $request['eventTitle'],
         'EventStartDate' => $date->format('Y-m-d'),
@@ -108,6 +108,8 @@ function create_website_event( $request) {
             'tribe_events_cat' => Array($category->term_id)),
         'post_status' => $postStatus
     ), True, True);
+
+    add_post_meta($post_id, 'remove_rsvp', True);
 
     return 'Success!';
 };
